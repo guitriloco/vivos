@@ -1,0 +1,12 @@
+{
+  "timestamp": 1783817997.7842355,
+  "aggregate": "WRAITH-MESH",
+  "components": {
+    "olocoo": true,
+    "auto": true,
+    "apex": true,
+    "oi_core": false
+  },
+  "health": 1.0,
+  "mesh_density": 0.985
+}

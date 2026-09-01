@@ -1,0 +1,50 @@
+{
+    "event": "SYNC_ALL",
+    "version": "SUPRA_COMMAND_V1.0",
+    "timestamp": 1780972932.3845,
+    "data": {
+        "mode": "SYNC_ALL",
+        "timestamp": 1780972932.3843114,
+        "sync_latency_us": 1574.33,
+        "pillars": {
+            "FINANCE": {
+                "causal_anchor": "117bb3699d2bfc6c",
+                "latency_us": 93.56,
+                "status": "SYNCED",
+                "timestamp": 1780972932.3829944,
+                "drift": 0.0
+            },
+            "INTELLIGENCE": {
+                "causal_anchor": "95d216f74c240099",
+                "latency_us": 322.51,
+                "status": "SYNCED",
+                "timestamp": 1780972932.3828058,
+                "drift": 0.0
+            },
+            "DEFENSE": {
+                "causal_anchor": "e79326ae9de483e9",
+                "latency_us": 109.06,
+                "status": "SYNCED",
+                "timestamp": 1780972932.383413,
+                "drift": 0.0
+            },
+            "LOGISTICS": {
+                "causal_anchor": "45dcdd94ea4c16d9",
+                "latency_us": 123.83,
+                "status": "SYNCED",
+                "timestamp": 1780972932.3836522,
+                "drift": 0.0
+            },
+            "SYNTHESIS": {
+                "causal_anchor": "35f2263bd6e5f1b7",
+                "latency_us": 200.24,
+                "status": "SYNCED",
+                "timestamp": 1780972932.3838573,
+                "drift": 0.0
+            }
+        },
+        "fusion_signature": "4d4316024a76be0e9852b054b1bb9a01",
+        "golden_path_drift": 0.0,
+        "status": "TOTAL_AFFIRMATION"
+    }
+}

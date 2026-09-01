@@ -1,0 +1,11 @@
+{
+  "timestamp": 1783817997.7433283,
+  "aggregate": "OMNI-HUB",
+  "components": {
+    "projets": true,
+    "nov": true,
+    "nectars": true
+  },
+  "health": 1.0,
+  "yield": 0.989951
+}

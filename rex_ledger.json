@@ -1,0 +1,590 @@
+[
+    {
+        "commitment": "3594e43ce93811d9ba233b5d96837bb55b46ad438af61d1634df839c980024bf",
+        "salt": "b38ece8252031d4a4ac4a7a85169d56e",
+        "data": {
+            "amount": 33.669243906741826,
+            "source": "https://protected-node-zeta.io",
+            "destination": "VAULT_COLD_STORAGE",
+            "timestamp": 1777921348.6992157,
+            "priority": "CORE",
+            "metadata": {
+                "source": "https://protected-node-zeta.io",
+                "purity_score": 1.0,
+                "essence_hash": "129eccb3b3e97a44fbb8c7532ba43b13f4cd881a714fcd5d0d70bea52ae73425",
+                "siphoned_energy": 67.33848781348365,
+                "protocol": "VOID_LEACH_V1"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "020170574b6f8752b15acb3c1cb6f3c3583f181f415f1c2d7145c1aa5a399d2c",
+        "salt": "9efc6de1a0819eb13bc0c3f77e6ae38d",
+        "data": {
+            "amount": 250.0,
+            "source": "https://nexus-alpha.internal/stream",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778623681.9535806,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "3227f29b8cce803c4f2ba9c8c3f6ef3ddfe21efc39ae1f9664904ddf97801606",
+        "salt": "4b0c4b52200ca43294ca9bb8dc7db2c1",
+        "data": {
+            "amount": 250.0,
+            "source": "https://nexus-beta.internal/stream",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778623684.481491,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "5c7c2ad8e0d1e0c7b006b8bf70e66d7098517180fc8e533eb142aeab6c9b77b4",
+        "salt": "eacfabfa4a8e99534ca1341eeb9ae43f",
+        "data": {
+            "amount": 250.0,
+            "source": "https://api.external-intel.io/v3",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713539.3564727,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "a8759884518fd8980a6f6dcff1880dbea6db1ae1c42ca84abdda632600afc2a0",
+        "salt": "dc32cc534435b475df57709b8dbe1c3f",
+        "data": {
+            "amount": 250.0,
+            "source": "https://nexus-core.com/nectar",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713541.8759844,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "3b9fcf6e49454e602e277b9d210a6db38981a69577b01940f29f7f25883cc1fd",
+        "salt": "70f6be321c709e0330b218b711404aa7",
+        "data": {
+            "amount": 250.0,
+            "source": "10.0.50.1",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713544.3953683,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "265860ffc5d9d25ccae25c1c75fe8fb6cdcc096198b0aa77211339bc137cc2cb",
+        "salt": "46a5fc98e69615a627bcd2d60416a444",
+        "data": {
+            "amount": 250.0,
+            "source": "10.0.50.2",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713546.9158235,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "2ed562efcfad5f972630c71b65c3d5dc59061fe1a56602097b49505bad814988",
+        "salt": "15bb3bf0b437d9135946a922ab9658de",
+        "data": {
+            "amount": 250.0,
+            "source": "s3://essence-lake-01/fragments",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713549.4358869,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "9ecf0c642e4df99bbf5e5385142aa155f6a57f42b5fac1d39841a1ca4ba61bff",
+        "salt": "70df76db184ab7bdb49b427748fb9972",
+        "data": {
+            "amount": 250.0,
+            "source": "gs://zenith-archive-02/blobs",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713551.955522,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "22828ea5d87aa4a15acc5bb72baa158e3f705d0e26e126beda7d486b1ec70cff",
+        "salt": "eea7be4e671f10be9d13014712a2ea59",
+        "data": {
+            "amount": 250.0,
+            "source": "https://global-mesh-discovery.net/essence",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713554.4764655,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "34e5723c39294ab21e0b7d02da57b02e8284bf645693e98a5cb5e988c81689bf",
+        "salt": "13baefe82cc1561dec3de07fdf75b734",
+        "data": {
+            "amount": 250.0,
+            "source": "fabric://mesh-layer-9/data",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713556.9964645,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "VOID_STREAM",
+                "protocol": "HEDP-II"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "7b8bf95a733ef8a5b68fe494093fd56b7075a7d30bf33eace832ad95ee61466a",
+        "salt": "6ef3fe9804ace0f1b9c999135c2275fd",
+        "data": {
+            "amount": 375.0,
+            "source": "https://nexus-alpha.internal/resonant-prime",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778713744.1865332,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "RESONANT_FRACTAL",
+                "synergy": 1.0,
+                "variance": 4.864070039720592e-09,
+                "layer": "VERTICAL_RESONANCE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "4f91c6198da803c861f93ca36c00be69789fcc562c2bbd4f9671e00f7ca43ea7",
+        "salt": "4861cbb86ea76052bceb39cfcede95be",
+        "data": {
+            "amount": 600.0,
+            "source": "https://supra-mesh.internal/atomic-functions",
+            "destination": "AETHER_MESH_BARYCENTER",
+            "timestamp": 1778800207.2498431,
+            "priority": "CORE",
+            "metadata": {
+                "mode": "MUTATION_SYNC",
+                "interlace": "SUPRA",
+                "status": "ATOMIC_OPTIMIZED"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "cee921addf0f975fd9bafb57f5277e3af8b9cb4d686c13d6feec7e6b41daf303",
+        "salt": "e1112a872d569ecbb6dbb748dd4d186c",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://global-mesh-discovery.net/essence",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781324012.9823472,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "e50ee495d3559b3398fa1c55774c17ae753c1e41c831c383e04b9611876a5d91",
+        "salt": "5eaf92257191d2f956aa61710052d454",
+        "data": {
+            "amount": 3072.0,
+            "source": "gs://zenith-archive-02/blobs",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781324312.9940677,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "07c56d9d8d9c1459c17dc690999bd476f69bec1231ee2c38134b485be2e8a3ef",
+        "salt": "5e516848d9471ad7099372ab4152933c",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.2",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781324613.0056486,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "d1261dee44cddfaf74d10229ef84c96ba5a1e5064b7ea558adb257741c113d05",
+        "salt": "7846c850717690da9b35e3d8cb7a67bd",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.2",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781324913.0177639,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "cbda0b666ab964fba1a0ce4730b3cc8d488cb9c859fb4691086bc880c685ebcc",
+        "salt": "2a6fde10e0e5f2070c16106e11bb6cd3",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://nexus-core.com/nectar",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781325213.0288353,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "4550c13cec0a4a5a2c0d5e8be7a6d5e57ce1b4acd315ea73f3ea054ea86df887",
+        "salt": "e38210e92b024d5755fe033ab438507c",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.2",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781325513.0400052,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "6b27244a4b9ec7b59ad94c3f5ad11b9d6057b605730214617645f56dc16831c5",
+        "salt": "114b99c16b4d374fc68736f9c933bc76",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.1",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781325913.6394143,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "93643b7330f34d328cd95fa47f800a6ab5ae724d60e0caa4ed6fc655b15bde1e",
+        "salt": "3eb2222f963dd6a710cb6c616cb9cf96",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://api.external-intel.io/v3",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781753829.5885115,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "b6c1e3b03b013d7a9ca61852406aea4d4c2b811c50e96e5ab8a7f252cadd9c2f",
+        "salt": "30e4f886a5c3504ceb3e46a807168f07",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://global-mesh-discovery.net/essence",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781754129.6023848,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "d7b3ed2f1c567128417253bf280c468edcb17fb2dd73b9db2023fc5933a0c9b5",
+        "salt": "f951e7b47ef812c19e20701cf62801d4",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.1",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781754429.6150997,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "23ad981c513c23c8f302e90c2a18bfbabdb11def654f8e40931b8b32a5918cfe",
+        "salt": "7b812d50675911829cbeae0547228590",
+        "data": {
+            "amount": 3072.0,
+            "source": "gs://zenith-archive-02/blobs",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781754729.62725,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "cd69b04cc18fc037986fb4fe8b72d2bf2d5ec15a7fe953529ddcba1368ea634f",
+        "salt": "9e3afe811f62606e2b26cf292a01932a",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.2",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781755029.639039,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "c43cfaf738869b9860164ad8d55950a44d4963bf94a09aef120609b4209c5995",
+        "salt": "7ce447ed178a2d14ce6899fd4b9b9e57",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://global-mesh-discovery.net/essence",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781755329.6512136,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "9189f92a49e681a49ed474f157369c9926f3421209239df9258078d8f809ab3f",
+        "salt": "c00308323a08cc3304eddc11298dea87",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://nexus-core.com/nectar",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781875949.4441957,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "ccaa3eb2207d11601a5d0234267fa3fbd77d0f5fa10242c8716467aaec690962",
+        "salt": "19f3d1ec121d9cd0fbdd41c4ded78cf6",
+        "data": {
+            "amount": 3072.0,
+            "source": "gs://zenith-archive-02/blobs",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781876249.4568405,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "f0edaba4ce63cbf8bcd772f5336cb547ca4a104da402c239c74004b011242198",
+        "salt": "1ce9dd77805e75183fbbc72f166c586c",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.1",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781876549.470277,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "a3ae1c9425c51c112d9a359ac6bed3f52eb10b3a15b98946557563f0d1962332",
+        "salt": "86e094295141a916f7e481aebed47662",
+        "data": {
+            "amount": 3072.0,
+            "source": "fabric://mesh-layer-9/data",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781876849.4872537,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "e4caa85c2d842cab89c0088e23749a01047bbc09d8ceec145b16272abfbc6a23",
+        "salt": "2c7e53c3f17255243607e2ccd5e81207",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://global-mesh-discovery.net/essence",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781877149.50315,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "bee8e5fed5f0dc56ece9ab670a5ae1311f504aca152cff81350441e6d50c6e5d",
+        "salt": "1ba1524b6be9eb4240b65745bea37e6a",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://nexus-core.com/nectar",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781877449.5156379,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "f5e59e0e1f45ec0833d9672577081b8311281d5c3e7c7a32a9321b1a3c7a4291",
+        "salt": "fcd54e8589a805f1da5fa82db57db19f",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://global-mesh-discovery.net/essence",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781877749.5282686,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "93678dad05971ea95e3c69d6436e1a5d935b8c88663338ddc0b2f56209a2ecad",
+        "salt": "b6ad81ec185f94893db76a214111012a",
+        "data": {
+            "amount": 3072.0,
+            "source": "https://nexus-core.com/nectar",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781878049.540708,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "aa890514c9ea4ee74a16f92dd1da64cba6648af1d5375e01fb8929ecbba77d4f",
+        "salt": "c2b9ab6410e871188232a84401e8733a",
+        "data": {
+            "amount": 3072.0,
+            "source": "10.0.50.2",
+            "destination": "AETHER_MESH_OMNI_PULSE",
+            "timestamp": 1781964442.4070957,
+            "priority": "CORE",
+            "metadata": {
+                "fragment_id": "ENCODED_ESSENCE_",
+                "value_score": 1.0,
+                "mode": "INVISIBLE"
+            }
+        },
+        "status": "SEALED"
+    }
+]
