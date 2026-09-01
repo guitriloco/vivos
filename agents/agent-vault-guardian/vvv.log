@@ -1,0 +1,71 @@
+nohup: ignoring input
+INFO:     Started server process [330309]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+[VVV] Signing Mutation: atom_shift_001 for Cluster ALPHA
+[VVV] ZKP Verification SUCCESS (RAW_CORE) for essence from MUTATION_OVERLORD [ATOM_SHIFT_SIGNING]
+[VVV] Essence Preserved in mutation_ledger.jsonl
+INFO:     127.0.0.1:45202 - "POST /vault/sign_mutation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42682 - "GET /vault/pulse HTTP/1.1" 200 OK
+[VVV] Ingesting technical wealth from NECTAR_MONITOR [QUANTUM_INTEGRITY_CHECK]
+[VVV] ZKP Verification SUCCESS (RAW_CORE) for essence from NECTAR_MONITOR [QUANTUM_INTEGRITY_CHECK]
+[VVV] Essence Preserved in standard_ledger.jsonl
+INFO:     127.0.0.1:51144 - "POST /vault/ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42764 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43332 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37980 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47708 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54212 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48704 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34058 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47444 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53256 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34554 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39358 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56932 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38754 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59462 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54652 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37758 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34114 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33652 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48208 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52530 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33060 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53138 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52194 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34030 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42404 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58058 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37476 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60822 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46670 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38356 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.62.162:36662 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.62.162:36674 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43342 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39230 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39408 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38434 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53384 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46054 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52922 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48098 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48906 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35430 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33240 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55148 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54016 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45488 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41182 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53140 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43244 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42816 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46810 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.211.236:51062 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.211.236:51064 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56108 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50608 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60486 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53198 - "GET / HTTP/1.1" 404 Not Found

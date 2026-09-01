@@ -1,0 +1,43 @@
+# ⚙️ Nectar_Wealth Configuration Template v5.0
+# "Torne todas num umas muitas"
+
+system:
+  instance_name: "Nectar_Wealth_Alpha_One"
+  version: "5.0.1-Singularity"
+  mode: "AUTONOMOUS_OPTIMIZATION" # Options: SEMI_AUTO, FULL_AUTO, MONITOR_ONLY
+
+core_engines:
+  nexus_core:
+    data_sources:
+      - "binance_spot"
+      - "uniswap_v3_eth"
+      - "twitter_sentiment_v2"
+    refresh_rate: "500ms"
+  hyper_recursion:
+    recursion_depth: 12
+    simulations_per_cycle: 10000
+    risk_tolerance: 0.65 # Scale 0.0 to 1.0
+
+execution_parameters:
+  sovereign_entity:
+    max_position_size: "15%"
+    stop_loss_global: "5%"
+    take_profit_ladder: [0.10, 0.25, 0.50]
+    execution_logic: "Recursive_Alpha"
+
+optimization:
+  mirror_protocol:
+    enabled: true
+    feedback_loop_interval: "24h"
+    auto_update_params: true
+
+security:
+  encryption: "SHA-256"
+  zkp_verification: true
+  audit_log: "/home/team/shared/nectares/wealth/logs/sovereign_audit.log"
+
+integrations:
+  cave_gemini_path: "/home/team/shared/nectares/cave-gemini/"
+  zenith_ledger_active: true
+
+# 🏺 Signature: NECTAR_CORE_V5

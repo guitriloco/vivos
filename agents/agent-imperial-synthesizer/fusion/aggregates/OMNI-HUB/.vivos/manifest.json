@@ -1,0 +1,23 @@
+{
+  "version": "14.0.0",
+  "status": "VIVOS",
+  "evolution": "Phase 14: Supreme Fusion",
+  "name": "OMNI-HUB",
+  "components": [
+    {
+      "id": "cto_new",
+      "path": "cto.new",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "projets",
+      "path": "projets",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "nov",
+      "path": "Nov",
+      "role": "Sovereign Component"
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+    "predicted_niches": [
+        {
+            "name": "Energia Solar Residencial",
+            "slug": "energia-solar",
+            "potential": 0.95,
+            "category": "Home"
+        },
+        {
+            "name": "Acess\u00f3rios de Celular Premium",
+            "slug": "acessorios-celular",
+            "potential": 0.88,
+            "category": "Tech"
+        },
+        {
+            "name": "Suplementos Naturais Bio-hacking",
+            "slug": "suplementos",
+            "potential": 0.92,
+            "category": "Health"
+        },
+        {
+            "name": "Produtos Pet de Luxo",
+            "slug": "pets-luxo",
+            "potential": 0.85,
+            "category": "Pets"
+        },
+        {
+            "name": "Consultoria de IA para PMEs",
+            "slug": "ia-negocios",
+            "potential": 0.97,
+            "category": "B2B"
+        }
+    ],
+    "active_expansions": [
+        {
+            "niche": "Acess\u00f3rios para Celular",
+            "slug": "acessrios-para-celular",
+            "timestamp": "2026-05-15 17:02:00.892717",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Smartwatch / Wearables",
+            "slug": "smartwatch-wearables",
+            "timestamp": "2026-05-15 17:02:00.932727",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Produtos para Pets",
+            "slug": "produtos-para-pets",
+            "timestamp": "2026-05-15 17:02:00.973031",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Organiza\u00e7\u00e3o e Organiza\u00e7\u00e3o Domestic",
+            "slug": "organizao-e-organizao-domestic",
+            "timestamp": "2026-05-15 17:02:01.013858",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cuidados Pessoais / Beleza",
+            "slug": "cuidados-pessoais-beleza",
+            "timestamp": "2026-05-15 17:02:01.052100",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cozinha / Utens\u00edlios",
+            "slug": "cozinha-utenslios",
+            "timestamp": "2026-05-15 17:02:01.094403",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Fitness / Acess\u00f3rios Academia",
+            "slug": "fitness-acessrios-academia",
+            "timestamp": "2026-05-15 17:02:01.134488",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Decora\u00e7\u00e3o / Ilumina\u00e7\u00e3o LED",
+            "slug": "decorao-iluminao-led",
+            "timestamp": "2026-05-15 17:02:01.165671",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Brinquedos / Kids",
+            "slug": "brinquedos-kids",
+            "timestamp": "2026-05-15 17:02:01.195049",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acess\u00f3rios Gaming",
+            "slug": "acessrios-gaming",
+            "timestamp": "2026-05-15 17:02:01.223997",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Produtos Ergon\u00f4micos",
+            "slug": "produtos-ergonmicos",
+            "timestamp": "2026-05-15 17:02:01.405417",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Energy Saving / Solar",
+            "slug": "energy-saving-solar",
+            "timestamp": "2026-05-15 17:02:01.444264",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Autopelagem / Customiza\u00e7\u00e3o",
+            "slug": "autopelagem-customizao",
+            "timestamp": "2026-05-15 17:02:01.485570",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "CBD / Produtos Naturais",
+            "slug": "cbd-produtos-naturais",
+            "timestamp": "2026-05-15 17:02:01.526137",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Energia Solar Fotovoltaica",
+            "slug": "energia-solar-fotovoltaica",
+            "timestamp": "2026-05-15 17:02:01.566730",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acess\u00f3rios para Celular",
+            "slug": "acessrios-para-celular",
+            "timestamp": "2026-05-15 17:05:21.718069",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Smartwatch / Wearables",
+            "slug": "smartwatch-wearables",
+            "timestamp": "2026-05-15 17:05:21.743032",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Produtos para Pets",
+            "slug": "produtos-para-pets",
+            "timestamp": "2026-05-15 17:05:21.769324",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Organiza\u00e7\u00e3o e Organiza\u00e7\u00e3o Domestic",
+            "slug": "organizao-e-organizao-domestic",
+            "timestamp": "2026-05-15 17:05:21.792418",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cuidados Pessoais / Beleza",
+            "slug": "cuidados-pessoais-beleza",
+            "timestamp": "2026-05-15 17:05:21.817700",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cozinha / Utens\u00edlios",
+            "slug": "cozinha-utenslios",
+            "timestamp": "2026-05-15 17:05:21.845121",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Fitness / Acess\u00f3rios Academia",
+            "slug": "fitness-acessrios-academia",
+            "timestamp": "2026-05-15 17:05:21.877661",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Decora\u00e7\u00e3o / Ilumina\u00e7\u00e3o LED",
+            "slug": "decorao-iluminao-led",
+            "timestamp": "2026-05-15 17:05:21.902984",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Brinquedos / Kids",
+            "slug": "brinquedos-kids",
+            "timestamp": "2026-05-15 17:05:21.933235",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acess\u00f3rios Gaming",
+            "slug": "acessrios-gaming",
+            "timestamp": "2026-05-15 17:05:21.955584",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Produtos Ergon\u00f4micos",
+            "slug": "produtos-ergonmicos",
+            "timestamp": "2026-05-15 17:05:21.975596",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Energy Saving / Solar",
+            "slug": "energy-saving-solar",
+            "timestamp": "2026-05-15 17:05:21.996427",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Autopelagem / Customiza\u00e7\u00e3o",
+            "slug": "autopelagem-customizao",
+            "timestamp": "2026-05-15 17:05:22.020581",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "CBD / Produtos Naturais",
+            "slug": "cbd-produtos-naturais",
+            "timestamp": "2026-05-15 17:05:22.041011",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Energia Solar Fotovoltaica",
+            "slug": "energia-solar-fotovoltaica",
+            "timestamp": "2026-05-15 17:05:22.063452",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Comprar produto-teste (1-3 unidades)",
+            "slug": "comprar-produto-teste-1-3-unidades",
+            "timestamp": "2026-05-15 17:06:21.846190",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Medir tempo de entrega real",
+            "slug": "medir-tempo-de-entrega-real",
+            "timestamp": "2026-05-15 17:06:21.878235",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Avaliar qualidade vs. expectativa",
+            "slug": "avaliar-qualidade-vs-expectativa",
+            "timestamp": "2026-05-15 17:06:21.905497",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Testar suporte (e-mail/ticket)",
+            "slug": "testar-suporte-e-mailticket",
+            "timestamp": "2026-05-15 17:06:21.931192",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Classificar fornecedor",
+            "slug": "classificar-fornecedor",
+            "timestamp": "2026-05-15 17:06:21.957653",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Iniciar venda real se APROVADO",
+            "slug": "iniciar-venda-real-se-aprovado",
+            "timestamp": "2026-05-15 17:06:21.984593",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Shopify Oberlo",
+            "slug": "shopify-oberlo",
+            "timestamp": "2026-05-15 17:06:22.011321",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "AliExpress",
+            "slug": "aliexpress",
+            "timestamp": "2026-05-15 17:06:22.189391",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "CJ Dropshipping",
+            "slug": "cj-dropshipping",
+            "timestamp": "2026-05-15 17:06:22.222640",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Spocket",
+            "slug": "spocket",
+            "timestamp": "2026-05-15 17:06:22.253452",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "AutoDS",
+            "slug": "autods",
+            "timestamp": "2026-05-15 17:06:22.282763",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "99 Designs / Fabricantes BR",
+            "slug": "99-designs-fabricantes-br",
+            "timestamp": "2026-05-15 17:06:22.310037",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Mercado Livre Fornecedores",
+            "slug": "mercado-livre-fornecedores",
+            "timestamp": "2026-05-15 17:06:22.336830",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "SaleHoo",
+            "slug": "salehoo",
+            "timestamp": "2026-05-15 17:06:22.363714",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Wholesale Central",
+            "slug": "wholesale-central",
+            "timestamp": "2026-05-15 17:06:22.390669",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Dropshipping.com",
+            "slug": "dropshippingcom",
+            "timestamp": "2026-05-15 17:06:22.422156",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Nuvemshop",
+            "slug": "nuvemshop",
+            "timestamp": "2026-05-15 17:06:22.450887",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Shoptime",
+            "slug": "shoptime",
+            "timestamp": "2026-05-15 17:06:22.478679",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Americanas",
+            "slug": "americanas",
+            "timestamp": "2026-05-15 17:06:22.509895",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Magalu",
+            "slug": "magalu",
+            "timestamp": "2026-05-15 17:06:22.540820",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Carrefour",
+            "slug": "carrefour",
+            "timestamp": "2026-05-15 17:06:22.574136",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Kabum",
+            "slug": "kabum",
+            "timestamp": "2026-05-15 17:06:22.604244",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Amazon BR",
+            "slug": "amazon-br",
+            "timestamp": "2026-05-15 17:06:22.633037",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Dafiti",
+            "slug": "dafiti",
+            "timestamp": "2026-05-15 17:06:22.663081",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Centrosolar",
+            "slug": "centrosolar",
+            "timestamp": "2026-05-15 17:06:22.693704",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Moleko",
+            "slug": "moleko",
+            "timestamp": "2026-05-15 17:06:22.721556",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Wish BR",
+            "slug": "wish-br",
+            "timestamp": "2026-05-15 17:06:22.748458",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acess\u00f3rios para Celular",
+            "slug": "acessorios-para-celular",
+            "timestamp": "2026-05-15 17:06:22.779091",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Organiza\u00e7\u00e3o e Organiza\u00e7\u00e3o Domestic",
+            "slug": "organizacao-e-organizacao-domestic",
+            "timestamp": "2026-05-15 17:06:23.006561",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cozinha / Utens\u00edlios",
+            "slug": "cozinha-utensilios",
+            "timestamp": "2026-05-15 17:06:23.399176",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Fitness / Acess\u00f3rios Academia",
+            "slug": "fitness-acessorios-academia",
+            "timestamp": "2026-05-15 17:06:23.440240",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Decora\u00e7\u00e3o / Ilumina\u00e7\u00e3o LED",
+            "slug": "decoracao-iluminacao-led",
+            "timestamp": "2026-05-15 17:06:23.470534",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acess\u00f3rios Gaming",
+            "slug": "acessorios-gaming",
+            "timestamp": "2026-05-15 17:06:23.637877",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Produtos Ergon\u00f4micos",
+            "slug": "produtos-ergonomicos",
+            "timestamp": "2026-05-15 17:06:23.668002",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Autopelagem / Customiza\u00e7\u00e3o",
+            "slug": "autopelagem-customizacao",
+            "timestamp": "2026-05-15 17:06:23.697965",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "ILUMINACAO LED DECORATIVA",
+            "slug": "iluminacao-led-decorativa",
+            "timestamp": "2026-05-15 17:06:23.729194",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "ACESSORIOS FITNESS",
+            "slug": "acessorios-fitness",
+            "timestamp": "2026-05-15 17:06:23.980206",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "ORGANIZACAO DOMESTICA",
+            "slug": "organizacao-domestica",
+            "timestamp": "2026-05-15 17:06:24.007125",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "UTENSILIOS DE COZINHA",
+            "slug": "utensilios-de-cozinha",
+            "timestamp": "2026-05-15 17:06:24.036123",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "OCULOS DE SOL / RELOGIOS ACESSORIOS",
+            "slug": "oculos-de-sol-relogios-acessorios",
+            "timestamp": "2026-05-15 17:06:24.067808",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "BELEZA / CUIDADOS PESSOAIS",
+            "slug": "beleza-cuidados-pessoais",
+            "timestamp": "2026-05-15 17:06:24.094966",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Produtos Naturais / Organicos",
+            "slug": "produtos-naturais-organicos",
+            "timestamp": "2026-05-15 17:06:24.122223",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cursos / E-books (Info Produtos)",
+            "slug": "cursos-e-books-info-produtos",
+            "timestamp": "2026-05-15 17:06:24.152040",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cadeiras / Mesas Gaming",
+            "slug": "cadeiras-mesas-gaming",
+            "timestamp": "2026-05-15 17:06:24.179738",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Produtos para Behe",
+            "slug": "produtos-para-behe",
+            "timestamp": "2026-05-15 17:06:24.209377",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Roupas de Cama / Decoracao",
+            "slug": "roupas-de-cama-decoracao",
+            "timestamp": "2026-05-15 17:06:24.336341",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acessorios Automotivos",
+            "slug": "acessorios-automotivos",
+            "timestamp": "2026-05-15 17:06:24.366347",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Escritorio Home Office",
+            "slug": "escritorio-home-office",
+            "timestamp": "2026-05-15 17:06:24.521523",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Presentes / Presenteiras",
+            "slug": "presentes-presenteiras",
+            "timestamp": "2026-05-15 17:06:24.554447",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Yoga / Meditacao",
+            "slug": "yoga-meditacao",
+            "timestamp": "2026-05-15 17:06:24.582196",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Camping / Aventura",
+            "slug": "camping-aventura",
+            "timestamp": "2026-05-15 17:06:24.610608",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Artesanato / DIY",
+            "slug": "artesanato-diy",
+            "timestamp": "2026-05-15 17:06:24.638203",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Capas Personalizadas (iPhone)",
+            "slug": "capas-personalizadas-iphone",
+            "timestamp": "2026-05-15 17:06:24.665906",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Power Banks / Baterias",
+            "slug": "power-banks-baterias",
+            "timestamp": "2026-05-15 17:06:24.968329",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Fones Bluetooth / Audio",
+            "slug": "fones-bluetooth-audio",
+            "timestamp": "2026-05-15 17:06:24.998565",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Organizacao de Escritorio",
+            "slug": "organizacao-de-escritorio",
+            "timestamp": "2026-05-15 17:06:25.027160",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Plantas / Jardinagem",
+            "slug": "plantas-jardinagem",
+            "timestamp": "2026-05-15 17:06:25.058482",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Ferramentas (Kits, Jogos)",
+            "slug": "ferramentas-kits-jogos",
+            "timestamp": "2026-05-15 17:06:25.090948",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Brinquedos Educativos",
+            "slug": "brinquedos-educativos",
+            "timestamp": "2026-05-15 17:06:25.121255",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acessorios Camera",
+            "slug": "acessorios-camera",
+            "timestamp": "2026-05-15 17:06:25.152460",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Kits Presente (Namoro, Amigos)",
+            "slug": "kits-presente-namoro-amigos",
+            "timestamp": "2026-05-15 17:06:25.185874",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acessorios Viagem",
+            "slug": "acessorios-viagem",
+            "timestamp": "2026-05-15 17:06:25.215078",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Suportes Celular (Carro, Moto)",
+            "slug": "suportes-celular-carro-moto",
+            "timestamp": "2026-05-15 17:06:25.243555",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Quadros Decorativos",
+            "slug": "quadros-decorativos",
+            "timestamp": "2026-05-15 17:06:25.273713",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acessorios Moda (Bolsas, Cintos)",
+            "slug": "acessorios-moda-bolsas-cintos",
+            "timestamp": "2026-05-15 17:06:25.306075",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Proteinas / Suplementos Naturais",
+            "slug": "proteinas-suplementos-naturais",
+            "timestamp": "2026-05-15 17:06:25.336107",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acessorios Banheiro",
+            "slug": "acessorios-banheiro",
+            "timestamp": "2026-05-15 17:06:25.365212",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Pelucias / Decoracao (K-Pop, Geek)",
+            "slug": "pelucias-decoracao-k-pop-geek",
+            "timestamp": "2026-05-15 17:06:25.394686",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Controles / Joysticks (PC, Console)",
+            "slug": "controles-joysticks-pc-console",
+            "timestamp": "2026-05-15 17:06:25.429497",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acessorios Leitura",
+            "slug": "acessorios-leitura",
+            "timestamp": "2026-05-15 17:06:25.459243",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Maquiagem / Esmalte (K-Beauty)",
+            "slug": "maquiagem-esmalte-k-beauty",
+            "timestamp": "2026-05-15 17:06:25.495369",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Tapetes / Papes",
+            "slug": "tapetes-papes",
+            "timestamp": "2026-05-15 17:06:25.528291",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Cabos / Carregadores",
+            "slug": "cabos-carregadores",
+            "timestamp": "2026-05-15 17:06:25.557637",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Caixas Surpresa (Mystery Box)",
+            "slug": "caixas-surpresa-mystery-box",
+            "timestamp": "2026-05-15 17:06:25.585996",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Protecao / Saude",
+            "slug": "protecao-saude",
+            "timestamp": "2026-05-15 17:06:25.614399",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Gravadoras / Customizacao",
+            "slug": "gravadoras-customizacao",
+            "timestamp": "2026-05-15 17:06:25.644753",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Acessorios Pet (Roupinhas, Lacos)",
+            "slug": "acessorios-pet-roupinhas-lacos",
+            "timestamp": "2026-05-15 17:06:25.674398",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Webcams / Microfones (Streaming)",
+            "slug": "webcams-microfones-streaming",
+            "timestamp": "2026-05-15 17:06:25.708866",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Pilhas / Baterias Recarregaveis",
+            "slug": "pilhas-baterias-recarregaveis",
+            "timestamp": "2026-05-15 17:06:25.978582",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        },
+        {
+            "niche": "Caixas de Som Bluetooth",
+            "slug": "caixas-de-som-bluetooth",
+            "timestamp": "2026-05-15 17:06:26.013373",
+            "status": "LIVE",
+            "calibrated_roi": 0.7
+        }
+    ]
+}

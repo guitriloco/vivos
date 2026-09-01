@@ -1,0 +1,290 @@
+[
+    {
+        "commitment": "ab9d15ae89cd47236f0f2b50e0999466c4e2b53c5e8d2379011db6b6abb7f819",
+        "salt": "2500cec7c6f9706df27cc82d020d2224",
+        "data": {
+            "amount": 100.34799866676332,
+            "source": "EXTERNAL_SERVER",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1777920443.3542914,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "163a5fa76897ba1160759f3414f7af5271f74b3cd3a167ec3eae7959a8ce9eba",
+        "salt": "915c58b035ecb9d7199fc24b56da12ad",
+        "data": {
+            "amount": 104.74411063194276,
+            "source": "UNIFIED_TEST",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1777920549.6344485,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "d1634f6f33905d5db2c39e24ea799f50be01babec21870e19745af39a03db4c6",
+        "salt": "129ff7f1a5c5b06f60c195d10a3fa1bd",
+        "data": {
+            "amount": 74.44829106330872,
+            "source": "Synthesized_Result_for_1d9738eb",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1777923306.3547056,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "5ae1c2f41acc4ca7e233166aab05a564b8d445905e0c5f1c1b8c02a5cfbef0ab",
+        "salt": "769ad2ba5fac0e2715dac743e0fe4b79",
+        "data": {
+            "amount": 74.46541645526887,
+            "source": "Omni-Pulse Integration (pulse-1777923306)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1777923306.3791697,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "e66b0843870828c085664869d927fa60a40b9e31ab586603b035efff759666d4",
+        "salt": "b0438af63df461a569519da7390bdff8",
+        "data": {
+            "amount": 83.13174731731415,
+            "source": "Synthesized_Result_for_f5a94bef",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1777923568.7596445,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "cc589ec99b1e675be59b1fa8210542625f8e1adb46f5aeb6e1ce631fa12ceceb",
+        "salt": "6df1f9e1e24bf78efeff3dfb623cb142",
+        "data": {
+            "amount": 83.14949572086334,
+            "source": "Omni-Pulse Integration (pulse-1777923568)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1777923568.785,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "90f8177fd80c10feb02ccf2dab6a7f69fcebee4b3c18f28af027f7ac1184a0cd",
+        "salt": "aae66932f1f238510e71830b686c62d2",
+        "data": {
+            "amount": 98.84382772445679,
+            "source": "Synthesized_Result_for_1e80b39b",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778026041.2054725,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "fde24ff724a76d4dd1fc4d6b3c89c13b444b4f8b4bd01bee68ccf68e72bebdea",
+        "salt": "d8d0dbc14609bce3777b7cd5f4b72720",
+        "data": {
+            "amount": 98.87850341796874,
+            "source": "Omni-Pulse Integration (pulse-1778026041)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778026041.2550092,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "71bced289825bf2ec54917f48822f3aa550a728a857d32bb3bd3ffc4a07ae952",
+        "salt": "3295f2103b9e194b76b4f338b1cb21db",
+        "data": {
+            "amount": 98.96845791339874,
+            "source": "Synthesized_Result_for_28620a15",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778026441.3835168,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "e55a2a2b3ad950d72eee612b625a88055da2233c0b8bf6d8a25e2bdf52f5da1e",
+        "salt": "493b5b65fc1a256801f0f2c6fec90730",
+        "data": {
+            "amount": 98.98688473701478,
+            "source": "Omni-Pulse Integration (pulse-1778026441)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778026441.4098403,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "d8b4e1afd4fc82d13fad493f58b08c1a720c42d69c6142060449741b28b7e7d7",
+        "salt": "fb592a24419cd37860c76e6cf3e8e492",
+        "data": {
+            "amount": 90.22625298500061,
+            "source": "Predictive Match: Synthesized_Result_for_28620a15",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118828.894652,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "91a45b9a297ced2427f35a7277450982b75333ff9784f53daa78d91e16820e9e",
+        "salt": "346342d648d6a105cd27414f47d2a308",
+        "data": {
+            "amount": 90.24356930255891,
+            "source": "Omni-Pulse Integration (pulse-1778118828)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118828.9193902,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "f4dde51b5de99e54e0bc51b2d108b65eb246eb1731c4350b25ac64f903b17665",
+        "salt": "ca535a1d9a368d5806d93726a59963ca",
+        "data": {
+            "amount": 93.06293122768403,
+            "source": "Predictive Match: Synthesized_Result_for_28620a15",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118832.9470508,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "cc88ef9205ab4833af177ec7fe9d083b0b0077f725877144ee9732e4c08107ef",
+        "salt": "47540471741efbb77b1280c462c5bc90",
+        "data": {
+            "amount": 93.09822325706483,
+            "source": "Omni-Pulse Integration (pulse-1778118832)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118832.9974663,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "2dada4fb10143e59350a59861b3abc62fc692e52e69c4cd3303cbfeff70e839d",
+        "salt": "006d99f43d580a8d9826bb9c360836b9",
+        "data": {
+            "amount": 74.8023514032364,
+            "source": "Predictive Match: Synthesized_Result_for_28620a15",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118856.8605072,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "479a2b57d8df81a3dd05ee158f0e11e0f62d4507ff2552b848809d7deaf56871",
+        "salt": "efdb02fad80d4f1af6b0a4ba5ec4fde6",
+        "data": {
+            "amount": 74.81980907917023,
+            "source": "Omni-Pulse Integration (pulse-1778118856)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118856.8854463,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "01a65aafdc9be6bf5a687b521e6e94a38340abbfdcc89ba0056ee4dbbef18e69",
+        "salt": "4477a216d3887521c8ce90761e8b08fc",
+        "data": {
+            "amount": 87.43656413555146,
+            "source": "Synthesized_Result_for_28620a15",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118874.9093828,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    },
+    {
+        "commitment": "1df7dab6225fe07f5f27fcac9d4fa2c534b960617000a89fa631cf57d2ed5f63",
+        "salt": "67c352c64069ec0ba37443e6502a8d0e",
+        "data": {
+            "amount": 87.45659830570222,
+            "source": "Omni-Pulse Integration (pulse-1778118874)",
+            "destination": "Sovereign_Data_Mesh",
+            "timestamp": 1778118874.9380014,
+            "metadata": {
+                "node": "REX",
+                "type": "RESOURCE_ACQUISITION",
+                "engine": "ShadowInfiltrator"
+            }
+        },
+        "status": "SEALED"
+    }
+]

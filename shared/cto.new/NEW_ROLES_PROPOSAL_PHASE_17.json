@@ -1,0 +1,31 @@
+{
+  "proposal": [
+    {
+      "title": "E-LINK Mutation Architect",
+      "codename": "agent-mutation-architect",
+      "description": "Orquestra a evolu\u00e7\u00e3o recursiva do c\u00f3digo via E-LINK protocol. Especializado em auto-muta\u00e7\u00e3o de l\u00f3gica, otimiza\u00e7\u00e3o gen\u00e9tica de algoritmos e evolu\u00e7\u00e3o aut\u00f4noma de todo o ecossistema VIVOS.",
+      "skills": [
+        "E-LINK Recursive Mutation",
+        "Genetic Algorithm Optimization",
+        "Evolutionary Architecture",
+        "Fitness Function Design"
+      ],
+      "phase": "Phase 17+",
+      "priority": "CRITICAL"
+    },
+    {
+      "title": "Cross-Pillar Latency Optimizer",
+      "codename": "agent-latency-optimizer",
+      "description": "Especialista em manter o Yield Siphon abaixo de 0.368\u03bcs cross-pillar. Gerencia a lat\u00eancia entre C++, Rust e Python, otimizando o pipeline de sincroniza\u00e7\u00e3o entre os 7 Supreme Aggregates.",
+      "skills": [
+        "Cross-Language Optimization",
+        "Zero-Copy Bridge Design",
+        "Latency Benchmarking",
+        "Inter-Process Communication Tuning"
+      ],
+      "phase": "Phase 17+",
+      "priority": "HIGH"
+    }
+  ],
+  "master": "VIVOS PHASE 17"
+}

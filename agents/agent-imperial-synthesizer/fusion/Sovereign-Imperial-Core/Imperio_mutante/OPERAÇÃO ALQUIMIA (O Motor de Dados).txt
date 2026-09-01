@@ -1,0 +1,5 @@
+O que faz: Triage massiva de ativos. Transforma arquivos brutos em "Néctar" (produtos prontos).
+
+O que já temos: Script Python de organização, renomeação por palavras-chave e remoção de duplicatas. Base de 6.000+ e-books mapeada.
+
+O que falta: Finalizar a subida do acervo limpo para o Projeto Sombra (TeraBox).

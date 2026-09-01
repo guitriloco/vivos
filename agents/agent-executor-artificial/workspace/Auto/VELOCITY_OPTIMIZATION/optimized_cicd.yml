@@ -1,0 +1,105 @@
+name: "/VELOCITY: Optimized Global CI"
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-terraform:
+    name: "Validate Terraform (Parallel)"
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        module: [
+          "iac-expansion-l2",
+          "PROTOCOLS/ARQUITETO_L2",
+          "PROTOCOLS/CARRASCO",
+          "PROTOCOLS/MUTAR/terraform",
+          "PROTOCOLS/iac-migration/terraform",
+          "PROTOCOLS/mutar-expansion/terraform"
+        ]
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Cache Terraform Providers
+        uses: actions/cache@v3
+        with:
+          path: ~/.terraform.d/plugin-cache
+          key: ${{ runner.os }}-terraform-${{ hashFiles('**/.terraform.lock.hcl') }}
+          restore-keys: |
+            ${{ runner.os }}-terraform-
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.5.0
+
+      - name: Terraform Init
+        run: |
+          export TF_PLUGIN_CACHE_DIR=~/.terraform.d/plugin-cache
+          mkdir -p ~/.terraform.d/plugin-cache
+          cd ${{ matrix.module }}
+          terraform init -backend=false
+
+      - name: Terraform Validate
+        run: |
+          cd ${{ matrix.module }}
+          terraform validate
+
+  security-scans:
+    name: "Automated Security Scans"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: TruffleHog OSS
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
+
+      - name: Run Bandit
+        run: |
+          pip install bandit
+          bandit -r . -c bandit.yaml
+
+      - name: Checkov GitHub Action
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: .
+          soft_fail: false
+          framework: terraform
+
+  lint-python:
+    name: "Lint & Validate Python Governance"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Cache Pip Dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          pip install flake8 black
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Lint with flake8
+        run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+      - name: Check formatting with black
+        run: black . --check
+

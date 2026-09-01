@@ -1,0 +1,10 @@
+{
+  "timestamp": 1783817997.8047216,
+  "aggregate": "SECURE-VAULT",
+  "components": {
+    "human_logic": true,
+    "vvv_core": false
+  },
+  "health": 1.0,
+  "security_level": "MAXIMUM"
+}

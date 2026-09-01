@@ -1,0 +1,602 @@
+{
+    "acessorios-celular": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.113192",
+        "strategy": "STEADY_SCALE"
+    },
+    "energia-solar": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.041198",
+        "strategy": "STEADY_SCALE"
+    },
+    "suplementos-naturais": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.179999",
+        "strategy": "STEADY_SCALE"
+    },
+    "pets-luxo": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.246146",
+        "strategy": "STEADY_SCALE"
+    },
+    "ia-consultoria": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.308393",
+        "strategy": "STEADY_SCALE"
+    },
+    "maquiagem-vegana": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.372516",
+        "strategy": "STEADY_SCALE"
+    },
+    "decoracao-minimalista": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.436091",
+        "strategy": "STEADY_SCALE"
+    },
+    "cozinha-inteligente": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.502130",
+        "strategy": "STEADY_SCALE"
+    },
+    "fitness-sustentavel": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.568887",
+        "strategy": "STEADY_SCALE"
+    },
+    "gadgets-produtividade": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.639826",
+        "strategy": "STEADY_SCALE"
+    },
+    "brinquedos-montessori": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.704241",
+        "strategy": "STEADY_SCALE"
+    },
+    "cuidado-barba": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.766148",
+        "strategy": "STEADY_SCALE"
+    },
+    "ferramentas-diy": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.824491",
+        "strategy": "STEADY_SCALE"
+    },
+    "acessorios-carros-eletricos": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.895676",
+        "strategy": "STEADY_SCALE"
+    },
+    "marmitas-fitness": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:10.972351",
+        "strategy": "STEADY_SCALE"
+    },
+    "perfumaria-artesanal": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.038814",
+        "strategy": "STEADY_SCALE"
+    },
+    "papelaria-creativa": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.096954",
+        "strategy": "STEADY_SCALE"
+    },
+    "yoga-wear": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.163699",
+        "strategy": "STEADY_SCALE"
+    },
+    "equipamentos-podcast": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.221817",
+        "strategy": "STEADY_SCALE"
+    },
+    "horta-urbana": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.278154",
+        "strategy": "STEADY_SCALE"
+    },
+    "calcados-conforto": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.339817",
+        "strategy": "STEADY_SCALE"
+    },
+    "jogos-tabuleiro": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.397480",
+        "strategy": "STEADY_SCALE"
+    },
+    "limpeza-eco": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.457477",
+        "strategy": "STEADY_SCALE"
+    },
+    "acessorios-ciclismo": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.517692",
+        "strategy": "STEADY_SCALE"
+    },
+    "moda-infantil-organica": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.576214",
+        "strategy": "STEADY_SCALE"
+    },
+    "treino-em-casa": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.782100",
+        "strategy": "STEADY_SCALE"
+    },
+    "cafes-especiais": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.841219",
+        "strategy": "STEADY_SCALE"
+    },
+    "oleos-essenciais": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.907386",
+        "strategy": "STEADY_SCALE"
+    },
+    "skincare-sol": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:11.967383",
+        "strategy": "STEADY_SCALE"
+    },
+    "smartwatches": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.026862",
+        "strategy": "STEADY_SCALE"
+    },
+    "fones-bluetooth": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.093363",
+        "strategy": "STEADY_SCALE"
+    },
+    "mochilas-antifurto": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.157137",
+        "strategy": "STEADY_SCALE"
+    },
+    "organizadores-casa": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.214196",
+        "strategy": "STEADY_SCALE"
+    },
+    "arte-digital": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.285669",
+        "strategy": "STEADY_SCALE"
+    },
+    "velas-aromaticas": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.345481",
+        "strategy": "STEADY_SCALE"
+    },
+    "cabelos-cacheados": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.405457",
+        "strategy": "STEADY_SCALE"
+    },
+    "relogios-parede": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.472677",
+        "strategy": "STEADY_SCALE"
+    },
+    "luminarias-criativas": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.535339",
+        "strategy": "STEADY_SCALE"
+    },
+    "tapetes-personalizados": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.593810",
+        "strategy": "STEADY_SCALE"
+    },
+    "meias-divertidas": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.659115",
+        "strategy": "STEADY_SCALE"
+    },
+    "canecas-termicas": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.724154",
+        "strategy": "STEADY_SCALE"
+    },
+    "foto-celular": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.791314",
+        "strategy": "STEADY_SCALE"
+    },
+    "cases-notebook": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.855002",
+        "strategy": "STEADY_SCALE"
+    },
+    "bijuterias-naturais": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.917896",
+        "strategy": "STEADY_SCALE"
+    },
+    "itens-praia": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:12.978874",
+        "strategy": "STEADY_SCALE"
+    },
+    "cama-seda": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.035648",
+        "strategy": "STEADY_SCALE"
+    },
+    "pijamas-conforto": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.093447",
+        "strategy": "STEADY_SCALE"
+    },
+    "guarda-chuvas": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.154562",
+        "strategy": "STEADY_SCALE"
+    },
+    "suportes-ergonomicos": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.219482",
+        "strategy": "STEADY_SCALE"
+    },
+    "kits-sobrevivencia": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.281895",
+        "strategy": "STEADY_SCALE"
+    },
+    "solar-motorhome": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.338863",
+        "strategy": "STEADY_SCALE"
+    },
+    "acessorios-criadores-50": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.734291",
+        "strategy": "STEADY_SCALE"
+    },
+    "suplementos-gamers": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.795371",
+        "strategy": "STEADY_SCALE"
+    },
+    "gatos-apartamento": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.855444",
+        "strategy": "STEADY_SCALE"
+    },
+    "ia-psicologos": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.912873",
+        "strategy": "STEADY_SCALE"
+    },
+    "maquiagem-pele-sensivel": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:13.969077",
+        "strategy": "STEADY_SCALE"
+    },
+    "decoracao-office-ti": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.034158",
+        "strategy": "STEADY_SCALE"
+    },
+    "cozinha-keto": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.097198",
+        "strategy": "STEADY_SCALE"
+    },
+    "fitness-crossfit-vegano": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.158568",
+        "strategy": "STEADY_SCALE"
+    },
+    "gadgets-tdah": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.220540",
+        "strategy": "STEADY_SCALE"
+    },
+    "montessori-alergicos": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.275186",
+        "strategy": "STEADY_SCALE"
+    },
+    "estetica-calvicie": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.336194",
+        "strategy": "STEADY_SCALE"
+    },
+    "diy-alugados": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.404392",
+        "strategy": "STEADY_SCALE"
+    },
+    "carga-carro-eletrico": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.475990",
+        "strategy": "STEADY_SCALE"
+    },
+    "marmitas-massa-limpa": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.554589",
+        "strategy": "STEADY_SCALE"
+    },
+    "perfume-feromonios": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.623678",
+        "strategy": "STEADY_SCALE"
+    },
+    "casamento-homoafetivo": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.689210",
+        "strategy": "STEADY_SCALE"
+    },
+    "yoga-absorcao-suor": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:14.763991",
+        "strategy": "STEADY_SCALE"
+    },
+    "podcast-rua": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.192991",
+        "strategy": "STEADY_SCALE"
+    },
+    "horta-uv": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.266356",
+        "strategy": "STEADY_SCALE"
+    },
+    "calcados-saude": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.328039",
+        "strategy": "STEADY_SCALE"
+    },
+    "jogos-solo": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.455581",
+        "strategy": "STEADY_SCALE"
+    },
+    "limpeza-eco-exoticos": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.519195",
+        "strategy": "STEADY_SCALE"
+    },
+    "ciclismo-noturno": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.582981",
+        "strategy": "STEADY_SCALE"
+    },
+    "moda-infantil-ciencia": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.645769",
+        "strategy": "STEADY_SCALE"
+    },
+    "treino-mobilidade": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.743237",
+        "strategy": "STEADY_SCALE"
+    },
+    "cafes-mantiqueira": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.846619",
+        "strategy": "STEADY_SCALE"
+    },
+    "difusores-alexa": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:15.913362",
+        "strategy": "STEADY_SCALE"
+    },
+    "skincare-nadadores": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.056361",
+        "strategy": "STEADY_SCALE"
+    },
+    "smartwatches-mental": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.298022",
+        "strategy": "STEADY_SCALE"
+    },
+    "fones-dormir": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.365650",
+        "strategy": "STEADY_SCALE"
+    },
+    "mochilas-solar": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.429072",
+        "strategy": "STEADY_SCALE"
+    },
+    "organizadores-sneakers": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.488863",
+        "strategy": "STEADY_SCALE"
+    },
+    "arte-nft-fisica": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.551549",
+        "strategy": "STEADY_SCALE"
+    },
+    "velas-livro": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.633177",
+        "strategy": "STEADY_SCALE"
+    },
+    "transicao-capilar": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.784319",
+        "strategy": "STEADY_SCALE"
+    },
+    "relogios-biofilia": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.847739",
+        "strategy": "STEADY_SCALE"
+    },
+    "luminarias-levitacao": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.907584",
+        "strategy": "STEADY_SCALE"
+    },
+    "tapetes-absorventes": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:16.985390",
+        "strategy": "STEADY_SCALE"
+    },
+    "meias-viagem": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.056526",
+        "strategy": "STEADY_SCALE"
+    },
+    "garrafas-filtro": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.250394",
+        "strategy": "STEADY_SCALE"
+    },
+    "lentes-cinema-celular": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.317648",
+        "strategy": "STEADY_SCALE"
+    },
+    "cases-couro-cacto": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.538686",
+        "strategy": "STEADY_SCALE"
+    },
+    "bijuterias-3d": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.600288",
+        "strategy": "STEADY_SCALE"
+    },
+    "toalhas-anti-areia": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.672079",
+        "strategy": "STEADY_SCALE"
+    },
+    "fronhas-seda": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.812002",
+        "strategy": "STEADY_SCALE"
+    },
+    "pijamas-termicos": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.872761",
+        "strategy": "STEADY_SCALE"
+    },
+    "guarda-chuvas-invertidos": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.931375",
+        "strategy": "STEADY_SCALE"
+    },
+    "suporte-notebook-bambu": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:17.989357",
+        "strategy": "STEADY_SCALE"
+    },
+    "kits-edc": {
+        "target_roi": 0.85,
+        "last_updated": "2026-05-15 20:42:18.047331",
+        "strategy": "STEADY_SCALE"
+    },
+    "energia-solar-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702351",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "energia-solar-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702367",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "acessorios-gaming-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702370",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "acessorios-gaming-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702371",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "pets-luxo-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702373",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "pets-luxo-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702374",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "iluminacao-led-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702375",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "iluminacao-led-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702377",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "acessorios-fitness-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702378",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "acessorios-fitness-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702379",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "acessorios-celular-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702381",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "acessorios-celular-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702382",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "organizadores-casa-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702383",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "organizadores-casa-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702385",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "cozinha-inteligente-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702386",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "cozinha-inteligente-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702388",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "oculos-relogios-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702389",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "oculos-relogios-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702390",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "maquiagem-vegana-pro": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702392",
+        "strategy": "AGGRESSIVE_SCALE"
+    },
+    "maquiagem-vegana-elite": {
+        "target_roi": 1.2,
+        "last_updated": "2026-05-15 21:04:45.702393",
+        "strategy": "AGGRESSIVE_SCALE"
+    }
+}

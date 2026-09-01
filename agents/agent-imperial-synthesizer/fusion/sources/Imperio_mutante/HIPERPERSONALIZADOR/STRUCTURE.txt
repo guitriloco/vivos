@@ -1,0 +1,62 @@
+Estrutura de Pastas do Projeto Hiperpersonalizador
+=================================================
+
+HIPERPERSONALIZADOR/
+├── backend/                              # Servidor Flask
+│   ├── app.py                           # Ponto de entrada da aplicação
+│   ├── config.py                        # Configurações
+│   ├── api/
+│   │   ├── controllers/                 # Controladores de negócio
+│   │   │   └── content_controller.py   # Controle de conteúdo
+│   │   ├── models/                      # Modelos de dados
+│   │   │   ├── user.py                 # Modelo de usuário
+│   │   │   └── content.py              # Modelo de conteúdo
+│   │   └── routes/                      # Definições de rotas
+│   │       ├── content_routes.py        # Rotas de conteúdo
+│   │       ├── user_routes.py          # Rotas de usuário
+│   │       └── analytics_routes.py     # Rotas de analytics
+│   ├── services/                        # Serviços de integração
+│   │   └── ai_integration.py           # Integração com IA
+│   └── utils/                           # Funções utilitárias
+│       └── helpers.py                   # Funções auxiliares
+├── frontend/                            # Aplicação React
+│   ├── src/
+│   │   ├── App.js                      # Componente principal
+│   │   ├── App.css                     # Estilos globais
+│   │   ├── components/                 # Componentes reutilizáveis
+│   │   │   ├── ContentGenerator.js     # Gerador de conteúdo
+│   │   │   └── HistoryViewer.js        # Visualizador de histórico
+│   │   ├── pages/                      # Páginas da aplicação
+│   │   │   ├── Dashboard.js            # Dashboard principal
+│   │   │   └── Settings.js             # Configurações
+│   │   └── assets/                     # Recursos estáticos
+│   │       ├── logo.png                # Logotipo
+│   │       └── styles.css              # Estilos complementares
+├── data/                                # Dados e bancos de dados
+│   ├── hiperp.db                       # Banco de dados SQLite
+│   ├── cache/                          # Cache de conteúdo
+│   └── logs/                           # Logs do sistema
+├── docs/                                # Documentação
+│   ├── README.md                       # Documentação principal
+│   ├── API_DOCS.md                     # Documentação da API
+│   ├── USER_GUIDE.md                   # Guia do usuário
+│   └── TECHNICAL_ARCHITECTURE.md       # Arquitetura técnica
+├── tests/                               # Testes automatizados
+│   ├── test_content_generation.py      # Testes de geração de conteúdo
+│   ├── test_personalization.py         # Testes de personalização
+│   └── test_api_endpoints.py           # Testes dos endpoints
+├── requirements.txt                     # Dependências do backend
+├── package.json                         # Dependências do frontend
+├── .env                                 # Variáveis de ambiente
+├── .gitignore                           # Arquivos ignorados pelo git
+├── EXAMPLE_USAGE.md                     # Exemplos de uso
+├── PROJECT_SUMMARY.md                   # Resumo do projeto
+└── STRUCTURE.txt                        # Este arquivo
+
+Descrição das Pastas:
+--------------------
+backend/        - Código do servidor Flask com API REST
+frontend/       - Aplicação React para interface do usuário
+data/           - Armazenamento de dados e logs
+docs/           - Documentação técnica e do usuário
+tests/          - Testes automatizados

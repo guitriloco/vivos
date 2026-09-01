@@ -1,0 +1,584 @@
+# DASHBOARD DO IMPÉRIO MUTANTE
+
+Data de criação: 2026-04-12 04:51:27
+
+## Estrutura do Império
+
+- **Cursos_Formacao**: 1 recursos
+- **Meredith Marsh – 30 Days to a Thriving YouTube Channel**: 1 recursos
+- **NoBoundAds_The_eBook_Gumroad_Bundle_SLENDERMAN_BBHF**: 2 recursos
+- **PDF_Files**: 1 recursos
+- **The Steal Like an Artist Audio Trilogy_03. Show your work**: 1 recursos
+- **Ferramentas_Operacionais**: 1 recursos
+- **100+ Premium Shopify Themes_aquamag_assets_css**: 1 recursos
+- **100+ Premium Shopify Themes_assets**: 54 recursos
+- **100+ Premium Shopify Themes_Basel156_assets**: 5 recursos
+- **100+ Premium Shopify Themes_Basel156_snippets**: 3 recursos
+- **100+ Premium Shopify Themes_beginner_inc**: 1 recursos
+- **100+ Premium Shopify Themes_bulan_inc**: 1 recursos
+- **100+ Premium Shopify Themes_creatively**: 2 recursos
+- **100+ Premium Shopify Themes_creatively_inc**: 1 recursos
+- **100+ Premium Shopify Themes_decortica-myshopify-com-decortica-theme-packaged_assets**: 4 recursos
+- **100+ Premium Shopify Themes_designbiz_inc**: 1 recursos
+- **100+ Premium Shopify Themes_easynote_inc**: 1 recursos
+- **100+ Premium Shopify Themes_ella-16-myshopify-com-ella-2-0-3_assets**: 4 recursos
+- **100+ Premium Shopify Themes_fashionchic_inc**: 1 recursos
+- **100+ Premium Shopify Themes_flatline**: 10 recursos
+- **100+ Premium Shopify Themes_flatline_inc**: 1 recursos
+- **100+ Premium Shopify Themes_freshlife_inc**: 1 recursos
+- **100+ Premium Shopify Themes_imedical_inc**: 1 recursos
+- **100+ Premium Shopify Themes_leda_inc**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_inc**: 1 recursos
+- **100+ Premium Shopify Themes_minimart-theme-source_assets**: 4 recursos
+- **100+ Premium Shopify Themes_mymedic**: 1 recursos
+- **100+ Premium Shopify Themes_mymedic_inc**: 1 recursos
+- **100+ Premium Shopify Themes_mystery_inc**: 1 recursos
+- **100+ Premium Shopify Themes_newspaper_inc**: 1 recursos
+- **100+ Premium Shopify Themes_pinpoint_inc**: 1 recursos
+- **100+ Premium Shopify Themes_postboard_inc**: 1 recursos
+- **100+ Premium Shopify Themes_posty_inc**: 1 recursos
+- **100+ Premium Shopify Themes_reviewpro_inc**: 1 recursos
+- **100+ Premium Shopify Themes_roku_inc**: 1 recursos
+- **100+ Premium Shopify Themes_saha_inc**: 1 recursos
+- **100+ Premium Shopify Themes_shopy_inc**: 1 recursos
+- **100+ Premium Shopify Themes_silver_inc**: 1 recursos
+- **100+ Premium Shopify Themes_silvia_inc**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_inc**: 1 recursos
+- **100+ Premium Shopify Themes_smallbiz_inc**: 1 recursos
+- **100+ Premium Shopify Themes_smartzine_inc**: 1 recursos
+- **100+ Premium Shopify Themes_truereview_inc**: 1 recursos
+- **100+ Premium Shopify Themes_wayfarer_inc**: 1 recursos
+- **100+ Premium Shopify Themes_wordplus_includes_js**: 1 recursos
+- **The_YouTube_Ranking_Masterclass_[BONUS] Shorts Sounds _ Emojis Pack**: 4 recursos
+- **Geracao_Conteudo**: 1 recursos
+- **100+ Premium Shopify Themes_adeline-demo-01-myshopify-com-adeline_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_adornabyssinia-com-symmetry_sections**: 7 recursos
+- **100+ Premium Shopify Themes_agencia_inc**: 1 recursos
+- **100+ Premium Shopify Themes_agencia_partials**: 6 recursos
+- **100+ Premium Shopify Themes_Annabelle Two_annabelletwo_assets**: 1 recursos
+- **100+ Premium Shopify Themes_appetizing_inc**: 1 recursos
+- **100+ Premium Shopify Themes_appetizing_partials**: 6 recursos
+- **100+ Premium Shopify Themes_aquamag**: 4 recursos
+- **100+ Premium Shopify Themes_aquamag_inc**: 1 recursos
+- **100+ Premium Shopify Themes_aquamag_inc_classes**: 1 recursos
+- **100+ Premium Shopify Themes_assets_sections**: 1 recursos
+- **100+ Premium Shopify Themes_autoplay_inc**: 1 recursos
+- **100+ Premium Shopify Themes_autoplay_inc_elementor_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_autoplay_partials**: 4 recursos
+- **100+ Premium Shopify Themes_Basel156_sections**: 1 recursos
+- **100+ Premium Shopify Themes_beadprism-com-retina_sections**: 10 recursos
+- **100+ Premium Shopify Themes_beginner_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_beginner_partials**: 9 recursos
+- **100+ Premium Shopify Themes_beginner_scss_sections**: 1 recursos
+- **100+ Premium Shopify Themes_biancaa**: 4 recursos
+- **100+ Premium Shopify Themes_biancaa_inc**: 1 recursos
+- **100+ Premium Shopify Themes_boosted_inc**: 1 recursos
+- **100+ Premium Shopify Themes_boosted_partials_content**: 7 recursos
+- **100+ Premium Shopify Themes_boxes**: 5 recursos
+- **100+ Premium Shopify Themes_bulan**: 6 recursos
+- **100+ Premium Shopify Themes_collection_includes_formats**: 1 recursos
+- **100+ Premium Shopify Themes_company**: 2 recursos
+- **100+ Premium Shopify Themes_creatively_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_partials**: 7 recursos
+- **100+ Premium Shopify Themes_daily_inc**: 1 recursos
+- **100+ Premium Shopify Themes_daily_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_deals**: 8 recursos
+- **100+ Premium Shopify Themes_decortica-myshopify-com-decortica-theme-packaged_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_delivery-lite**: 4 recursos
+- **100+ Premium Shopify Themes_delivery-lite_inc**: 1 recursos
+- **100+ Premium Shopify Themes_designbiz_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_designbiz_partials**: 8 recursos
+- **100+ Premium Shopify Themes_dlynnandco-com-envy_sections**: 5 recursos
+- **100+ Premium Shopify Themes_dlynnandco-com-envy_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_easynote**: 11 recursos
+- **100+ Premium Shopify Themes_easynote_inc_import_demo-files**: 1 recursos
+- **100+ Premium Shopify Themes_easynote_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_easynote_scss_sections**: 1 recursos
+- **100+ Premium Shopify Themes_ella-16-myshopify-com-ella-2-0-3_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_esportspro_inc**: 1 recursos
+- **100+ Premium Shopify Themes_esportspro_partials_content**: 7 recursos
+- **100+ Premium Shopify Themes_estudio**: 6 recursos
+- **100+ Premium Shopify Themes_fashionchic_partials**: 11 recursos
+- **100+ Premium Shopify Themes_featured_inc**: 1 recursos
+- **100+ Premium Shopify Themes_featured_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_featured_partials**: 6 recursos
+- **100+ Premium Shopify Themes_fireup**: 4 recursos
+- **100+ Premium Shopify Themes_fireup_inc**: 2 recursos
+- **100+ Premium Shopify Themes_fireup_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_fireup_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_flatline_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_freshlife**: 8 recursos
+- **100+ Premium Shopify Themes_freshlife_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_gomedia**: 7 recursos
+- **100+ Premium Shopify Themes_gomedia_inc**: 1 recursos
+- **100+ Premium Shopify Themes_gomedia_inc_classes**: 1 recursos
+- **100+ Premium Shopify Themes_highstake-lite_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_highstake-lite_inc**: 1 recursos
+- **100+ Premium Shopify Themes_highstake-lite_partials**: 5 recursos
+- **100+ Premium Shopify Themes_highstake-lite_partials_callout**: 2 recursos
+- **100+ Premium Shopify Themes_highstake-lite_partials_featured**: 3 recursos
+- **100+ Premium Shopify Themes_highstake-lite_partials_post**: 5 recursos
+- **100+ Premium Shopify Themes_highstake_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_highstake_inc**: 1 recursos
+- **100+ Premium Shopify Themes_highstake_partials**: 5 recursos
+- **100+ Premium Shopify Themes_highstake_partials_callout**: 2 recursos
+- **100+ Premium Shopify Themes_highstake_partials_featured**: 3 recursos
+- **100+ Premium Shopify Themes_highstake_partials_post**: 5 recursos
+- **100+ Premium Shopify Themes_icon-theme_sections**: 6 recursos
+- **100+ Premium Shopify Themes_imedical**: 1 recursos
+- **100+ Premium Shopify Themes_imedical_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_insido_inc**: 1 recursos
+- **100+ Premium Shopify Themes_insido_partials**: 4 recursos
+- **100+ Premium Shopify Themes_joblist_inc**: 1 recursos
+- **100+ Premium Shopify Themes_joblist_job_manager**: 2 recursos
+- **100+ Premium Shopify Themes_joblist_partials**: 6 recursos
+- **100+ Premium Shopify Themes_landed_inc**: 1 recursos
+- **100+ Premium Shopify Themes_landed_partials_content**: 6 recursos
+- **100+ Premium Shopify Themes_leda**: 11 recursos
+- **100+ Premium Shopify Themes_leda_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_magnow**: 3 recursos
+- **100+ Premium Shopify Themes_magnow_inc_styles**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_partial_archive**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_partial_author**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_partial_category**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_partial_search**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_partial_tag**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_scss_sections**: 1 recursos
+- **100+ Premium Shopify Themes_minimart-theme-source_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_multidot_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_multidot_inc**: 1 recursos
+- **100+ Premium Shopify Themes_multidot_partials**: 7 recursos
+- **100+ Premium Shopify Themes_mydollystore-com-sunrise_sections**: 5 recursos
+- **100+ Premium Shopify Themes_mymedic_inc_builder**: 1 recursos
+- **100+ Premium Shopify Themes_mymedic_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_mymedic_partials**: 5 recursos
+- **100+ Premium Shopify Themes_mystery**: 11 recursos
+- **100+ Premium Shopify Themes_mystery_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_newspaper**: 1 recursos
+- **100+ Premium Shopify Themes_newspaper_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_newswire_includes_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_onetype_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_onetype_inc**: 1 recursos
+- **100+ Premium Shopify Themes_onetype_partials**: 4 recursos
+- **100+ Premium Shopify Themes_pinable**: 9 recursos
+- **100+ Premium Shopify Themes_pinpoint_partials**: 11 recursos
+- **100+ Premium Shopify Themes_postboard**: 4 recursos
+- **100+ Premium Shopify Themes_postboard_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_posted_inc**: 1 recursos
+- **100+ Premium Shopify Themes_posted_partials_content**: 7 recursos
+- **100+ Premium Shopify Themes_posty**: 4 recursos
+- **100+ Premium Shopify Themes_posty_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_proframe_inc**: 1 recursos
+- **100+ Premium Shopify Themes_proframe_partials**: 6 recursos
+- **100+ Premium Shopify Themes_remaster_inc**: 1 recursos
+- **100+ Premium Shopify Themes_remaster_partials_content**: 7 recursos
+- **100+ Premium Shopify Themes_resizable_includes_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_reviewmax_inc**: 1 recursos
+- **100+ Premium Shopify Themes_reviewmax_partials_content**: 7 recursos
+- **100+ Premium Shopify Themes_reviewpro_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_reviewpro_partials**: 7 recursos
+- **100+ Premium Shopify Themes_rexus**: 8 recursos
+- **100+ Premium Shopify Themes_rexus_inc**: 1 recursos
+- **100+ Premium Shopify Themes_rexus_inc_classes**: 1 recursos
+- **100+ Premium Shopify Themes_roku_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_roku_partials**: 11 recursos
+- **100+ Premium Shopify Themes_saha**: 9 recursos
+- **100+ Premium Shopify Themes_saha_inc_widgets**: 2 recursos
+- **100+ Premium Shopify Themes_saha_woocommerce_single-product**: 1 recursos
+- **100+ Premium Shopify Themes_sections**: 123 recursos
+- **100+ Premium Shopify Themes_shopy**: 9 recursos
+- **100+ Premium Shopify Themes_shopy_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_shopy_scss_shared**: 1 recursos
+- **100+ Premium Shopify Themes_showbook_inc**: 1 recursos
+- **100+ Premium Shopify Themes_showbook_partials_content**: 7 recursos
+- **100+ Premium Shopify Themes_silver_partials**: 11 recursos
+- **100+ Premium Shopify Themes_silvia**: 4 recursos
+- **100+ Premium Shopify Themes_sitebox**: 5 recursos
+- **100+ Premium Shopify Themes_sitebox_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_scss_sections**: 1 recursos
+- **100+ Premium Shopify Themes_smallbiz_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_smallbiz_partials**: 5 recursos
+- **100+ Premium Shopify Themes_smartzine**: 9 recursos
+- **100+ Premium Shopify Themes_smartzine_inc_styles**: 1 recursos
+- **100+ Premium Shopify Themes_smartzine_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_snippets**: 17 recursos
+- **100+ Premium Shopify Themes_storepro**: 5 recursos
+- **100+ Premium Shopify Themes_storepro_inc**: 2 recursos
+- **100+ Premium Shopify Themes_storepro_inc_classes**: 1 recursos
+- **100+ Premium Shopify Themes_storepro_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_supernews**: 12 recursos
+- **100+ Premium Shopify Themes_supernews_inc**: 2 recursos
+- **100+ Premium Shopify Themes_supernews_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_supernews_woocommerce_single-product**: 1 recursos
+- **100+ Premium Shopify Themes_templates**: 371 recursos
+- **100+ Premium Shopify Themes_theme_export__worldcupstreetwear-com-startup__27AUG2018-1239pm_sections**: 5 recursos
+- **100+ Premium Shopify Themes_theworld**: 4 recursos
+- **100+ Premium Shopify Themes_theworld_inc**: 1 recursos
+- **100+ Premium Shopify Themes_theworld_inc_classes**: 1 recursos
+- **100+ Premium Shopify Themes_truenews**: 4 recursos
+- **100+ Premium Shopify Themes_truenews_inc**: 1 recursos
+- **100+ Premium Shopify Themes_truenews_inc_classes**: 1 recursos
+- **100+ Premium Shopify Themes_truereview_inc_customizer**: 1 recursos
+- **100+ Premium Shopify Themes_truereview_inc_widgets**: 1 recursos
+- **100+ Premium Shopify Themes_truereview_partials**: 10 recursos
+- **100+ Premium Shopify Themes_ultrastore_inc**: 1 recursos
+- **100+ Premium Shopify Themes_ultrastore_partials_content**: 7 recursos
+- **100+ Premium Shopify Themes_wayfarer_partials**: 11 recursos
+- **Ai Automation Agency By Andrew Tate_6. Ai Automation Social Media_3. LinkedIn**: 1 recursos
+- **Easy_AI_Weird_Wall_Art_COMPLETE_Module 2 - Prompts and Custom GPT**: 1 recursos
+- **Instagram Direst Message Script**: 1 recursos
+- **Script_Files**: 22 recursos
+- **Script_Files_Utilidades**: 1 recursos
+- **IA_Automacao**: 1 recursos
+- **100+ Premium Shopify Themes_adornabyssinia-com-symmetry_snippets**: 3 recursos
+- **100+ Premium Shopify Themes_agencia_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_appetizing_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_aquamag_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_assets_components**: 1 recursos
+- **100+ Premium Shopify Themes_autoplay_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_beadprism-com-retina_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_beadprism-com-retina_templates**: 18 recursos
+- **100+ Premium Shopify Themes_beginner_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_beginner_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_biancaa_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_boosted_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_boosted_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_boxes_includes**: 1 recursos
+- **100+ Premium Shopify Themes_bulan_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_collection_images_prettyPhoto_dark_rounded**: 1 recursos
+- **100+ Premium Shopify Themes_collection_includes**: 5 recursos
+- **100+ Premium Shopify Themes_company_includes**: 3 recursos
+- **100+ Premium Shopify Themes_creatively_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_inc_builder_tj-team-details**: 1 recursos
+- **100+ Premium Shopify Themes_daily**: 32 recursos
+- **100+ Premium Shopify Themes_daily_assets_js**: 2 recursos
+- **100+ Premium Shopify Themes_daily_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_daily_languages**: 1 recursos
+- **100+ Premium Shopify Themes_deals_font**: 1 recursos
+- **100+ Premium Shopify Themes_deals_includes**: 2 recursos
+- **100+ Premium Shopify Themes_delivery-lite_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_delivery-lite_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_designbiz_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_easynote_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_easynote_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_esportspro_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_esportspro_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_estudio_includes**: 2 recursos
+- **100+ Premium Shopify Themes_fashionchic_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_featured_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_featured_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_fireup_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_flatline_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_flatline_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_freshlife_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_freshlife_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_gomedia_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_highstake-lite_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_highstake_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_icon-theme_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_imedical_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_imedical_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_imedical_scss_base**: 1 recursos
+- **100+ Premium Shopify Themes_insider_includes**: 3 recursos
+- **100+ Premium Shopify Themes_insido_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_insido_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_joblist_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_landed_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_landed_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_leda_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_multidot_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_mymedic_assets_images_prettyPhoto_dark_rounded**: 1 recursos
+- **100+ Premium Shopify Themes_mymedic_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_mymedic_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_mystery_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_newspaper_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_newspaper_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_newswire_includes**: 3 recursos
+- **100+ Premium Shopify Themes_onetype_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_onetype_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_pinable_includes**: 4 recursos
+- **100+ Premium Shopify Themes_pinpoint_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_postboard_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_postboard_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_posted_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_posted_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_posty_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_posty_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_proframe_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_remaster_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_remaster_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_resizable_includes**: 3 recursos
+- **100+ Premium Shopify Themes_reviewmax_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_reviewmax_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_reviewpro_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_reviewpro_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_rexus_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_rexus_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_roku_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_roku_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_saha_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_saha_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_saha_woocommerce_loop_thumbnail**: 1 recursos
+- **100+ Premium Shopify Themes_shopy_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_shopy_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_shopy_scss_base**: 1 recursos
+- **100+ Premium Shopify Themes_showbook_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_showbook_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_silver_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_silvia_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_smallbiz_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_smartzine_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_smartzine_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_storepro_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_supernews_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_supernews_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_theme_export__worldcupstreetwear-com-startup__27AUG2018-1239pm_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_theworld_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_truenews_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_truereview_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_ultrastore_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_ultrastore_partials_menu**: 1 recursos
+- **100+ Premium Shopify Themes_wayfarer_assets_js**: 1 recursos
+- **100+ Premium Shopify Themes_wordplus_includes**: 3 recursos
+- **Ai Automation Agency By Andrew Tate_0. Start Here**: 2 recursos
+- **Ai Automation Agency By Andrew Tate_1. Ai Automation Demo Build_1. Ai Automation Demo Build**: 3 recursos
+- **Ai Automation Agency By Andrew Tate_1. Ai Automation Demo Build_2. Lead Capture & CRM Integration Demo Build**: 1 recursos
+- **Ai Automation Agency By Andrew Tate_1. Ai Automation Demo Build_4. Appointment Setting Demo Build**: 2 recursos
+- **Ai Automation Agency By Andrew Tate_1. Ai Automation Demo Build_5. AI Automation Next Steps**: 2 recursos
+- **Ai Automation Agency By Andrew Tate_2. Ai Automation Outreach_1. AI Automation Email Outreach Introduction**: 2 recursos
+- **Ai Automation Agency By Andrew Tate_2. Ai Automation Outreach_2. AI Automation Outreach - Personalized Emails**: 13 recursos
+- **Ai Automation Agency By Andrew Tate_2. Ai Automation Outreach_3. AI Automation Outreach - Social Media_1. X (Twitter)**: 2 recursos
+- **Ai Automation Agency By Andrew Tate_3. Ai Automation Service Delivery - Principles & Protocols**: 6 recursos
+- **Ai Automation Agency By Andrew Tate_4. Ai Automation Phone Callers_1. Bland Ai**: 18 recursos
+- **Ai Automation Agency By Andrew Tate_4. Ai Automation Phone Callers_2. Vapi Ai**: 9 recursos
+- **Ai Automation Agency By Andrew Tate_4. Ai Automation Phone Callers_3. Vapi Ai Outbound**: 10 recursos
+- **Ai Automation Agency By Andrew Tate_5. Ai Automation Workshops**: 26 recursos
+- **Ai Automation Agency By Andrew Tate_6. Ai Automation Social Media_2. WhatsApp**: 1 recursos
+- **Ai Automation Agency By Andrew Tate_6. Ai Automation Social Media_4. VEO 3 & AI SM Automation**: 6 recursos
+- **Ai Automation Agency By Andrew Tate_7. Ai Automation Websites**: 10 recursos
+- **High_Ticket_AI_Offers**: 7 recursos
+- **Madi Kobru - AI Creator Academy_1 START HERE**: 2 recursos
+- **Madi Kobru - AI Creator Academy_10 AI Skill Hub**: 2 recursos
+- **Madi Kobru - AI Creator Academy_16 DFY POWER BOX_4 AICA Freebie**: 3 recursos
+- **Madi Kobru - AI Creator Academy_2 INTRO TO AICA**: 5 recursos
+- **Madi Kobru - AI Creator Academy_2 INTRO TO AICA_6 AICA Payment Plans**: 6 recursos
+- **Madi Kobru - AI Creator Academy_3 AI AVATAR LAB**: 1 recursos
+- **Madi Kobru - AI Creator Academy_8 AICA UGC**: 3 recursos
+- **The Steal Like an Artist Audio Trilogy_02. Steal Like an Artist**: 1 recursos
+- **The Steal Like an Artist Audio Trilogy_04. How to keep going**: 1 recursos
+- **WORD**: 5 recursos
+- **Marketing_Vendas**: 1 recursos
+- **Script_Files_APIs_Google**: 1 recursos
+- **Recursos_Estrategicos**: 2 recursos
+- **BuySellMethods RedAlert**: 1 recursos
+- **Madi Kobru - AI Creator Academy_11 3 DAY KICK START PLAN**: 2 recursos
+- **Scripts_Automacao**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_assets_js_devs**: 1 recursos
+- **Templates_Utilitarios**: 1 recursos
+- **100+ Premium Shopify Themes_adeline-demo-01-myshopify-com-adeline_layout**: 1 recursos
+- **100+ Premium Shopify Themes_adeline-demo-01-myshopify-com-adeline_templates**: 18 recursos
+- **100+ Premium Shopify Themes_adornabyssinia-com-symmetry_assets**: 1 recursos
+- **100+ Premium Shopify Themes_adornabyssinia-com-symmetry_layout**: 2 recursos
+- **100+ Premium Shopify Themes_adornabyssinia-com-symmetry_templates**: 14 recursos
+- **100+ Premium Shopify Themes_agencia_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_agencia_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_agencia_templates**: 1 recursos
+- **100+ Premium Shopify Themes_Annabelle Two_annabelletwo_layout**: 1 recursos
+- **100+ Premium Shopify Themes_Annabelle Two_annabelletwo_snippets**: 1 recursos
+- **100+ Premium Shopify Themes_Annabelle Two_annabelletwo_templates**: 14 recursos
+- **100+ Premium Shopify Themes_appetizing_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_appetizing_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_aquamag_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_assets_templates**: 11 recursos
+- **100+ Premium Shopify Themes_autoplay_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_autoplay_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_autoplay_templates**: 1 recursos
+- **100+ Premium Shopify Themes_Basel156_layout**: 3 recursos
+- **100+ Premium Shopify Themes_Basel156_templates**: 49 recursos
+- **100+ Premium Shopify Themes_beadprism-com-retina_layout**: 1 recursos
+- **100+ Premium Shopify Themes_beginner_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_beginner_page-templates**: 3 recursos
+- **100+ Premium Shopify Themes_beginner_scss**: 1 recursos
+- **100+ Premium Shopify Themes_biancaa_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_biancaa_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_biancaa_page-templates**: 1 recursos
+- **100+ Premium Shopify Themes_boosted_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_boxes_functions**: 1 recursos
+- **100+ Premium Shopify Themes_boxes_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_boxes_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_bulan_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_bulan_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_collection**: 4 recursos
+- **100+ Premium Shopify Themes_collection_functions**: 1 recursos
+- **100+ Premium Shopify Themes_collection_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_company_functions**: 1 recursos
+- **100+ Premium Shopify Themes_company_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_company_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_company_pages**: 9 recursos
+- **100+ Premium Shopify Themes_creatively_inc_builder_tj-about_tpl**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_inc_builder_tj-clients_tpl**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_inc_builder_tj-featured-project_tpl**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_inc_builder_tj-service_tpl**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_inc_builder_tj-team-details_tpl**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_inc_builder_tj-team_tpl**: 1 recursos
+- **100+ Premium Shopify Themes_creatively_page-templates**: 15 recursos
+- **100+ Premium Shopify Themes_deals_functions**: 1 recursos
+- **100+ Premium Shopify Themes_deals_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_deals_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_decortica-myshopify-com-decortica-theme-packaged_layout**: 1 recursos
+- **100+ Premium Shopify Themes_decortica-myshopify-com-decortica-theme-packaged_templates**: 20 recursos
+- **100+ Premium Shopify Themes_designbiz**: 22 recursos
+- **100+ Premium Shopify Themes_designbiz_languages**: 1 recursos
+- **100+ Premium Shopify Themes_designbiz_page-templates**: 4 recursos
+- **100+ Premium Shopify Themes_dlynnandco-com-envy_layout**: 2 recursos
+- **100+ Premium Shopify Themes_dlynnandco-com-envy_templates**: 12 recursos
+- **100+ Premium Shopify Themes_easynote_page-templates**: 4 recursos
+- **100+ Premium Shopify Themes_easynote_scss**: 1 recursos
+- **100+ Premium Shopify Themes_ella-16-myshopify-com-ella-2-0-3_layout**: 1 recursos
+- **100+ Premium Shopify Themes_ella-16-myshopify-com-ella-2-0-3_templates**: 20 recursos
+- **100+ Premium Shopify Themes_esportspro_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_estudio_functions**: 1 recursos
+- **100+ Premium Shopify Themes_estudio_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_estudio_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_fashionchic_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_featured_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_featured_inc_customizer**: 1 recursos
+- **100+ Premium Shopify Themes_featured_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_fireup_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_fireup_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_flatline_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_gomedia_assets_css**: 1 recursos
+- **100+ Premium Shopify Themes_highstake-lite_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_highstake-lite_inc_customizer**: 1 recursos
+- **100+ Premium Shopify Themes_highstake-lite_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_highstake_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_highstake_inc_customizer**: 1 recursos
+- **100+ Premium Shopify Themes_highstake_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_icon-theme_assets**: 1 recursos
+- **100+ Premium Shopify Themes_icon-theme_layout**: 1 recursos
+- **100+ Premium Shopify Themes_icon-theme_templates**: 16 recursos
+- **100+ Premium Shopify Themes_imedical_page-templates**: 1 recursos
+- **100+ Premium Shopify Themes_imedical_scss**: 1 recursos
+- **100+ Premium Shopify Themes_insider_functions**: 1 recursos
+- **100+ Premium Shopify Themes_insider_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_insider_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_insider_page-templates**: 4 recursos
+- **100+ Premium Shopify Themes_insido_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_insido_inc_elementor_widgets**: 7 recursos
+- **100+ Premium Shopify Themes_insido_templates**: 2 recursos
+- **100+ Premium Shopify Themes_joblist_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_joblist_inc_customizer_options**: 1 recursos
+- **100+ Premium Shopify Themes_joblist_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_landed_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_landed_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_layout**: 52 recursos
+- **100+ Premium Shopify Themes_leda_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_leda_inc_customizer**: 1 recursos
+- **100+ Premium Shopify Themes_leda_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_leda_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_magnow_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_magnow_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_minimart-theme-source_layout**: 1 recursos
+- **100+ Premium Shopify Themes_minimart-theme-source_templates**: 19 recursos
+- **100+ Premium Shopify Themes_multidot_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_multidot_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_mydollystore-com-sunrise_assets**: 1 recursos
+- **100+ Premium Shopify Themes_mydollystore-com-sunrise_layout**: 2 recursos
+- **100+ Premium Shopify Themes_mydollystore-com-sunrise_templates**: 12 recursos
+- **100+ Premium Shopify Themes_mymedic_inc_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_mymedic_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_mystery_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_mystery_page-templates**: 1 recursos
+- **100+ Premium Shopify Themes_newswire_functions**: 1 recursos
+- **100+ Premium Shopify Themes_newswire_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_newswire_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_newswire_page-templates**: 4 recursos
+- **100+ Premium Shopify Themes_onetype_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_onetype_inc_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_onetype_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_pinable_functions**: 1 recursos
+- **100+ Premium Shopify Themes_pinable_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_pinable_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_pinable_page-templates**: 4 recursos
+- **100+ Premium Shopify Themes_pinpoint_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_postboard_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_posted_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_posty_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_proframe_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_proframe_inc_customizer_options**: 1 recursos
+- **100+ Premium Shopify Themes_proframe_inc_extensions**: 1 recursos
+- **100+ Premium Shopify Themes_remaster_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_remaster_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_resizable**: 4 recursos
+- **100+ Premium Shopify Themes_resizable_functions**: 1 recursos
+- **100+ Premium Shopify Themes_resizable_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_resizable_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_reviewmax_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_reviewpro_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_rexus_page-templates**: 1 recursos
+- **100+ Premium Shopify Themes_roku_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_roku_inc_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_roku_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_saha_inc_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_saha_page-templates**: 1 recursos
+- **100+ Premium Shopify Themes_scroller_functions**: 1 recursos
+- **100+ Premium Shopify Themes_scroller_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_scroller_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_scroller_includes**: 5 recursos
+- **100+ Premium Shopify Themes_scroller_pages**: 9 recursos
+- **100+ Premium Shopify Themes_shopy_assets_css_devs**: 1 recursos
+- **100+ Premium Shopify Themes_shopy_inc_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_shopy_page-templates**: 4 recursos
+- **100+ Premium Shopify Themes_shopy_scss**: 1 recursos
+- **100+ Premium Shopify Themes_showbook_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_silver_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_silvia_inc_customizer**: 1 recursos
+- **100+ Premium Shopify Themes_silvia_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_inc_woocommerce**: 1 recursos
+- **100+ Premium Shopify Themes_sitebox_page-templates**: 3 recursos
+- **100+ Premium Shopify Themes_sitebox_scss**: 1 recursos
+- **100+ Premium Shopify Themes_smallbiz_page-templates**: 5 recursos
+- **100+ Premium Shopify Themes_smartzine_page-templates**: 3 recursos
+- **100+ Premium Shopify Themes_storepro_page-templates**: 1 recursos
+- **100+ Premium Shopify Themes_supernews_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_theme_export__worldcupstreetwear-com-startup__27AUG2018-1239pm_assets**: 4 recursos
+- **100+ Premium Shopify Themes_theme_export__worldcupstreetwear-com-startup__27AUG2018-1239pm_layout**: 1 recursos
+- **100+ Premium Shopify Themes_theme_export__worldcupstreetwear-com-startup__27AUG2018-1239pm_templates**: 13 recursos
+- **100+ Premium Shopify Themes_theworld_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_theworld_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_truenews_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_truenews_page-templates**: 2 recursos
+- **100+ Premium Shopify Themes_truereview_inc_hybrid**: 1 recursos
+- **100+ Premium Shopify Themes_truereview_page-templates**: 1 recursos
+- **100+ Premium Shopify Themes_ultrastore_inc_customizer_options_appearance**: 1 recursos
+- **100+ Premium Shopify Themes_wayfarer_assets_js_devs**: 1 recursos
+- **100+ Premium Shopify Themes_wordplus_functions**: 1 recursos
+- **100+ Premium Shopify Themes_wordplus_functions_js**: 1 recursos
+- **100+ Premium Shopify Themes_wordplus_functions_shortcodes**: 1 recursos
+- **100+ Premium Shopify Themes_wordplus_page-templates**: 4 recursos
+- **Response to Review Template**: 1 recursos
+
+## Recursos Estratégicos
+
+O Império Mutante agora possui uma base organizada de recursos que inclui:
+- Ferramentas de IA e automação
+- Templates e scripts de marketing
+- Cursos e materiais de formação
+- Recursos para geração de conteúdo
+- Ferramentas operacionais
+
+## Próximos Passos
+
+1. Analisar profundamente cada categoria
+2. Implementar as automações mais valiosas
+3. Criar workflows integrados
+4. Desenvolver estratégias baseadas nos materiais de marketing
+5. Expandir o império com base nos recursos organizados
+
+---
+*Este dashboard foi gerado automaticamente pelo sistema de organização do Império Mutante*

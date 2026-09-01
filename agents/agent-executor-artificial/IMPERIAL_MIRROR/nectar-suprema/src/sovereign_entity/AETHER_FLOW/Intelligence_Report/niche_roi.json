@@ -1,0 +1,22 @@
+{
+    "acessorios-celular": {
+        "target_roi": 0.88,
+        "last_updated": "2026-05-12 02:43:46.549557",
+        "strategy": "STEADY_SCALE"
+    },
+    "ia-negocios": {
+        "target_roi": 0.97,
+        "last_updated": "2026-05-12 02:48:41.929494",
+        "strategy": "MAX_GROWTH"
+    },
+    "energia-solar": {
+        "target_roi": 0.95,
+        "last_updated": "2026-05-12 02:48:41.953936",
+        "strategy": "MAX_GROWTH"
+    },
+    "suplementos": {
+        "target_roi": 0.92,
+        "last_updated": "2026-05-12 02:48:41.975537",
+        "strategy": "MAX_GROWTH"
+    }
+}

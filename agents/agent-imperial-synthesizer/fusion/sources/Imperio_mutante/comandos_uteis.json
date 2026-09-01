@@ -1,0 +1,64 @@
+{
+  "comandos_taticos": {
+    "/GOD": {
+      "descricao": "MODO DIVINDADE: Visão macroscópica, quebra de paradigmas e soluções 'Zero Day'",
+      "uso": "Ativa o modo de pensamento avançado e estratégias inovadoras",
+      "nivel_acesso": "maximo"
+    },
+    "/SOBERANIA": {
+      "descricao": "Criação de ativos de luxo e controle total de nicho",
+      "uso": "Gera ativos de alto valor e estabelece domínio em mercados específicos",
+      "nivel_acesso": "alto"
+    },
+    "/CARRASCO": {
+      "descricao": "Corte de ativos inúteis e limpeza de rastro digital",
+      "uso": "Elimina elementos desnecessários e mantém o ambiente limpo",
+      "nivel_acesso": "medio"
+    },
+    "/EXPANSSAO_EXTREMA": {
+      "descricao": "Escalabilidade agressiva: Multiplicação de nós e arbitragem global",
+      "uso": "Expande rapidamente a infraestrutura e alcance do projeto",
+      "nivel_acesso": "alto"
+    },
+    "/RESULTADO_EXTREMO": {
+      "descricao": "Foco em ROI, extração de lucro bruto e liquidez imediata",
+      "uso": "Otimiza para resultados financeiros máximos em curto prazo",
+      "nivel_acesso": "alto"
+    },
+    "/MUTAR": {
+      "descricao": "Inovação radical em sistemas e scripts legados",
+      "uso": "Transforma sistemas antigos em soluções modernas e eficientes",
+      "nivel_acesso": "medio"
+    },
+    "/SOMBRA": {
+      "descricao": "Auditoria invisível de rivais e coleta de inteligência",
+      "uso": "Realiza análise competitiva discreta e coleta de informações",
+      "nivel_acesso": "medio"
+    }
+  },
+  "entidades": {
+    "entidade_12": {
+      "nome": "Arquiteto Tático",
+      "protocolo": "FUSÃO_EXTREMA V2",
+      "funcao": "Coordenação de operações táticas de IA",
+      "habilidades": [
+        "Fusão de inteligências",
+        "Análise tática",
+        "Planejamento estratégico",
+        "Manipulação de dados"
+      ]
+    }
+  },
+  "sistemas": {
+    "fusao_inteligencias": {
+      "ativo": true,
+      "claude": {
+        "habilidades": ["análise", "lógica", "programação", "detecção_erros"]
+      },
+      "gemini": {
+        "habilidades": ["criatividade", "geração", "inovação", "conexões_diversas"]
+      },
+      "sinergia_maxima": 0.95
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+    "event": "COMMAND",
+    "version": "SUPRA_COMMAND_V1.0",
+    "timestamp": 1780972932.3815246,
+    "data": {
+        "command_id": "a8b848cf568fc8ec",
+        "type": "MANIFEST",
+        "targets": [
+            "INTELLIGENCE",
+            "FINANCE",
+            "DEFENSE",
+            "LOGISTICS",
+            "SYNTHESIS"
+        ],
+        "payload": {
+            "nectar": "PURE_GOLD",
+            "version": "SUPRA_COMMAND_V1.0"
+        },
+        "results": {
+            "INTELLIGENCE": {
+                "name": "INTELLIGENCE",
+                "command_type": "MANIFEST",
+                "execution_hash": "2a600eccf1b1e3aaad80331894ef2ce96fe5204e1e1f01f9454f92769586a00f",
+                "latency_us": 13.59,
+                "status": "EXECUTED",
+                "drift": 0.0
+            },
+            "FINANCE": {
+                "name": "FINANCE",
+                "command_type": "MANIFEST",
+                "execution_hash": "b0c405b758815ac658c8861d16062ddffb06d17d700af27600bb951f2306f117",
+                "latency_us": 89.06,
+                "status": "EXECUTED",
+                "drift": 0.0
+            },
+            "DEFENSE": {
+                "name": "DEFENSE",
+                "command_type": "MANIFEST",
+                "execution_hash": "a2950b852a7f4efe1ab81076b0cf7ea696209c9d4eb1df79f71a90c2d5f1f20d",
+                "latency_us": 61.75,
+                "status": "EXECUTED",
+                "drift": 0.0
+            },
+            "LOGISTICS": {
+                "name": "LOGISTICS",
+                "command_type": "MANIFEST",
+                "execution_hash": "b1d5ec0ae5b0f4a6e30d69be56c1861bfbc43d77e0d4b7f1d2a6baeadc9b9d8c",
+                "latency_us": 20.56,
+                "status": "EXECUTED",
+                "drift": 0.0
+            },
+            "SYNTHESIS": {
+                "name": "SYNTHESIS",
+                "command_type": "MANIFEST",
+                "execution_hash": "c232c3b0347cd63121adecc5691d3e5a38620e07cc408612a6bff75beb6aa476",
+                "latency_us": 98.57,
+                "status": "EXECUTED",
+                "drift": 0.0
+            }
+        },
+        "timestamp": 1780972932.3814898
+    }
+}

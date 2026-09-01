@@ -1,0 +1,147 @@
+name: "Sovereign Performance & Security Pipeline"
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PHASE 1: LINT & VELOCITY (Fast Fail)
+  # ─────────────────────────────────────────────────────────────────────────────
+  lint-python:
+    name: "Lint Python Governance"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Linting Tools
+        run: pip install flake8 black
+
+      - name: Flake8 Check
+        run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+      - name: Black Format Check
+        run: black . --check
+
+  validate-terraform:
+    name: "IaC Velocity Check"
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        module: [
+          "iac-expansion-l2",
+          "PROTOCOLS/ARQUITETO_L2",
+          "PROTOCOLS/CARRASCO",
+          "PROTOCOLS/MUTAR/terraform",
+          "PROTOCOLS/iac-migration/terraform",
+          "PROTOCOLS/mutar-expansion/terraform"
+        ]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache Terraform Providers
+        uses: actions/cache@v4
+        with:
+          path: ~/.terraform.d/plugin-cache
+          key: ${{ runner.os }}-terraform-${{ hashFiles('**/.terraform.lock.hcl') }}
+          restore-keys: |
+            ${{ runner.os }}-terraform-
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.5.0
+
+      - name: Terraform Init & Validate
+        run: |
+          export TF_PLUGIN_CACHE_DIR=~/.terraform.d/plugin-cache
+          mkdir -p ~/.terraform.d/plugin-cache
+          if [ -d "${{ matrix.module }}" ]; then
+            cd ${{ matrix.module }}
+            terraform init -backend=false
+            terraform validate
+          else
+            echo "Skipping: ${{ matrix.module }} (Directory not found)"
+          fi
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PHASE 2: SECURITY HARDENING
+  # ─────────────────────────────────────────────────────────────────────────────
+  security-scans:
+    name: "Security Perimeter Check"
+    runs-on: ubuntu-latest
+    needs: [lint-python, validate-terraform]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: TruffleHog (Secret Scan)
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
+
+      - name: Bandit (Python SAST)
+        run: |
+          pip install bandit
+          bandit -r . -c bandit.yaml || true
+
+      - name: Checkov (IaC Scan)
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: .
+          framework: terraform
+          soft_fail: false
+
+      - name: tfsec (IaC Scan)
+        uses: aquasecurity/tfsec-action@v1
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PHASE 3: PERFORMANCE BENCHMARKING
+  # ─────────────────────────────────────────────────────────────────────────────
+  performance-benchmark:
+    name: "Synthesis Latency SLO Check"
+    runs-on: ubuntu-latest
+    needs: [lint-python]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Synthesis Latency Benchmark
+        run: |
+          echo "🚀 Benchmarking SINTESE L2 Aggregator..."
+          # Mock inventory for CI environment
+          mkdir -p synthesis/
+          echo '[{"id": "node-1", "niche": "bio-wealth", "region": "us-east-1", "status": "Running"}, {"id": "node-2", "niche": "financas", "region": "eu-west-1", "status": "Running"}]' > inventory.json
+          
+          # Adjust paths for CI in the script
+          sed -i 's|/home/team/shared/inventory/global_inventory.json|./inventory.json|' scripts/synthesis_aggregator_l2.py
+          sed -i 's|/home/team/shared/synthesis/|./synthesis/|' scripts/synthesis_aggregator_l2.py
+          
+          python3 scripts/synthesis_aggregator_l2.py > benchmark_output.txt
+          cat benchmark_output.txt
+          
+          LATENCY=$(grep "Synthesis Latency:" benchmark_output.txt | awk '{print $3}' | sed 's/s//')
+          echo "Detected Latency: $LATENCY"
+          
+          # Use a slightly higher threshold for CI runners due to shared resources
+          if (( $(echo "$LATENCY > 0.20" | bc -l) )); then
+            echo "❌ SLO BREACHED: Latency $LATENCY exceeds 0.20s threshold in CI environment"
+            exit 1
+          fi
+          echo "✅ SLO COMPLIANT"

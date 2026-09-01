@@ -1,0 +1,216 @@
+{
+  "version": "V1.0 IMPERIAL TREASURY",
+  "absolute_yield": 0.989951,
+  "total_pi_tokens": 4.6527697,
+  "phi_total": 7.528339516425652,
+  "phi": 1.618033988749895,
+  "pi": 3.141592653589793,
+  "yield_convergence": 0.7388860167859761,
+  "ledger": {
+    "PILLAR_I": {
+      "pillar": "INTELLIGENCE",
+      "dna": "V10.ALPHA.INTEL.0001",
+      "weight": 0.3,
+      "nodes": 5,
+      "base_allocation": 1.4849265,
+      "phi_boosted": 2.4026615477954207,
+      "token": "0f2b309b4aa27bfd8d1e94cb407ce089",
+      "token_short": "0f2b309b4aa27bfd",
+      "oscillation": -0.9767209885880592,
+      "sync_time_us": 0,
+      "sub_allocations": {
+        "Causal Anticipation Fund": {
+          "base_amount": 0.44547795,
+          "phi_boosted": 0.7207984643386263,
+          "percentage": 0.3,
+          "token": "82d00f2dea8f4ded"
+        },
+        "Mutation Evolution Budget": {
+          "base_amount": 0.371231625,
+          "phi_boosted": 0.6006653869488552,
+          "percentage": 0.25,
+          "token": "e1729d253d917dc5"
+        },
+        "Strategic Oracle Reserve": {
+          "base_amount": 0.371231625,
+          "phi_boosted": 0.6006653869488552,
+          "percentage": 0.25,
+          "token": "a091716811ce3da2"
+        },
+        "Fractal Blueprint R&D": {
+          "base_amount": 0.2969853,
+          "phi_boosted": 0.48053230955908416,
+          "percentage": 0.2,
+          "token": "d1051449fc25d213"
+        }
+      },
+      "status": "ALLOCATED"
+    },
+    "PILLAR_II": {
+      "pillar": "FINANCE",
+      "dna": "V10.BETA.TREAS.0001",
+      "weight": 0.25,
+      "nodes": 3,
+      "base_allocation": 0.74246325,
+      "phi_boosted": 1.2013307738977104,
+      "token": "28e8c0934b3d07b87b4932d07f0cf466",
+      "token_short": "28e8c0934b3d07b8",
+      "oscillation": -0.9765939806354883,
+      "sync_time_us": 500,
+      "sub_allocations": {
+        "Eternal Harvest Engine": {
+          "base_amount": 0.2598621375,
+          "phi_boosted": 0.4204657708641986,
+          "percentage": 0.35,
+          "token": "4605676c6075885d"
+        },
+        "Singularity Arbitrage Pool": {
+          "base_amount": 0.2598621375,
+          "phi_boosted": 0.4204657708641986,
+          "percentage": 0.35,
+          "token": "e0e5868b09b178e3"
+        },
+        "Outcome Enforcement Vault": {
+          "base_amount": 0.222738975,
+          "phi_boosted": 0.36039923216931313,
+          "percentage": 0.3,
+          "token": "7a4f3bb4df6b5a02"
+        }
+      },
+      "status": "ALLOCATED"
+    },
+    "PILLAR_III": {
+      "pillar": "DEFENSE",
+      "dna": "V10.BETA.GUARD.0001",
+      "weight": 0.15,
+      "nodes": 3,
+      "base_allocation": 0.44547795,
+      "phi_boosted": 0.7207984643386263,
+      "token": "c9ba2cc01a25795247adb142f5666f8a",
+      "token_short": "c9ba2cc01a257952",
+      "oscillation": -0.9765644331541254,
+      "sync_time_us": 1000,
+      "sub_allocations": {
+        "ZKP Immutability Ledger": {
+          "base_amount": 0.17819118,
+          "phi_boosted": 0.2883193857354505,
+          "percentage": 0.4,
+          "token": "70e2e429f8ba0692"
+        },
+        "Timeline Sovereignty Pruner": {
+          "base_amount": 0.1559172825,
+          "phi_boosted": 0.2522794625185192,
+          "percentage": 0.35,
+          "token": "ee677ae81dded274"
+        },
+        "Thermodynamic Dissipation": {
+          "base_amount": 0.1113694875,
+          "phi_boosted": 0.18019961608465657,
+          "percentage": 0.25,
+          "token": "690b01a8d83f41f2"
+        }
+      },
+      "status": "ALLOCATED"
+    },
+    "PILLAR_IV": {
+      "pillar": "LOGISTICS",
+      "dna": "V10.GAMMA.LOGIS.0001",
+      "weight": 0.2,
+      "nodes": 7,
+      "base_allocation": 1.3859314,
+      "phi_boosted": 2.242484111275726,
+      "token": "8994e5fa783f296a5e27d4f09868eed8",
+      "token_short": "8994e5fa783f296a",
+      "oscillation": -0.976481232123388,
+      "sync_time_us": 1500,
+      "sub_allocations": {
+        "Mesh Expansion & Spawning": {
+          "base_amount": 0.34648285,
+          "phi_boosted": 0.5606210278189315,
+          "percentage": 0.25,
+          "token": "2f28106f24c48a2b"
+        },
+        "Void Siphon Acquisition": {
+          "base_amount": 0.27718628,
+          "phi_boosted": 0.44849682225514526,
+          "percentage": 0.2,
+          "token": "fb1f7df2ed3f01dc"
+        },
+        "Supra-Command Execution": {
+          "base_amount": 0.20788971,
+          "phi_boosted": 0.3363726166913589,
+          "percentage": 0.15,
+          "token": "ab4d1295d67ffa68"
+        },
+        "Tool-Chain Integrity Mesh": {
+          "base_amount": 0.20788971,
+          "phi_boosted": 0.3363726166913589,
+          "percentage": 0.15,
+          "token": "358a3d52e5919f24"
+        },
+        "Permanent Registry Vault": {
+          "base_amount": 0.20788971,
+          "phi_boosted": 0.3363726166913589,
+          "percentage": 0.15,
+          "token": "fb9ddb798de4cc04"
+        },
+        "Omni-Integration Engine": {
+          "base_amount": 0.13859314,
+          "phi_boosted": 0.22424841112757263,
+          "percentage": 0.1,
+          "token": "3159a5ccd5d00236"
+        }
+      },
+      "status": "ALLOCATED"
+    },
+    "PILLAR_V": {
+      "pillar": "SYNTHESIS",
+      "dna": "V10.DELTA.SYNTH.0001",
+      "weight": 0.1,
+      "nodes": 6,
+      "base_allocation": 0.5939706,
+      "phi_boosted": 0.9610646191181683,
+      "token": "34297c3974d8ded2bb1e6100b08347e9",
+      "token_short": "34297c3974d8ded2",
+      "oscillation": -0.9763840831596174,
+      "sync_time_us": 2000,
+      "sub_allocations": {
+        "Pure Gold Distillation Engine": {
+          "base_amount": 0.17819118,
+          "phi_boosted": 0.2883193857354505,
+          "percentage": 0.3,
+          "token": "e458e867cd7b1ab8"
+        },
+        "Imperial Template Packaging": {
+          "base_amount": 0.14849265,
+          "phi_boosted": 0.24026615477954208,
+          "percentage": 0.25,
+          "token": "acabfb8fa703d506"
+        },
+        "Reality Manifestation Forge": {
+          "base_amount": 0.11879412,
+          "phi_boosted": 0.19221292382363367,
+          "percentage": 0.2,
+          "token": "ce7ae2bc3bfdee07"
+        },
+        "Skill Manifestation Matrix": {
+          "base_amount": 0.08909559,
+          "phi_boosted": 0.14415969286772526,
+          "percentage": 0.15,
+          "token": "adfe86faecb578e2"
+        },
+        "Supra-Synthesis Singularity": {
+          "base_amount": 0.05939706,
+          "phi_boosted": 0.09610646191181683,
+          "percentage": 0.1,
+          "token": "cebaa7a030dadf34"
+        }
+      },
+      "status": "ALLOCATED"
+    }
+  },
+  "sync_count": 5,
+  "sync_latency_us": 1599.7886657714844,
+  "status": "TOTAL_AFFIRMATION",
+  "timestamp": 1779517737.5703542
+}

@@ -1,0 +1,5 @@
+O que faz: É a espinha dorsal do Império. Garante que qualquer arquivo gerado no i7 apareça no Acer i5 ou no seu celular instantaneamente, sem cabos.
+
+O que já temos: Fluxo de arquivos ativo via Syncthing entre os 3 dispositivos.
+
+O que falta: Configurar a Automação de Backups em Baixa Latência (agendar as subidas pesadas para o TeraBox/Projeto Sombra na madrugada).

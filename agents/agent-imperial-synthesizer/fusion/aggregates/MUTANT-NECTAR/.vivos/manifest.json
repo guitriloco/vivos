@@ -1,0 +1,18 @@
+{
+  "version": "14.0.0",
+  "status": "VIVOS",
+  "evolution": "Phase 14: Supreme Fusion",
+  "name": "MUTANT-NECTAR",
+  "components": [
+    {
+      "id": "imperio_mutante_v3_core",
+      "path": "Imperio-Mutante-v3-Core",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "agent_skills",
+      "path": "agent-skills",
+      "role": "Sovereign Component"
+    }
+  ]
+}

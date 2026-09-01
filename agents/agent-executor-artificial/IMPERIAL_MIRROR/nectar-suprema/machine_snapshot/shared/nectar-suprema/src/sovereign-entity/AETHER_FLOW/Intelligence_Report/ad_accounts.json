@@ -1,0 +1,802 @@
+{
+    "acessorios-celular": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.59,
+        "timestamp": "2026-05-15 21:04:11.025091"
+    },
+    "energia-solar": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.91,
+        "timestamp": "2026-05-15 21:04:11.025135"
+    },
+    "suplementos-naturais": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.6,
+        "timestamp": "2026-05-15 21:04:11.025149"
+    },
+    "pets-luxo": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 1.01,
+        "timestamp": "2026-05-15 21:04:11.025163"
+    },
+    "ia-consultoria": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.89,
+        "timestamp": "2026-05-15 21:04:11.025177"
+    },
+    "maquiagem-vegana": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.19,
+        "timestamp": "2026-05-15 21:04:11.025314"
+    },
+    "decoracao-minimalista": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.22,
+        "timestamp": "2026-05-15 21:04:11.025328"
+    },
+    "cozinha-inteligente": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.77,
+        "timestamp": "2026-05-15 21:04:11.025429"
+    },
+    "fitness-sustentavel": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.08,
+        "timestamp": "2026-05-15 21:04:11.025439"
+    },
+    "gadgets-produtividade": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.88,
+        "timestamp": "2026-05-15 21:04:11.025445"
+    },
+    "brinquedos-montessori": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.81,
+        "timestamp": "2026-05-15 21:04:11.025451"
+    },
+    "cuidado-barba": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.59,
+        "timestamp": "2026-05-15 21:04:11.025456"
+    },
+    "ferramentas-diy": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.06,
+        "timestamp": "2026-05-15 21:04:11.025462"
+    },
+    "acessorios-carros-eletricos": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.83,
+        "timestamp": "2026-05-15 21:04:11.025467"
+    },
+    "marmitas-fitness": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.69,
+        "timestamp": "2026-05-15 21:04:11.025472"
+    },
+    "perfumaria-artesanal": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.06,
+        "timestamp": "2026-05-15 21:04:11.025477"
+    },
+    "papelaria-creativa": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.92,
+        "timestamp": "2026-05-15 21:04:11.025502"
+    },
+    "yoga-wear": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.52,
+        "timestamp": "2026-05-15 21:04:11.025513"
+    },
+    "equipamentos-podcast": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 1.02,
+        "timestamp": "2026-05-15 21:04:11.025539"
+    },
+    "horta-urbana": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.65,
+        "timestamp": "2026-05-15 21:04:11.025549"
+    },
+    "calcados-conforto": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.84,
+        "timestamp": "2026-05-15 21:04:11.025555"
+    },
+    "jogos-tabuleiro": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.17,
+        "timestamp": "2026-05-15 21:04:11.025560"
+    },
+    "limpeza-eco": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.87,
+        "timestamp": "2026-05-15 21:04:11.025566"
+    },
+    "acessorios-ciclismo": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.54,
+        "timestamp": "2026-05-15 21:04:11.025570"
+    },
+    "moda-infantil-organica": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.13,
+        "timestamp": "2026-05-15 21:04:11.025576"
+    },
+    "treino-em-casa": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.61,
+        "timestamp": "2026-05-15 21:04:11.025581"
+    },
+    "cafes-especiais": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.83,
+        "timestamp": "2026-05-15 21:04:11.025667"
+    },
+    "oleos-essenciais": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.64,
+        "timestamp": "2026-05-15 21:04:11.025681"
+    },
+    "skincare-sol": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.2,
+        "timestamp": "2026-05-15 21:04:11.025703"
+    },
+    "smartwatches": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.54,
+        "timestamp": "2026-05-15 21:04:11.025714"
+    },
+    "fones-bluetooth": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.03,
+        "timestamp": "2026-05-15 21:04:11.025720"
+    },
+    "mochilas-antifurto": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.95,
+        "timestamp": "2026-05-15 21:04:11.025725"
+    },
+    "organizadores-casa": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.94,
+        "timestamp": "2026-05-15 21:04:11.025730"
+    },
+    "arte-digital": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.99,
+        "timestamp": "2026-05-15 21:04:11.025736"
+    },
+    "velas-aromaticas": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.02,
+        "timestamp": "2026-05-15 21:04:11.025741"
+    },
+    "cabelos-cacheados": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.66,
+        "timestamp": "2026-05-15 21:04:11.025750"
+    },
+    "relogios-parede": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.78,
+        "timestamp": "2026-05-15 21:04:11.025757"
+    },
+    "luminarias-criativas": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.95,
+        "timestamp": "2026-05-15 21:04:11.025762"
+    },
+    "tapetes-personalizados": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.06,
+        "timestamp": "2026-05-15 21:04:11.025767"
+    },
+    "meias-divertidas": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.24,
+        "timestamp": "2026-05-15 21:04:11.025772"
+    },
+    "canecas-termicas": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.89,
+        "timestamp": "2026-05-15 21:04:11.025777"
+    },
+    "foto-celular": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.49,
+        "timestamp": "2026-05-15 21:04:11.025818"
+    },
+    "cases-notebook": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.17,
+        "timestamp": "2026-05-15 21:04:11.025844"
+    },
+    "bijuterias-naturais": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.9,
+        "timestamp": "2026-05-15 21:04:11.025854"
+    },
+    "itens-praia": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.1,
+        "timestamp": "2026-05-15 21:04:11.025860"
+    },
+    "cama-seda": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.16,
+        "timestamp": "2026-05-15 21:04:11.025865"
+    },
+    "pijamas-conforto": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.12,
+        "timestamp": "2026-05-15 21:04:11.025886"
+    },
+    "guarda-chuvas": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.08,
+        "timestamp": "2026-05-15 21:04:11.025896"
+    },
+    "suportes-ergonomicos": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.79,
+        "timestamp": "2026-05-15 21:04:11.025902"
+    },
+    "kits-sobrevivencia": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.57,
+        "timestamp": "2026-05-15 21:04:11.025907"
+    },
+    "solar-motorhome": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.75,
+        "timestamp": "2026-05-15 21:04:11.025929"
+    },
+    "acessorios-criadores-50": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.79,
+        "timestamp": "2026-05-15 21:04:11.025955"
+    },
+    "suplementos-gamers": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.04,
+        "timestamp": "2026-05-15 21:04:11.025982"
+    },
+    "gatos-apartamento": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.87,
+        "timestamp": "2026-05-15 21:04:11.026009"
+    },
+    "ia-psicologos": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.13,
+        "timestamp": "2026-05-15 21:04:11.026035"
+    },
+    "maquiagem-pele-sensivel": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.48,
+        "timestamp": "2026-05-15 21:04:11.026047"
+    },
+    "decoracao-office-ti": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.25,
+        "timestamp": "2026-05-15 21:04:11.026053"
+    },
+    "cozinha-keto": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.12,
+        "timestamp": "2026-05-15 21:04:11.026058"
+    },
+    "fitness-crossfit-vegano": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.63,
+        "timestamp": "2026-05-15 21:04:11.026063"
+    },
+    "gadgets-tdah": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.61,
+        "timestamp": "2026-05-15 21:04:11.026068"
+    },
+    "montessori-alergicos": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.03,
+        "timestamp": "2026-05-15 21:04:11.026073"
+    },
+    "estetica-calvicie": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.63,
+        "timestamp": "2026-05-15 21:04:11.026078"
+    },
+    "diy-alugados": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.68,
+        "timestamp": "2026-05-15 21:04:11.026264"
+    },
+    "carga-carro-eletrico": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.77,
+        "timestamp": "2026-05-15 21:04:11.026299"
+    },
+    "marmitas-massa-limpa": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.47,
+        "timestamp": "2026-05-15 21:04:11.026425"
+    },
+    "perfume-feromonios": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.73,
+        "timestamp": "2026-05-15 21:04:11.026441"
+    },
+    "casamento-homoafetivo": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.12,
+        "timestamp": "2026-05-15 21:04:11.026451"
+    },
+    "yoga-absorcao-suor": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.63,
+        "timestamp": "2026-05-15 21:04:11.026461"
+    },
+    "podcast-rua": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.55,
+        "timestamp": "2026-05-15 21:04:11.026472"
+    },
+    "horta-uv": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.61,
+        "timestamp": "2026-05-15 21:04:11.026505"
+    },
+    "calcados-saude": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.72,
+        "timestamp": "2026-05-15 21:04:11.026521"
+    },
+    "jogos-solo": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.03,
+        "timestamp": "2026-05-15 21:04:11.026551"
+    },
+    "limpeza-eco-exoticos": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.49,
+        "timestamp": "2026-05-15 21:04:11.026579"
+    },
+    "ciclismo-noturno": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.45,
+        "timestamp": "2026-05-15 21:04:11.026605"
+    },
+    "moda-infantil-ciencia": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 1.0,
+        "timestamp": "2026-05-15 21:04:11.026631"
+    },
+    "treino-mobilidade": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.5,
+        "timestamp": "2026-05-15 21:04:11.026661"
+    },
+    "cafes-mantiqueira": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.63,
+        "timestamp": "2026-05-15 21:04:11.026673"
+    },
+    "difusores-alexa": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.96,
+        "timestamp": "2026-05-15 21:04:11.026696"
+    },
+    "skincare-nadadores": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.56,
+        "timestamp": "2026-05-15 21:04:11.026707"
+    },
+    "smartwatches-mental": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.09,
+        "timestamp": "2026-05-15 21:04:11.026714"
+    },
+    "fones-dormir": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.65,
+        "timestamp": "2026-05-15 21:04:11.026737"
+    },
+    "mochilas-solar": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.65,
+        "timestamp": "2026-05-15 21:04:11.026748"
+    },
+    "organizadores-sneakers": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.91,
+        "timestamp": "2026-05-15 21:04:11.026754"
+    },
+    "arte-nft-fisica": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.5,
+        "timestamp": "2026-05-15 21:04:11.026779"
+    },
+    "velas-livro": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.48,
+        "timestamp": "2026-05-15 21:04:11.026809"
+    },
+    "transicao-capilar": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.71,
+        "timestamp": "2026-05-15 21:04:11.026816"
+    },
+    "relogios-biofilia": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.2,
+        "timestamp": "2026-05-15 21:04:11.026822"
+    },
+    "luminarias-levitacao": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.52,
+        "timestamp": "2026-05-15 21:04:11.026828"
+    },
+    "tapetes-absorventes": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.15,
+        "timestamp": "2026-05-15 21:04:11.026850"
+    },
+    "meias-viagem": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.71,
+        "timestamp": "2026-05-15 21:04:11.026861"
+    },
+    "garrafas-filtro": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.95,
+        "timestamp": "2026-05-15 21:04:11.026867"
+    },
+    "lentes-cinema-celular": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.51,
+        "timestamp": "2026-05-15 21:04:11.026874"
+    },
+    "cases-couro-cacto": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.94,
+        "timestamp": "2026-05-15 21:04:11.026895"
+    },
+    "bijuterias-3d": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.84,
+        "timestamp": "2026-05-15 21:04:11.026907"
+    },
+    "toalhas-anti-areia": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 0.98,
+        "timestamp": "2026-05-15 21:04:11.026916"
+    },
+    "fronhas-seda": {
+        "budget": 150.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "AGGRESSIVE SCALE (+50%)",
+        "last_roi": 1.2,
+        "timestamp": "2026-05-15 21:04:11.026938"
+    },
+    "pijamas-termicos": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.48,
+        "timestamp": "2026-05-15 21:04:11.026950"
+    },
+    "guarda-chuvas-invertidos": {
+        "budget": 120.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE SCALE (+20%)",
+        "last_roi": 1.0,
+        "timestamp": "2026-05-15 21:04:11.026973"
+    },
+    "suporte-notebook-bambu": {
+        "budget": 0,
+        "status": "PAUSED",
+        "audience": "Broad",
+        "last_action": "CRITICAL STOP",
+        "last_roi": 0.47,
+        "timestamp": "2026-05-15 21:04:11.027001"
+    },
+    "kits-edc": {
+        "budget": 80.0,
+        "status": "ACTIVE",
+        "audience": "Broad",
+        "last_action": "MODERATE CUT (-20%)",
+        "last_roi": 0.64,
+        "timestamp": "2026-05-15 21:04:11.027029"
+    }
+}

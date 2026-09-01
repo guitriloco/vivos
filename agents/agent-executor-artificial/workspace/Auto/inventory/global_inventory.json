@@ -1,0 +1,4364 @@
+[
+  {
+    "id": "bio-wealth-aws-us-east-1-node-00",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "aws-us-east-1-pool"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-01",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-02",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-03",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-04",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-05",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-06",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-07",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-08",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-09",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-10",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-us-east-1-node-11",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-00",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "aws-eu-west-1-pool"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-01",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-02",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-03",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-04",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-05",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-06",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-07",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-08",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-09",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-10",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-11",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-00",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "aws-ap-southeast-1-pool"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-01",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-02",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-03",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-04",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-05",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-06",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-07",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-08",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-09",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-10",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-11",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-00",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "digitalocean-nyc1-pool"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-01",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-02",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-03",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-04",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-05",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-06",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-07",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-08",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-09",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-10",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-11",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-00",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "digitalocean-ams3-pool"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-01",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-02",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-03",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-04",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-05",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-06",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-07",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-08",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-09",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-10",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-11",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-00",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "digitalocean-sgp1-pool"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-01",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-02",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-03",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-04",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-05",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-06",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-07",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-08",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-09",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-10",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-11",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-00",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-us-central1-pool"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-01",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-02",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-03",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-04",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-05",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-06",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-07",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-08",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-09",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-10",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-11",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-00",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-europe-west1-pool"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-01",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-02",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-03",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-04",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-05",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-06",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-07",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-08",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-09",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-10",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-11",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-00",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-asia-southeast1-pool"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-01",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-02",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-03",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-04",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-05",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-06",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-07",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-08",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-09",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-10",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-11",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-00",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-01",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-02",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-03",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-04",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-05",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-06",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-07",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-08",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-09",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-10",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-11",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-00",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-01",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-02",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-03",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-04",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-05",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-06",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-07",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-08",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-09",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-10",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-11",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-00",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-01",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-02",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-03",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-04",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-05",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-06",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-07",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-08",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-09",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-10",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-11",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-00",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-01",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-02",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-03",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-04",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-05",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-06",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-07",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-08",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-09",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-10",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-11",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-00",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-01",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-02",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-03",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-04",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-05",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-06",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-07",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-08",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-09",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-10",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-11",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-00",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-01",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-02",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-03",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-04",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-05",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-06",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-07",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-08",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-09",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-10",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-11",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-00",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-us-central1-pool"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-01",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-02",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-03",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-04",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-05",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-06",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-07",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-08",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-09",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-10",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-11",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-00",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-europe-west1-pool"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-01",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-02",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-03",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-04",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-05",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-06",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-07",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-08",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-09",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-10",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-11",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-00",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-asia-southeast1-pool"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-01",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-02",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-03",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-04",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-05",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-06",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-07",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-08",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-09",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-10",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-11",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-00",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-01",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-02",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-03",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-04",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-05",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-06",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-07",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-08",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-09",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-10",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-11",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-00",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-01",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-02",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-03",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-04",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-05",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-06",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-07",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-08",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-09",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-10",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-11",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-00",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-01",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-02",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-03",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-04",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-05",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-06",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-07",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-08",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-09",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-10",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-11",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-00",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-01",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-02",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-03",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-04",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-05",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-06",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-07",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-08",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-09",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-10",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-11",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-00",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-01",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-02",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-03",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-04",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-05",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-06",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-07",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-08",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-09",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-10",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-11",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-00",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-01",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-02",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-03",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-04",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-05",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-06",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-07",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-08",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-09",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-10",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-11",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-00",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-us-central1-pool"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-01",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-02",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-03",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-04",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-05",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-06",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-07",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-08",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-09",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-10",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-11",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-00",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-europe-west1-pool"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-01",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-02",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-03",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-04",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-05",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-06",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-07",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-08",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-09",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-10",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-11",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-00",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-asia-southeast1-pool"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-01",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-02",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-03",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-04",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-05",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-06",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-07",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-08",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-09",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-10",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-11",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-00",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-01",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-02",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-03",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-04",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-05",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-06",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-07",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-08",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-09",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-10",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-11",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-00",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-01",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-02",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-03",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-04",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-05",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-06",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-07",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-08",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-09",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-10",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-11",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-00",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-01",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-02",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-03",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-04",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-05",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-06",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-07",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-08",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-09",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-10",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-11",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-00",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-01",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-02",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-03",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-04",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-05",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-06",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-07",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-08",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-09",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-10",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-11",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-00",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-01",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-02",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-03",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-04",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-05",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-06",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-07",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-08",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-09",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-10",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-11",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-00",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-01",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-02",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-03",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-04",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-05",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-06",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-07",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-08",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-09",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-10",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-11",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-00",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-us-central1-pool"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-01",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-02",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-03",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-04",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-05",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-06",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-07",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-08",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-09",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-10",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-11",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-00",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-europe-west1-pool"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-01",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-02",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-03",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-04",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-05",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-06",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-07",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-08",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-09",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-10",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-11",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-00",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-asia-southeast1-pool"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-01",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-02",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-03",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-04",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-05",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-06",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-07",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-08",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-09",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-10",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-11",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-00",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-01",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-02",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-03",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-04",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-05",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-06",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-07",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-08",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-09",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-10",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-11",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-00",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-01",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-02",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-03",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-04",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-05",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-06",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-07",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-08",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-09",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-10",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-11",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-00",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-01",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-02",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-03",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-04",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-05",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-06",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-07",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-08",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-09",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-10",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-11",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-00",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-01",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-02",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-03",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-04",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-05",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-06",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-07",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-08",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-09",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-10",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-11",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-00",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-01",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-02",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-03",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-04",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-05",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-06",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-07",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-08",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-09",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-10",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-11",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-00",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-01",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-02",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-03",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-04",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-05",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-06",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-07",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-08",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-09",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-10",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-11",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-00",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-us-central1-pool"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-01",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-02",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-03",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-04",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-05",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-06",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-07",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-08",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-09",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-10",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-11",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-00",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-europe-west1-pool"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-01",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-02",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-03",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-04",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-05",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-06",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-07",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-08",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-09",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-10",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-11",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-00",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running",
+    "spacelift_worker": "Active",
+    "worker_pool": "gcp-asia-southeast1-pool"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-01",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-02",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-03",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-04",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-05",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-06",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-07",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-08",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-09",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-10",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-11",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "type": "Standard",
+    "status": "Running"
+  }
+]

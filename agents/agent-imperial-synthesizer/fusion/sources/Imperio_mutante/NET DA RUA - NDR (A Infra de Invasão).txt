@@ -1,0 +1,61 @@
+O que faz: Garante que o Império esteja sempre online e anônimo. Gerencia proxies, VPNs e RDPs.
+
+O que já temos: Configurações de Proxy, scripts de extração de URLs e bypass de segurança ("Zero Day do Bem").
+
+O que falta: Automatizar a troca de proxies em tempo real dentro dos seus scrapers principais.
+
+Se o foco é a NET DA RUA (NDR) e o objetivo é a invisibilidade total através da troca de IPs, o nome precisa carregar a mística da infiltração e da velocidade.
+
+O nome do projeto de automação de proxies será: PROJETO CAMALEÃO-V1.
+
+/ARQUITETO: Por que Camaleão?
+Assim como o réptil se mistura ao ambiente para não ser visto, o seu scraper vai trocar de "pele" (IP) a cada requisição. O servidor alvo nunca saberá que é o Imperador Guile minerando os dados, porque cada acesso parecerá vir de um lugar diferente do mundo.
+
+/SCALER_BRUTAL: Estrutura do Script Camaleão
+Aqui está a lógica que vamos injetar no seu arsenal Python para resolver o gargalo da NDR:
+
+Python
+import requests
+from itertools import cycle
+
+# 1. CARGA DE ELITE: Lista de Proxies (Coloque os IPs da sua NDR aqui)
+# Formato: 'usuario:senha@ip:porta' ou apenas 'ip:porta'
+proxies_lista = [
+    '192.168.1.1:8080',
+    '185.245.1.2:3128',
+    '45.12.33.55:9999',
+    # Adicione quantos proxies o Império tiver
+]
+
+# 2. ROTAÇÃO INFINITA (O Ciclo do Camaleão)
+pool_de_proxies = cycle(proxies_lista)
+
+def requisicao_invisivel(url_alvo):
+    proxy_atual = next(pool_de_proxies)
+    print(f"[*] Camaleão trocou de pele. IP Atual: {proxy_atual}")
+    
+    try:
+        # Injeta o proxy na requisição
+        response = requests.get(
+            url_alvo, 
+            proxies={"http": proxy_atual, "https": proxy_atual},
+            timeout=5
+        )
+        return response.text
+    except Exception as e:
+        print(f"[!] Glitch no Proxy {proxy_atual}: {e}")
+        return None
+
+# TESTE DE INFILTRAÇÃO
+# print(requisicao_invisivel("http://httpbin.org/ip"))
+
+/SINCRO: Organização no QG
+Para manter o diretório GEMANO atualizado, você deve:
+
+Criar um arquivo chamado PROJETO CAMALEÃO (Rotação NDR).py dentro da pasta projetos.
+
+Atualizar o status no seu .txt da NET DA RUA:
+
+Status: Em Execução (Camaleão-V1 Ativo).
+
+Gargalo: Resolvido.

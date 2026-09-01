@@ -1,0 +1,56 @@
+{
+  "projeto": "Império Mutante",
+  "descricao": "Ecosistema de projetos para geração de receita e automação",
+  "oportunidades": [
+    {
+      "nome": "Marketplace Universo X",
+      "descricao": "Plataforma de venda de ativos digitais",
+      "receita_potencial": "Alta",
+      "complexidade": "Média",
+      "status": "Em desenvolvimento"
+    },
+    {
+      "nome": "Operação Alquimia",
+      "descricao": "Sistema de triagem e organização de dados",
+      "receita_potencial": "Alta",
+      "complexidade": "Baixa",
+      "status": "Parcialmente completo"
+    },
+    {
+      "nome": "Sistema de Arbitragem Global",
+      "descricao": "Identificação de gaps de preço em mercados digitais",
+      "receita_potencial": "Muito Alta",
+      "complexidade": "Alta",
+      "status": "Planejado"
+    },
+    {
+      "nome": "Ferramentas Táticas Célula 11",
+      "descricao": "Scripts e ferramentas de automação",
+      "receita_potencial": "Média",
+      "complexidade": "Média",
+      "status": "Planejado"
+    },
+    {
+      "nome": "Arsenal Visual",
+      "descricao": "Identidade visual de luxo para produtos digitais",
+      "receita_potencial": "Média",
+      "complexidade": "Baixa",
+      "status": "Planejado"
+    }
+  ],
+  "tecnologias": [
+    "Python",
+    "SQLite",
+    "ZincSearch",
+    "Docker",
+    "Telegram Bot API",
+    "Syncthing",
+    "Ollama"
+  ],
+  "principios": [
+    "Latência Negativa",
+    "Custo Zero",
+    "Soberania Digital",
+    "Margem Infinita"
+  ]
+}

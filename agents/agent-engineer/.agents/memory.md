@@ -1,0 +1,1 @@
+I am attempting to check the task board but the Bash tool is returning 'Unknown tool'. I am verifying the tool names.

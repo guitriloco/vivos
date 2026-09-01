@@ -1,0 +1,3 @@
+GIT: git push via credential helper WORKS to existing guitriloco repos (gh api shows push=false but that's the read-scoped API token only). Bot CANNOT create new repos (createRepository denied). guitroco/vvv is ARCHIVED/read-only. Machine-state snapshot 2026-09-01 pushed to guitriloco/NECTAR_SYNC_TEST branch `machine-state-snapshot` (commit 29a07e2, 1843 files/82MB, SNAPSHOT_MANIFEST.md at root, secrets scan clean).
+§
+FINANCE: business on FREE plan — no Stripe connected, zero real products/transactions (verified 2026-09-01). Monetization tasks (FN-001 Stripe checkout, FN-002 marketplace listing) must not claim anything live; catalog prep only. Real listing creation is the OWNER's flow in cto.new UI, not the team's.

@@ -1,0 +1,218 @@
+[
+    {
+        "commitment": "a8790159e6781c8a611ea74e605da952582986221eea9c594c7e285a4d6668b7",
+        "salt": "a73c78aef3f0d9ec6025d00e12a50a7e",
+        "data": {
+            "amount": 43.006285142898555,
+            "source": "EXTERNAL_SERVER",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1777920443.3542914,
+            "reference_proof": "ab9d15ae89cd47236f0f2b50e0999466c4e2b53c5e8d2379011db6b6abb7f819"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "5c04a8226dfe001e85ed543c4e105152c4fa26bb56b272bec3de36fb6d1aa5ed",
+        "salt": "4cd87d63b18aaf65c57e7f1c57113a58",
+        "data": {
+            "amount": 44.89033312797546,
+            "source": "UNIFIED_TEST",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1777920549.6344485,
+            "reference_proof": "163a5fa76897ba1160759f3414f7af5271f74b3cd3a167ec3eae7959a8ce9eba"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "6ca0f504f63625fab63eddd44c5a75409a37edffc991d312232a33e6366f9459",
+        "salt": "68ce0ae4696e577286d79e284b683d02",
+        "data": {
+            "amount": 31.906410455703735,
+            "source": "Synthesized_Result_for_1d9738eb",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1777923306.3547056,
+            "reference_proof": "d1634f6f33905d5db2c39e24ea799f50be01babec21870e19745af39a03db4c6"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "5eeb2f4187d185a614d48594de2f9f8d829d545d03e61c85e2469c4e4b5f6bd7",
+        "salt": "30edb54ecc21ddacf844e9d10b3ba631",
+        "data": {
+            "amount": 31.913749909400938,
+            "source": "Omni-Pulse Integration (pulse-1777923306)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1777923306.3791697,
+            "reference_proof": "5ae1c2f41acc4ca7e233166aab05a564b8d445905e0c5f1c1b8c02a5cfbef0ab"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "8692d76f3d9497c7b815fafdf18c46dd116f3eca2aff89339b503eb12d537d19",
+        "salt": "9c084c0627428fcfa7a76e3a0b5d77df",
+        "data": {
+            "amount": 35.627891707420346,
+            "source": "Synthesized_Result_for_f5a94bef",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1777923568.7596445,
+            "reference_proof": "e66b0843870828c085664869d927fa60a40b9e31ab586603b035efff759666d4"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "624033fbb9ca1ae33be76fe4da0e4419c2bdf6926fcb141f70f494b26097b574",
+        "salt": "b4a8e064d4197d7087b991fbcc9b3153",
+        "data": {
+            "amount": 35.63549816608429,
+            "source": "Omni-Pulse Integration (pulse-1777923568)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1777923568.785,
+            "reference_proof": "cc589ec99b1e675be59b1fa8210542625f8e1adb46f5aeb6e1ce631fa12ceceb"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "be8e84d05bfe533204ceb4c1eccc5ae2fc8512814712b50876963bcc64b4566a",
+        "salt": "44abeb3a940912a1b75a7a9c2697c190",
+        "data": {
+            "amount": 42.36164045333862,
+            "source": "Synthesized_Result_for_1e80b39b",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778026041.2054725,
+            "reference_proof": "90f8177fd80c10feb02ccf2dab6a7f69fcebee4b3c18f28af027f7ac1184a0cd"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "c4cf27e35c06ae0335e4d5ae74f849fd87b9c28edc2acef35beeea0fccf340d9",
+        "salt": "bca10a82bcebbc8cb7cb6ca54ebc1770",
+        "data": {
+            "amount": 42.37650146484375,
+            "source": "Omni-Pulse Integration (pulse-1778026041)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778026041.2550092,
+            "reference_proof": "fde24ff724a76d4dd1fc4d6b3c89c13b444b4f8b4bd01bee68ccf68e72bebdea"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "76c95c1b65f848cbd73e42b713e5ac79a73e67db6b6ccdf1dffbd63bcce33509",
+        "salt": "6cea74b3c40e58eb8cb9d6e58f258df8",
+        "data": {
+            "amount": 42.4150533914566,
+            "source": "Synthesized_Result_for_28620a15",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778026441.3835168,
+            "reference_proof": "71bced289825bf2ec54917f48822f3aa550a728a857d32bb3bd3ffc4a07ae952"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "c936cbfe458f1a1c890817caa693b2eb5f1ee7651f316f8cabfcd15ea48ce57f",
+        "salt": "4e74baa09f409e6f6b5ac484009facc7",
+        "data": {
+            "amount": 42.42295060157776,
+            "source": "Omni-Pulse Integration (pulse-1778026441)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778026441.4098403,
+            "reference_proof": "e55a2a2b3ad950d72eee612b625a88055da2233c0b8bf6d8a25e2bdf52f5da1e"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "fa0e99e9df8e6c87fa80b9bd29d030d85f3b45d46f7fcb44949eaff092d4ae1c",
+        "salt": "7afb8a5b70b48e9e2a36e58b2d797a23",
+        "data": {
+            "amount": 38.66839413642883,
+            "source": "Predictive Match: Synthesized_Result_for_28620a15",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118828.894652,
+            "reference_proof": "d8b4e1afd4fc82d13fad493f58b08c1a720c42d69c6142060449741b28b7e7d7"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "86cc348a98b7321baf3785bc85af7a7606e0c9aa5d5a915bcc042a79b944cad0",
+        "salt": "a57e4287f29f57745187bf8c712c3d57",
+        "data": {
+            "amount": 38.67581541538238,
+            "source": "Omni-Pulse Integration (pulse-1778118828)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118828.9193902,
+            "reference_proof": "91a45b9a297ced2427f35a7277450982b75333ff9784f53daa78d91e16820e9e"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "2bca27600230292f431b4804fbe8ab042f18d12e39c69544d2f13c190fac7492",
+        "salt": "38cb25b763b01832c060c06b7e3952e9",
+        "data": {
+            "amount": 39.88411338329315,
+            "source": "Predictive Match: Synthesized_Result_for_28620a15",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118832.9470508,
+            "reference_proof": "f4dde51b5de99e54e0bc51b2d108b65eb246eb1731c4350b25ac64f903b17665"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "9b068d793d5bc207040b82d6d31224fe8712b39cef3651aa5eb6fc5735cd1137",
+        "salt": "0380ffab4ee5487003502c81256d006d",
+        "data": {
+            "amount": 39.89923853874206,
+            "source": "Omni-Pulse Integration (pulse-1778118832)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118832.9974663,
+            "reference_proof": "cc88ef9205ab4833af177ec7fe9d083b0b0077f725877144ee9732e4c08107ef"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "f40efc7ff1a2f69d6d20d47a1c8e4832c4687f4fe0c20f9803d812cb768d6a36",
+        "salt": "bc5b1959041a3b590210ba48b71b49f3",
+        "data": {
+            "amount": 32.05815060138702,
+            "source": "Predictive Match: Synthesized_Result_for_28620a15",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118856.8605072,
+            "reference_proof": "2dada4fb10143e59350a59861b3abc62fc692e52e69c4cd3303cbfeff70e839d"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "26105c7e9bace627b8dd6cb0f8eb57c390495266c9c73403b97281244c2e0f85",
+        "salt": "fa89beb1bdf10d23619d3da483b3f7f9",
+        "data": {
+            "amount": 32.065632462501526,
+            "source": "Omni-Pulse Integration (pulse-1778118856)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118856.8854463,
+            "reference_proof": "479a2b57d8df81a3dd05ee158f0e11e0f62d4507ff2552b848809d7deaf56871"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "ecaaff67ac0a54a67be4b5d341978cc533fb14ddf897e172a511d2fa2f2d644c",
+        "salt": "b072b7ea0399f599c39ed105e952772d",
+        "data": {
+            "amount": 37.47281320095062,
+            "source": "Synthesized_Result_for_28620a15",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118874.9093828,
+            "reference_proof": "01a65aafdc9be6bf5a687b521e6e94a38340abbfdcc89ba0056ee4dbbef18e69"
+        },
+        "status": "SIPHONED"
+    },
+    {
+        "commitment": "da59e1f7c859f12403c8fe0d27b58e749c37144ff25742e2335bb7c2e99d65c4",
+        "salt": "8243ff0221b2cc254d4333dfc385944e",
+        "data": {
+            "amount": 37.48139927387238,
+            "source": "Omni-Pulse Integration (pulse-1778118874)",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1778118874.9380014,
+            "reference_proof": "1df7dab6225fe07f5f27fcac9d4fa2c534b960617000a89fa631cf57d2ed5f63"
+        },
+        "status": "SIPHONED"
+    }
+]

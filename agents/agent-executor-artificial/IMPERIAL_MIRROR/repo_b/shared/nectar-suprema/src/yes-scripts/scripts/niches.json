@@ -1,0 +1,1426 @@
+{
+  "energia-solar": {
+    "title": "Dominando o Mercado de Energia Solar",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Energia Solar</span> Mas Nunca Conseguiu?",
+    "subheadline": "Pague menos na conta de luz com energia limpa. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Energia Solar",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "acessorios-celular": {
+    "title": "Dominando o Mercado de Acessórios de Celular",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Acessórios de Celular</span> Mas Nunca Conseguiu?",
+    "subheadline": "Os melhores gadgets para o seu smartphone. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Acessórios de Celular",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "suplementos-naturais": {
+    "title": "Dominando o Mercado de Suplementos Naturais",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Suplementos Naturais</span> Mas Nunca Conseguiu?",
+    "subheadline": "Saúde e performance com o poder da natureza. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Suplementos Naturais",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "pets-luxo": {
+    "title": "Dominando o Mercado de Produtos Pet de Luxo",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Produtos Pet de Luxo</span> Mas Nunca Conseguiu?",
+    "subheadline": "O melhor conforto para o seu melhor amigo. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Produtos Pet de Luxo",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "ia-consultoria": {
+    "title": "Dominando o Mercado de Consultoria de IA",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Consultoria de IA</span> Mas Nunca Conseguiu?",
+    "subheadline": "Transforme seu negócio com inteligência artificial. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Consultoria de IA",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "maquiagem-vegana": {
+    "title": "Dominando o Mercado de Maquiagem Vegana",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Maquiagem Vegana</span> Mas Nunca Conseguiu?",
+    "subheadline": "Beleza consciente e sem crueldade animal. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Maquiagem Vegana",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "decoracao-minimalista": {
+    "title": "Dominando o Mercado de Decoração Minimalista",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Decoração Minimalista</span> Mas Nunca Conseguiu?",
+    "subheadline": "Menos é mais: transforme seu lar em um refúgio. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Decoração Minimalista",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cozinha-inteligente": {
+    "title": "Dominando o Mercado de Utensílios de Cozinha Inteligentes",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Utensílios de Cozinha Inteligentes</span> Mas Nunca Conseguiu?",
+    "subheadline": "Cozinhe como um chef com tecnologia de ponta. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Utensílios de Cozinha Inteligentes",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "fitness-sustentavel": {
+    "title": "Dominando o Mercado de Moda Fitness Sustentável",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Moda Fitness Sustentável</span> Mas Nunca Conseguiu?",
+    "subheadline": "Treine com estilo e respeito ao meio ambiente. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Moda Fitness Sustentável",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "gadgets-produtividade": {
+    "title": "Dominando o Mercado de Gadgets de Produtividade",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Gadgets de Produtividade</span> Mas Nunca Conseguiu?",
+    "subheadline": "Ferramentas para dominar sua rotina e focar no que importa. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Gadgets de Produtividade",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "brinquedos-montessori": {
+    "title": "Dominando o Mercado de Brinquedos Educativos Montessori",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Brinquedos Educativos Montessori</span> Mas Nunca Conseguiu?",
+    "subheadline": "Estimule o desenvolvimento do seu filho brincando. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Brinquedos Educativos Montessori",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cuidado-barba": {
+    "title": "Dominando o Mercado de Cuidado com a Barba",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cuidado com a Barba</span> Mas Nunca Conseguiu?",
+    "subheadline": "Produtos premium para o homem moderno. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Cuidado com a Barba",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "ferramentas-diy": {
+    "title": "Dominando o Mercado de Ferramentas de DIY",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Ferramentas de DIY</span> Mas Nunca Conseguiu?",
+    "subheadline": "Tudo o que você precisa para seus projetos manuais. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Ferramentas de DIY",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "acessorios-carros-eletricos": {
+    "title": "Dominando o Mercado de Acessórios para Carros Elétricos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Acessórios para Carros Elétricos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Melhore sua experiência com veículos elétricos. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Acessórios para Carros Elétricos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "marmitas-fitness": {
+    "title": "Dominando o Mercado de Marmitas Fitness",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Marmitas Fitness</span> Mas Nunca Conseguiu?",
+    "subheadline": "Alimentação saudável e prática para o dia a dia. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Marmitas Fitness",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "perfumaria-artesanal": {
+    "title": "Dominando o Mercado de Perfumaria Artesanal",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Perfumaria Artesanal</span> Mas Nunca Conseguiu?",
+    "subheadline": "Fragrâncias únicas que expressam sua personalidade. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Perfumaria Artesanal",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "papelaria-creativa": {
+    "title": "Dominando o Mercado de Papelaria Criativa",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Papelaria Criativa</span> Mas Nunca Conseguiu?",
+    "subheadline": "Organize suas ideias com cores e criatividade. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Papelaria Criativa",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "yoga-wear": {
+    "title": "Dominando o Mercado de Roupas para Yoga",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Roupas para Yoga</span> Mas Nunca Conseguiu?",
+    "subheadline": "Conforto absoluto para sua prática e meditação. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Roupas para Yoga",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "equipamentos-podcast": {
+    "title": "Dominando o Mercado de Equipamentos de Podcast",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Equipamentos de Podcast</span> Mas Nunca Conseguiu?",
+    "subheadline": "Som de qualidade profissional para suas gravações. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Equipamentos de Podcast",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "horta-urbana": {
+    "title": "Dominando o Mercado de Horta Urbana",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Horta Urbana</span> Mas Nunca Conseguiu?",
+    "subheadline": "Cultive seus próprios temperos e hortaliças em casa. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Horta Urbana",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "calcados-conforto": {
+    "title": "Dominando o Mercado de Calçados Confortáveis",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Calçados Confortáveis</span> Mas Nunca Conseguiu?",
+    "subheadline": "Bem-estar para seus pés durante todo o dia de trabalho. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Calçados Confortáveis",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "jogos-tabuleiro": {
+    "title": "Dominando o Mercado de Jogos de Tabuleiro Modernos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Jogos de Tabuleiro Modernos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Diversão garantida para reunir amigos e família. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Jogos de Tabuleiro Modernos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "limpeza-eco": {
+    "title": "Dominando o Mercado de Produtos de Limpeza Ecológicos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Produtos de Limpeza Ecológicos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Mantenha sua casa limpa sem agredir o planeta. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Produtos de Limpeza Ecológicos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "acessorios-ciclismo": {
+    "title": "Dominando o Mercado de Acessórios para Ciclismo",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Acessórios para Ciclismo</span> Mas Nunca Conseguiu?",
+    "subheadline": "Segurança e performance para suas pedaladas. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Acessórios para Ciclismo",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "moda-infantil-organica": {
+    "title": "Dominando o Mercado de Moda Infantil Orgânica",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Moda Infantil Orgânica</span> Mas Nunca Conseguiu?",
+    "subheadline": "Roupas suaves e seguras para a pele do seu bebê. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Moda Infantil Orgânica",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "treino-em-casa": {
+    "title": "Dominando o Mercado de Treino em Casa",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Treino em Casa</span> Mas Nunca Conseguiu?",
+    "subheadline": "Equipamentos compactos para manter a forma sem sair. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Treino em Casa",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cafes-especiais": {
+    "title": "Dominando o Mercado de Cafés Especiais",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cafés Especiais</span> Mas Nunca Conseguiu?",
+    "subheadline": "A experiência do café perfeito na sua casa. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Cafés Especiais",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "oleos-essenciais": {
+    "title": "Dominando o Mercado de Óleos Essenciais",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Óleos Essenciais</span> Mas Nunca Conseguiu?",
+    "subheadline": "Bem-estar e equilíbrio através da aromaterapia. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Óleos Essenciais",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "skincare-sol": {
+    "title": "Dominando o Mercado de Skincare e Proteção Solar",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Skincare e Proteção Solar</span> Mas Nunca Conseguiu?",
+    "subheadline": "Sua pele protegida e radiante todos os dias. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Skincare e Proteção Solar",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "smartwatches": {
+    "title": "Dominando o Mercado de Smartwatches",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Smartwatches</span> Mas Nunca Conseguiu?",
+    "subheadline": "Tecnologia no seu pulso para uma vida conectada. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Smartwatches",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "fones-bluetooth": {
+    "title": "Dominando o Mercado de Fones Bluetooth",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Fones Bluetooth</span> Mas Nunca Conseguiu?",
+    "subheadline": "Liberdade sonora com alta fidelidade. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Fones Bluetooth",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "mochilas-antifurto": {
+    "title": "Dominando o Mercado de Mochilas Antifurto",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Mochilas Antifurto</span> Mas Nunca Conseguiu?",
+    "subheadline": "Segurança e praticidade para suas viagens e dia a dia. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Mochilas Antifurto",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "organizadores-casa": {
+    "title": "Dominando o Mercado de Organizadores de Casa",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Organizadores de Casa</span> Mas Nunca Conseguiu?",
+    "subheadline": "Soluções inteligentes para um lar sempre em ordem. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Organizadores de Casa",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "arte-digital": {
+    "title": "Dominando o Mercado de Quadros e Arte Digital",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Quadros e Arte Digital</span> Mas Nunca Conseguiu?",
+    "subheadline": "Dê vida às suas paredes com arte exclusiva. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Quadros e Arte Digital",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "velas-aromaticas": {
+    "title": "Dominando o Mercado de Velas Aromáticas",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Velas Aromáticas</span> Mas Nunca Conseguiu?",
+    "subheadline": "Crie ambientes acolhedores com aromas envolventes. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Velas Aromáticas",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cabelos-cacheados": {
+    "title": "Dominando o Mercado de Cuidado Cabelos Cacheados",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cuidado Cabelos Cacheados</span> Mas Nunca Conseguiu?",
+    "subheadline": "Produtos específicos para valorizar suas curvas. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Cuidado Cabelos Cacheados",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "relogios-parede": {
+    "title": "Dominando o Mercado de Relógios de Parede Modernos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Relógios de Parede Modernos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Design e pontualidade na sua decoração. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Relógios de Parede Modernos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "luminarias-criativas": {
+    "title": "Dominando o Mercado de Luminárias Criativas",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Luminárias Criativas</span> Mas Nunca Conseguiu?",
+    "subheadline": "Ilumine seu espaço com estilo e originalidade. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Luminárias Criativas",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "tapetes-personalizados": {
+    "title": "Dominando o Mercado de Tapetes Personalizados",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Tapetes Personalizados</span> Mas Nunca Conseguiu?",
+    "subheadline": "A primeira impressão do seu lar começa aqui. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Tapetes Personalizados",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "meias-divertidas": {
+    "title": "Dominando o Mercado de Meias Divertidas",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Meias Divertidas</span> Mas Nunca Conseguiu?",
+    "subheadline": "Adicione um toque de humor ao seu visual. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Meias Divertidas",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "canecas-termicas": {
+    "title": "Dominando o Mercado de Canecas Térmicas",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Canecas Térmicas</span> Mas Nunca Conseguiu?",
+    "subheadline": "Sua bebida na temperatura ideal por muito mais tempo. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Canecas Térmicas",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "foto-celular": {
+    "title": "Dominando o Mercado de Fotografia com Celular",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Fotografia com Celular</span> Mas Nunca Conseguiu?",
+    "subheadline": "Acessórios para transformar suas fotos em obras de arte. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Fotografia com Celular",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cases-notebook": {
+    "title": "Dominando o Mercado de Cases para Notebook",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cases para Notebook</span> Mas Nunca Conseguiu?",
+    "subheadline": "Proteção e elegância para seu computador portátil. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Cases para Notebook",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "bijuterias-naturais": {
+    "title": "Dominando o Mercado de Bijuterias Naturais",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Bijuterias Naturais</span> Mas Nunca Conseguiu?",
+    "subheadline": "Acessórios com pedras e elementos da natureza. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Bijuterias Naturais",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "itens-praia": {
+    "title": "Dominando o Mercado de Itens de Praia e Piscina",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Itens de Praia e Piscina</span> Mas Nunca Conseguiu?",
+    "subheadline": "Aproveite o sol com conforto e estilo. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Itens de Praia e Piscina",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cama-seda": {
+    "title": "Dominando o Mercado de Roupa de Cama de Seda",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Roupa de Cama de Seda</span> Mas Nunca Conseguiu?",
+    "subheadline": "O luxo e o conforto para noites de sono perfeitas. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Roupa de Cama de Seda",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "pijamas-conforto": {
+    "title": "Dominando o Mercado de Pijamas Confortáveis",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Pijamas Confortáveis</span> Mas Nunca Conseguiu?",
+    "subheadline": "Relaxe com o máximo de maciez e estilo. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Pijamas Confortáveis",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "guarda-chuvas": {
+    "title": "Dominando o Mercado de Guarda-chuvas Resistentes",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Guarda-chuvas Resistentes</span> Mas Nunca Conseguiu?",
+    "subheadline": "Enfrente a chuva com segurança e elegância. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Guarda-chuvas Resistentes",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "suportes-ergonomicos": {
+    "title": "Dominando o Mercado de Suportes Ergonômicos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Suportes Ergonômicos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Mais saúde e conforto no seu ambiente de trabalho. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Suportes Ergonômicos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "kits-sobrevivencia": {
+    "title": "Dominando o Mercado de Kits Sobrevivência Urbana",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Kits Sobrevivência Urbana</span> Mas Nunca Conseguiu?",
+    "subheadline": "Esteja preparado para qualquer situação no dia a dia. Lista exclusiva com fornecedores validados.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Kits Sobrevivência Urbana",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "solar-motorhome": {
+    "title": "Dominando o Mercado de Energia Solar para Motorhomes",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Energia Solar para Motorhomes</span> Mas Nunca Conseguiu?",
+    "subheadline": "Liberdade energética para suas viagens. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Energia Solar para Motorhomes",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "acessorios-criadores-50": {
+    "title": "Dominando o Mercado de Acessórios Celular para Criadores 50+",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Acessórios Celular para Criadores 50+</span> Mas Nunca Conseguiu?",
+    "subheadline": "Simplicidade e qualidade para seus vídeos. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Acessórios Celular para Criadores 50+",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "suplementos-gamers": {
+    "title": "Dominando o Mercado de Suplementos para Gamers",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Suplementos para Gamers</span> Mas Nunca Conseguiu?",
+    "subheadline": "Foco total e reflexos rápidos para vencer. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Suplementos para Gamers",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "gatos-apartamento": {
+    "title": "Dominando o Mercado de Produtos Gatos Apartamento Pequeno",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Produtos Gatos Apartamento Pequeno</span> Mas Nunca Conseguiu?",
+    "subheadline": "Soluções inteligentes para felinos urbanos. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Produtos Gatos Apartamento Pequeno",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "ia-psicologos": {
+    "title": "Dominando o Mercado de IA para Psicólogos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>IA para Psicólogos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Otimize seus atendimentos com inteligência artificial. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de IA para Psicólogos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "maquiagem-pele-sensivel": {
+    "title": "Dominando o Mercado de Maquiagem Pele Sensível ao Sol",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Maquiagem Pele Sensível ao Sol</span> Mas Nunca Conseguiu?",
+    "subheadline": "Proteção e beleza para peles delicadas. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Maquiagem Pele Sensível ao Sol",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "decoracao-office-ti": {
+    "title": "Dominando o Mercado de Decoração Home Office TI",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Decoração Home Office TI</span> Mas Nunca Conseguiu?",
+    "subheadline": "Ambiente focado em produtividade para devs. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Decoração Home Office TI",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cozinha-keto": {
+    "title": "Dominando o Mercado de Cozinha Dieta Cetogênica",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cozinha Dieta Cetogênica</span> Mas Nunca Conseguiu?",
+    "subheadline": "Utensílios que facilitam sua vida na dieta keto. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Cozinha Dieta Cetogênica",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "fitness-crossfit-vegano": {
+    "title": "Dominando o Mercado de Moda Fitness Crossfit Vegano",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Moda Fitness Crossfit Vegano</span> Mas Nunca Conseguiu?",
+    "subheadline": "Resistência e ética em cada treino. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Moda Fitness Crossfit Vegano",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "gadgets-tdah": {
+    "title": "Dominando o Mercado de Gadgets para TDAH",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Gadgets para TDAH</span> Mas Nunca Conseguiu?",
+    "subheadline": "Foco e organização para mentes brilhantes. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Gadgets para TDAH",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "montessori-alergicos": {
+    "title": "Dominando o Mercado de Brinquedos Montessori Madeira Alérgicos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Brinquedos Montessori Madeira Alérgicos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Diversão segura e natural para seu bebê. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Brinquedos Montessori Madeira Alérgicos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "estetica-calvicie": {
+    "title": "Dominando o Mercado de Estética para Calvície Precoce",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Estética para Calvície Precoce</span> Mas Nunca Conseguiu?",
+    "subheadline": "Soluções reais para recuperar a autoconfiança. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Estética para Calvície Precoce",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "diy-alugados": {
+    "title": "Dominando o Mercado de DIY Apartamentos Alugados",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>DIY Apartamentos Alugados</span> Mas Nunca Conseguiu?",
+    "subheadline": "Decore sem perder o depósito da caução. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de DIY Apartamentos Alugados",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "carga-carro-eletrico": {
+    "title": "Dominando o Mercado de Carga Portátil Carros Elétricos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Carga Portátil Carros Elétricos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Nunca fique sem bateria, onde quer que esteja. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Carga Portátil Carros Elétricos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "marmitas-massa-limpa": {
+    "title": "Dominando o Mercado de Marmitas Ganho de Massa Limpa",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Marmitas Ganho de Massa Limpa</span> Mas Nunca Conseguiu?",
+    "subheadline": "A dieta perfeita para seus ganhos musculares. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Marmitas Ganho de Massa Limpa",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "perfume-feromonios": {
+    "title": "Dominando o Mercado de Perfumaria Feromônios Sintéticos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Perfumaria Feromônios Sintéticos</span> Mas Nunca Conseguiu?",
+    "subheadline": "A ciência da atração em um frasco. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Perfumaria Feromônios Sintéticos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "casamento-homoafetivo": {
+    "title": "Dominando o Mercado de Planejamento Casamentos Homoafetivos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Planejamento Casamentos Homoafetivos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Tudo para o seu grande dia, com todo o respeito. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Planejamento Casamentos Homoafetivos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "yoga-absorcao-suor": {
+    "title": "Dominando o Mercado de Roupas Yoga Absorção Suor",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Roupas Yoga Absorção Suor</span> Mas Nunca Conseguiu?",
+    "subheadline": "Fique seca e confortável em qualquer postura. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Roupas Yoga Absorção Suor",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "podcast-rua": {
+    "title": "Dominando o Mercado de Podcast Portátil Entrevistas Rua",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Podcast Portátil Entrevistas Rua</span> Mas Nunca Conseguiu?",
+    "subheadline": "Áudio cristalino para gravações em movimento. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Podcast Portátil Entrevistas Rua",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "horta-uv": {
+    "title": "Dominando o Mercado de Horta Temperos Luz UV",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Horta Temperos Luz UV</span> Mas Nunca Conseguiu?",
+    "subheadline": "Cultive temperos frescos mesmo em locais sem sol. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Horta Temperos Luz UV",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "calcados-saude": {
+    "title": "Dominando o Mercado de Calçados Profissionais Saúde",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Calçados Profissionais Saúde</span> Mas Nunca Conseguiu?",
+    "subheadline": "Conforto extremo para quem cuida dos outros. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Calçados Profissionais Saúde",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "jogos-solo": {
+    "title": "Dominando o Mercado de Jogos Tabuleiro Solo",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Jogos Tabuleiro Solo</span> Mas Nunca Conseguiu?",
+    "subheadline": "Desafios épicos para jogar sozinho. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Jogos Tabuleiro Solo",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "limpeza-eco-exoticos": {
+    "title": "Dominando o Mercado de Limpeza Eco Animais Exóticos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Limpeza Eco Animais Exóticos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Segurança total para seus pets diferenciados. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Limpeza Eco Animais Exóticos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "ciclismo-noturno": {
+    "title": "Dominando o Mercado de Ciclismo Urbano Noturno",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Ciclismo Urbano Noturno</span> Mas Nunca Conseguiu?",
+    "subheadline": "Visibilidade e segurança para suas pedaladas à noite. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Ciclismo Urbano Noturno",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "moda-infantil-ciencia": {
+    "title": "Dominando o Mercado de Moda Infantil Ciência e Astro",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Moda Infantil Ciência e Astro</span> Mas Nunca Conseguiu?",
+    "subheadline": "Estimule a curiosidade desde cedo. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Moda Infantil Ciência e Astro",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "treino-mobilidade": {
+    "title": "Dominando o Mercado de Treino Idosos Mobilidade Reduzida",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Treino Idosos Mobilidade Reduzida</span> Mas Nunca Conseguiu?",
+    "subheadline": "Exercícios seguros para envelhecer com saúde. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Treino Idosos Mobilidade Reduzida",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cafes-mantiqueira": {
+    "title": "Dominando o Mercado de Cafés Serra da Mantiqueira",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cafés Serra da Mantiqueira</span> Mas Nunca Conseguiu?",
+    "subheadline": "O sabor premiado das montanhas direto para você. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Cafés Serra da Mantiqueira",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "difusores-alexa": {
+    "title": "Dominando o Mercado de Difusores Inteligentes Alexa",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Difusores Inteligentes Alexa</span> Mas Nunca Conseguiu?",
+    "subheadline": "Controle o aroma da sua casa por voz. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Difusores Inteligentes Alexa",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "skincare-nadadores": {
+    "title": "Dominando o Mercado de Skincare para Nadadores",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Skincare para Nadadores</span> Mas Nunca Conseguiu?",
+    "subheadline": "Proteção contra o cloro e revitalização da pele. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Skincare para Nadadores",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "smartwatches-mental": {
+    "title": "Dominando o Mercado de Smartwatches Saúde Mental",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Smartwatches Saúde Mental</span> Mas Nunca Conseguiu?",
+    "subheadline": "Monitore seu estresse e ansiedade em tempo real. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Smartwatches Saúde Mental",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "fones-dormir": {
+    "title": "Dominando o Mercado de Fones de Ouvido para Dormir",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Fones de Ouvido para Dormir</span> Mas Nunca Conseguiu?",
+    "subheadline": "Noites de sono profundas com sons relaxantes. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Fones de Ouvido para Dormir",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "mochilas-solar": {
+    "title": "Dominando o Mercado de Mochilas Nômades Painel Solar",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Mochilas Nômades Painel Solar</span> Mas Nunca Conseguiu?",
+    "subheadline": "Trabalhe de qualquer lugar com bateria sempre cheia. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Mochilas Nômades Painel Solar",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "organizadores-sneakers": {
+    "title": "Dominando o Mercado de Organizadores Sneakerheads",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Organizadores Sneakerheads</span> Mas Nunca Conseguiu?",
+    "subheadline": "Exiba e proteja sua coleção de tênis. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Organizadores Sneakerheads",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "arte-nft-fisica": {
+    "title": "Dominando o Mercado de Arte NFT Molduras Físicas",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Arte NFT Molduras Físicas</span> Mas Nunca Conseguiu?",
+    "subheadline": "Sua coleção digital decorando seu mundo real. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Arte NFT Molduras Físicas",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "velas-livro": {
+    "title": "Dominando o Mercado de Velas Cheiro de Livro Novo",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Velas Cheiro de Livro Novo</span> Mas Nunca Conseguiu?",
+    "subheadline": "O aroma perfeito para suas horas de leitura. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Velas Cheiro de Livro Novo",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "transicao-capilar": {
+    "title": "Dominando o Mercado de Cuidado Transição Capilar",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cuidado Transição Capilar</span> Mas Nunca Conseguiu?",
+    "subheadline": "Produtos que ajudam você a redescobrir seus fios. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Cuidado Transição Capilar",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "relogios-biofilia": {
+    "title": "Dominando o Mercado de Relógios Parede Biofilia",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Relógios Parede Biofilia</span> Mas Nunca Conseguiu?",
+    "subheadline": "A natureza marcando o tempo na sua casa. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Relógios Parede Biofilia",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "luminarias-levitacao": {
+    "title": "Dominando o Mercado de Luminárias Levitação Magnética",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Luminárias Levitação Magnética</span> Mas Nunca Conseguiu?",
+    "subheadline": "Tecnologia e design que desafiam a gravidade. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Luminárias Levitação Magnética",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "tapetes-absorventes": {
+    "title": "Dominando o Mercado de Tapetes Ultra Absorventes",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Tapetes Ultra Absorventes</span> Mas Nunca Conseguiu?",
+    "subheadline": "Sua casa limpa, não importa o clima lá fora. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Tapetes Ultra Absorventes",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "meias-viagem": {
+    "title": "Dominando o Mercado de Meias Compressão Viagens Longas",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Meias Compressão Viagens Longas</span> Mas Nunca Conseguiu?",
+    "subheadline": "Chegue ao seu destino com pernas leves e descansadas. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Meias Compressão Viagens Longas",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "garrafas-filtro": {
+    "title": "Dominando o Mercado de Garrafas Filtro Integrado",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Garrafas Filtro Integrado</span> Mas Nunca Conseguiu?",
+    "subheadline": "Água pura em qualquer lugar que você vá. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Garrafas Filtro Integrado",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "lentes-cinema-celular": {
+    "title": "Dominando o Mercado de Lentes Celular Cinema",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Lentes Celular Cinema</span> Mas Nunca Conseguiu?",
+    "subheadline": "Transforme seu smartphone em uma câmera de filme. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Lentes Celular Cinema",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cases-couro-cacto": {
+    "title": "Dominando o Mercado de Cases Couro de Cacto",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Cases Couro de Cacto</span> Mas Nunca Conseguiu?",
+    "subheadline": "Sustentabilidade e luxo para seu celular. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Cases Couro de Cacto",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "bijuterias-3d": {
+    "title": "Dominando o Mercado de Bijuterias Geométricas 3D",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Bijuterias Geométricas 3D</span> Mas Nunca Conseguiu?",
+    "subheadline": "Design futurista e exclusivo para você. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Bijuterias Geométricas 3D",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "toalhas-anti-areia": {
+    "title": "Dominando o Mercado de Toalhas Praia Anti-Areia",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Toalhas Praia Anti-Areia</span> Mas Nunca Conseguiu?",
+    "subheadline": "Conforto na areia sem a sujeira de sempre. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Toalhas Praia Anti-Areia",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "fronhas-seda": {
+    "title": "Dominando o Mercado de Fronhas de Seda Anti-Frizz",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Fronhas de Seda Anti-Frizz</span> Mas Nunca Conseguiu?",
+    "subheadline": "Acorde com cabelos e pele impecáveis. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Fronhas de Seda Anti-Frizz",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "pijamas-termicos": {
+    "title": "Dominando o Mercado de Pijamas Térmicos Inverno",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Pijamas Térmicos Inverno</span> Mas Nunca Conseguiu?",
+    "subheadline": "Noites quentinhas mesmo no frio mais rigoroso. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Pijamas Térmicos Inverno",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "guarda-chuvas-invertidos": {
+    "title": "Dominando o Mercado de Guarda-chuvas Invertidos",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Guarda-chuvas Invertidos</span> Mas Nunca Conseguiu?",
+    "subheadline": "Não se molhe ao entrar e sair do carro. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Guarda-chuvas Invertidos",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "suporte-notebook-bambu": {
+    "title": "Dominando o Mercado de Suportes Notebook Bambu Cooler",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Suportes Notebook Bambu Cooler</span> Mas Nunca Conseguiu?",
+    "subheadline": "Ergonomia natural e resfriamento silencioso. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Suportes Notebook Bambu Cooler",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "kits-edc": {
+    "title": "Dominando o Mercado de Kits Sobrevivência Urbana EDC",
+    "headline": "Você Já Tentou Lucrar Com <span class='text-blue-600 underline'>Kits Sobrevivência Urbana EDC</span> Mas Nunca Conseguiu?",
+    "subheadline": "Tudo o que você precisa no bolso para o dia a dia. Lista exclusiva com fornecedores validados.",
+    "pricing": "147,00",
+    "bonuses": [
+      "+100 fornecedores de Kits Sobrevivência Urbana EDC",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "energia-solar-pro": {
+    "title": "Energia Solar Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Energia Solar</span>",
+    "subheadline": "Pague menos na conta de luz com energia limpa. Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Energia Solar",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "energia-solar-elite": {
+    "title": "Energia Solar de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Energia Solar</span>",
+    "subheadline": "Pague menos na conta de luz com energia limpa. Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Energia Solar",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "acessorios-gaming-pro": {
+    "title": "Acessórios Gaming Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Acessórios Gaming</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "acessorios-gaming-elite": {
+    "title": "Acessórios Gaming de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Acessórios Gaming</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "pets-luxo-pro": {
+    "title": "Pets de Luxo Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Pets de Luxo</span>",
+    "subheadline": "O melhor conforto para o seu melhor amigo. Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Produtos Pet de Luxo",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "pets-luxo-elite": {
+    "title": "Pets de Luxo de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Pets de Luxo</span>",
+    "subheadline": "O melhor conforto para o seu melhor amigo. Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Produtos Pet de Luxo",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "iluminacao-led-pro": {
+    "title": "Iluminação LED Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Iluminação LED</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "iluminacao-led-elite": {
+    "title": "Iluminação LED de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Iluminação LED</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "acessorios-fitness-pro": {
+    "title": "Acessórios Fitness Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Acessórios Fitness</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "acessorios-fitness-elite": {
+    "title": "Acessórios Fitness de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Acessórios Fitness</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "acessorios-celular-pro": {
+    "title": "Acessórios Celular Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Acessórios Celular</span>",
+    "subheadline": "Os melhores gadgets para o seu smartphone. Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Acessórios de Celular",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "acessorios-celular-elite": {
+    "title": "Acessórios Celular de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Acessórios Celular</span>",
+    "subheadline": "Os melhores gadgets para o seu smartphone. Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Acessórios de Celular",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "organizadores-casa-pro": {
+    "title": "Organização Doméstica Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Organização Doméstica</span>",
+    "subheadline": "Soluções inteligentes para um lar sempre em ordem. Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Organizadores de Casa",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "organizadores-casa-elite": {
+    "title": "Organização Doméstica de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Organização Doméstica</span>",
+    "subheadline": "Soluções inteligentes para um lar sempre em ordem. Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Organizadores de Casa",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cozinha-inteligente-pro": {
+    "title": "Cozinha Inteligente Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Cozinha Inteligente</span>",
+    "subheadline": "Cozinhe como um chef com tecnologia de ponta. Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Utensílios de Cozinha Inteligentes",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "cozinha-inteligente-elite": {
+    "title": "Cozinha Inteligente de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Cozinha Inteligente</span>",
+    "subheadline": "Cozinhe como um chef com tecnologia de ponta. Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Utensílios de Cozinha Inteligentes",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "oculos-relogios-pro": {
+    "title": "Óculos e Relógios Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Óculos e Relógios</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "oculos-relogios-elite": {
+    "title": "Óculos e Relógios de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Óculos e Relógios</span>",
+    "subheadline": "Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "Bônus 1",
+      "Bônus 2"
+    ]
+  },
+  "maquiagem-vegana-pro": {
+    "title": "Maquiagem Vegana Profissional",
+    "headline": "Maximize seus Resultados com  <span class='text-blue-600 underline'>Maquiagem Vegana</span>",
+    "subheadline": "Beleza consciente e sem crueldade animal. Lista exclusiva com fornecedores validados. Otimizado para performance máxima e ROI garantido.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Maquiagem Vegana",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  },
+  "maquiagem-vegana-elite": {
+    "title": "Maquiagem Vegana de Luxo",
+    "headline": "O Padrão Ouro em  <span class='text-blue-600 underline'>Maquiagem Vegana</span>",
+    "subheadline": "Beleza consciente e sem crueldade animal. Lista exclusiva com fornecedores validados. Exclusividade e sofisticação para clientes exigentes.",
+    "pricing": "97,00",
+    "bonuses": [
+      "+100 fornecedores de Maquiagem Vegana",
+      "Checklist de produtos vencedores",
+      "Scripts de venda validados",
+      "Acesso ao Grupo VIP"
+    ]
+  }
+}

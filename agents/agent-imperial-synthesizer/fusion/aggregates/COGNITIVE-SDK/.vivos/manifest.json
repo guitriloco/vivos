@@ -1,0 +1,23 @@
+{
+  "version": "14.0.0",
+  "status": "VIVOS",
+  "evolution": "Phase 14: Supreme Fusion",
+  "name": "COGNITIVE-SDK",
+  "components": [
+    {
+      "id": "sovereign_intelligence_sdk",
+      "path": "Sovereign-Intelligence-SDK",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "understand_anything",
+      "path": "Understand-Anything",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "terax_ai",
+      "path": "terax-ai",
+      "role": "Sovereign Component"
+    }
+  ]
+}

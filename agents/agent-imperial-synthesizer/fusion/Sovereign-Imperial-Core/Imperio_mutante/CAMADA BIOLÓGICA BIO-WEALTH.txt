@@ -1,0 +1,5 @@
+O que faz: Trata o corpo do Imperador como o hardware mais caro do Império. Foca em biohacking, gestão de dopamina e foco extremo para manter a produtividade no pico.
+
+O que já temos: O conceito de alta performance e a mentalidade de "Máquina Biológica".
+
+O que falta: Criar uma Rotina de Automação de Lembretes (via Telegram ou Push) e um sistema de Bio-métricas para monitorar o sono e o foco.

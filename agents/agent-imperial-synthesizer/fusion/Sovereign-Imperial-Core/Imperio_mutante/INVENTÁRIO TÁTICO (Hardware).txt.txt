@@ -1,0 +1,9 @@
+Descrição: Mapeamento do poder de fogo físico.
+
+GENERAL (i7): Central de processamento, Scraping de alta densidade e RDPs.
+
+OPERÁRIO (Acer i5 E5): Servidor de arquivos, redundância e "Operação Alquimia" 24/7.
+
+COMANDO MÓVEL (Xiaomi Redmi 14C): Monitoramento via Syncthing e controle de chaves.
+
+LOGÍSTICA: Sincronização em tempo real via Protocolo Sincro.

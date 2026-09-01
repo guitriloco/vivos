@@ -1,0 +1,12 @@
+{
+  "timestamp": 1783817997.825048,
+  "aggregate": "YIELD-SIPHON",
+  "components": {
+    "arbitrage": true,
+    "printer": true,
+    "siphon": true,
+    "sdk": true
+  },
+  "health": 1.0,
+  "yield_factor": 1.618
+}

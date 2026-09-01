@@ -1,0 +1,5 @@
+O que faz: Criação de SaaS de micro-automação e scripts de "Soberania Digital".
+
+O que já temos: Scripts de manipulação de .txt, automação de arquivos e logística entre o PC e o Xiaomi 14C.
+
+O que falta: Empacotar esses scripts em uma interface simples para vender como "Ferramentas Táticas".

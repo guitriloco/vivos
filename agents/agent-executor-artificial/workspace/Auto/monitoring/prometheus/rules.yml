@@ -1,0 +1,61 @@
+groups:
+  - name: empire_slis
+    rules:
+      - record: empire_asset:availability:ratio_5m
+        expr: |
+          sum(rate(http_requests_total{status!~"5.."}[5m]))
+          /
+          sum(rate(http_requests_total[5m]))
+      - record: empire_asset:latency_p95:seconds_5m
+        expr: |
+          histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le))
+      - record: empire_synthesis:duration_seconds:p99
+        expr: |
+          histogram_quantile(0.99, sum(rate(empire_synthesis_duration_seconds_bucket[5m])) by (le))
+      - record: empire_node:roi_status
+        expr: |
+          count(empire_node_roi > 0) / count(empire_node_roi)
+  - name: empire_alerts
+    rules:
+      - alert: GlobalAssetAvailabilityBreach
+        expr: empire_asset:availability:ratio_5m < 0.9999
+        for: 15s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Global Asset Availability Breach"
+          description: "Global availability has dropped below 99.99%. Current: {{ $value }}"
+      - alert: SynthesisLatencyBreach
+        expr: empire_synthesis:duration_seconds:p99 > 10
+        for: 15s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Synthesis Latency Breach"
+          description: "Synthesis latency p99 is above 10s. Current: {{ $value }}s"
+      - alert: MarginIntegrityBreach
+        expr: empire_node:roi_status < 1.0
+        for: 15s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Margin Integrity Breach"
+          description: "Negative ROI nodes detected. Integrity: {{ $value }}"
+  - name: velocity_alerts
+    rules:
+      - alert: GitHubWorkflowRegression
+        expr: (github_workflow_run_duration_seconds_sum / github_workflow_run_duration_seconds_count) > 300
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "GitHub Workflow Velocity Regression"
+          description: "Workflow {{ $labels.workflow_name }} in {{ $labels.repo }} is taking more than 5 minutes."
+      - alert: SpaceliftDeploymentRegression
+        expr: (spacelift_stack_deployment_duration_seconds_sum / spacelift_stack_deployment_duration_seconds_count) > 600
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Spacelift Deployment Velocity Regression"
+          description: "Stack {{ $labels.stack_name }} deployment is taking more than 10 minutes."

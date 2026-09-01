@@ -1,0 +1,11 @@
+{
+  "aggregate": "MUTANT-NECTAR",
+  "version": "13.0",
+  "nexus_role": "Skill-Registry",
+  "fused_repos": [
+    "Imperio-Mutante-v3-Core",
+    "Nectar_Dev",
+    "agent-skills"
+  ],
+  "status": "COLONIZED"
+}

@@ -1,0 +1,12 @@
+{
+  "platform": "Linux-6.1.158-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "machine": "x86_64",
+  "hostname": "e2b.local",
+  "timestamp": "2026-06-26T14:22:14.292926",
+  "memory": {
+    "MemTotal": "4034560 kB",
+    "MemFree": "200640 kB",
+    "MemAvailable": "1949932 kB"
+  }
+}

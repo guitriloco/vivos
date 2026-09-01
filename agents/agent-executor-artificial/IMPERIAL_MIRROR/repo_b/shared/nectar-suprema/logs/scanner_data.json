@@ -1,0 +1,1502 @@
+[
+  {
+    "name": "pelucias-decoracao-k-pop-geek",
+    "display_name": "Pelucias Decoracao K Pop Geek",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.771979"
+  },
+  {
+    "name": "controles-joysticks-pc-console",
+    "display_name": "Controles Joysticks Pc Console",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.775072"
+  },
+  {
+    "name": "acessorios-leitura",
+    "display_name": "Acessorios Leitura",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.778289"
+  },
+  {
+    "name": "maquiagem-esmalte-k-beauty",
+    "display_name": "Maquiagem Esmalte K Beauty",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.781417"
+  },
+  {
+    "name": "tapetes-papes",
+    "display_name": "Tapetes Papes",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.784470"
+  },
+  {
+    "name": "cabos-carregadores",
+    "display_name": "Cabos Carregadores",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.787613"
+  },
+  {
+    "name": "caixas-surpresa-mystery-box",
+    "display_name": "Caixas Surpresa Mystery Box",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.790733"
+  },
+  {
+    "name": "protecao-saude",
+    "display_name": "Protecao Saude",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.793906"
+  },
+  {
+    "name": "gravadoras-customizacao",
+    "display_name": "Gravadoras Customizacao",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.796975"
+  },
+  {
+    "name": "acessorios-pet-roupinhas-lacos",
+    "display_name": "Acessorios Pet Roupinhas Lacos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.800012"
+  },
+  {
+    "name": "webcams-microfones-streaming",
+    "display_name": "Webcams Microfones Streaming",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.803072"
+  },
+  {
+    "name": "pilhas-baterias-recarregaveis",
+    "display_name": "Pilhas Baterias Recarregaveis",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.806201"
+  },
+  {
+    "name": "caixas-de-som-bluetooth",
+    "display_name": "Caixas De Som Bluetooth",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T17:06:21.809322"
+  },
+  {
+    "name": "comprar-produto-teste-1-3-unidades",
+    "display_name": "Comprar Produto Teste 1 3 Unidades",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.354146"
+  },
+  {
+    "name": "medir-tempo-de-entrega-real",
+    "display_name": "Medir Tempo De Entrega Real",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.356487"
+  },
+  {
+    "name": "avaliar-qualidade-vs-expectativa",
+    "display_name": "Avaliar Qualidade Vs Expectativa",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.358494"
+  },
+  {
+    "name": "testar-suporte-e-mailticket",
+    "display_name": "Testar Suporte E Mailticket",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.361198"
+  },
+  {
+    "name": "classificar-fornecedor",
+    "display_name": "Classificar Fornecedor",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.364222"
+  },
+  {
+    "name": "iniciar-venda-real-se-aprovado",
+    "display_name": "Iniciar Venda Real Se Aprovado",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.366126"
+  },
+  {
+    "name": "shopify-oberlo",
+    "display_name": "Shopify Oberlo",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.368111"
+  },
+  {
+    "name": "aliexpress",
+    "display_name": "Aliexpress",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.370001"
+  },
+  {
+    "name": "cj-dropshipping",
+    "display_name": "Cj Dropshipping",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.371976"
+  },
+  {
+    "name": "spocket",
+    "display_name": "Spocket",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.373766"
+  },
+  {
+    "name": "autods",
+    "display_name": "Autods",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.375616"
+  },
+  {
+    "name": "99-designs-fabricantes-br",
+    "display_name": "99 Designs Fabricantes Br",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.377528"
+  },
+  {
+    "name": "mercado-livre-fornecedores",
+    "display_name": "Mercado Livre Fornecedores",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.379434"
+  },
+  {
+    "name": "salehoo",
+    "display_name": "Salehoo",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.381285"
+  },
+  {
+    "name": "wholesale-central",
+    "display_name": "Wholesale Central",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.383067"
+  },
+  {
+    "name": "dropshippingcom",
+    "display_name": "Dropshippingcom",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.384958"
+  },
+  {
+    "name": "nuvemshop",
+    "display_name": "Nuvemshop",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.386861"
+  },
+  {
+    "name": "shoptime",
+    "display_name": "Shoptime",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.388813"
+  },
+  {
+    "name": "americanas",
+    "display_name": "Americanas",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.390601"
+  },
+  {
+    "name": "magalu",
+    "display_name": "Magalu",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.392465"
+  },
+  {
+    "name": "carrefour",
+    "display_name": "Carrefour",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.394243"
+  },
+  {
+    "name": "kabum",
+    "display_name": "Kabum",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.396076"
+  },
+  {
+    "name": "amazon-br",
+    "display_name": "Amazon Br",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.399099"
+  },
+  {
+    "name": "dafiti",
+    "display_name": "Dafiti",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.402374"
+  },
+  {
+    "name": "centrosolar",
+    "display_name": "Centrosolar",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.404696"
+  },
+  {
+    "name": "moleko",
+    "display_name": "Moleko",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.406579"
+  },
+  {
+    "name": "wish-br",
+    "display_name": "Wish Br",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.408519"
+  },
+  {
+    "name": "acessorios-para-celular",
+    "display_name": "Acessorios Para Celular",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.410385"
+  },
+  {
+    "name": "smartwatch-wearables",
+    "display_name": "Smartwatch Wearables",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.412246"
+  },
+  {
+    "name": "produtos-para-pets",
+    "display_name": "Produtos Para Pets",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.414120"
+  },
+  {
+    "name": "organizacao-e-organizacao-domestic",
+    "display_name": "Organizacao E Organizacao Domestic",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.415985"
+  },
+  {
+    "name": "cuidados-pessoais-beleza",
+    "display_name": "Cuidados Pessoais Beleza",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.417768"
+  },
+  {
+    "name": "cozinha-utensilios",
+    "display_name": "Cozinha Utensilios",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.419627"
+  },
+  {
+    "name": "fitness-acessorios-academia",
+    "display_name": "Fitness Acessorios Academia",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.421521"
+  },
+  {
+    "name": "decoracao-iluminacao-led",
+    "display_name": "Decoracao Iluminacao Led",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.423372"
+  },
+  {
+    "name": "brinquedos-kids",
+    "display_name": "Brinquedos Kids",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.426564"
+  },
+  {
+    "name": "acessorios-gaming",
+    "display_name": "Acessorios Gaming",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.429819"
+  },
+  {
+    "name": "produtos-ergonomicos",
+    "display_name": "Produtos Ergonomicos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.431840"
+  },
+  {
+    "name": "energy-saving-solar",
+    "display_name": "Energy Saving Solar",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.433679"
+  },
+  {
+    "name": "autopelagem-customizacao",
+    "display_name": "Autopelagem Customizacao",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.435568"
+  },
+  {
+    "name": "cbd-produtos-naturais",
+    "display_name": "Cbd Produtos Naturais",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.437409"
+  },
+  {
+    "name": "energia-solar-fotovoltaica",
+    "display_name": "Energia Solar Fotovoltaica",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.439364"
+  },
+  {
+    "name": "iluminacao-led-decorativa",
+    "display_name": "Iluminacao Led Decorativa",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.441269"
+  },
+  {
+    "name": "acessorios-fitness",
+    "display_name": "Acessorios Fitness",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.443063"
+  },
+  {
+    "name": "organizacao-domestica",
+    "display_name": "Organizacao Domestica",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.444902"
+  },
+  {
+    "name": "utensilios-de-cozinha",
+    "display_name": "Utensilios De Cozinha",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.446660"
+  },
+  {
+    "name": "oculos-de-sol-relogios-acessorios",
+    "display_name": "Oculos De Sol Relogios Acessorios",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.448495"
+  },
+  {
+    "name": "beleza-cuidados-pessoais",
+    "display_name": "Beleza Cuidados Pessoais",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.450405"
+  },
+  {
+    "name": "produtos-naturais-organicos",
+    "display_name": "Produtos Naturais Organicos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.453543"
+  },
+  {
+    "name": "cursos-e-books-info-produtos",
+    "display_name": "Cursos E Books Info Produtos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.456576"
+  },
+  {
+    "name": "cadeiras-mesas-gaming",
+    "display_name": "Cadeiras Mesas Gaming",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.458354"
+  },
+  {
+    "name": "produtos-para-behe",
+    "display_name": "Produtos Para Behe",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.460069"
+  },
+  {
+    "name": "roupas-de-cama-decoracao",
+    "display_name": "Roupas De Cama Decoracao",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.461676"
+  },
+  {
+    "name": "acessorios-automotivos",
+    "display_name": "Acessorios Automotivos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.463398"
+  },
+  {
+    "name": "escritorio-home-office",
+    "display_name": "Escritorio Home Office",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.465119"
+  },
+  {
+    "name": "presentes-presenteiras",
+    "display_name": "Presentes Presenteiras",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.466713"
+  },
+  {
+    "name": "yoga-meditacao",
+    "display_name": "Yoga Meditacao",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.468436"
+  },
+  {
+    "name": "camping-aventura",
+    "display_name": "Camping Aventura",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.470050"
+  },
+  {
+    "name": "artesanato-diy",
+    "display_name": "Artesanato Diy",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.471684"
+  },
+  {
+    "name": "capas-personalizadas-iphone",
+    "display_name": "Capas Personalizadas Iphone",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.473287"
+  },
+  {
+    "name": "power-banks-baterias",
+    "display_name": "Power Banks Baterias",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.474877"
+  },
+  {
+    "name": "fones-bluetooth-audio",
+    "display_name": "Fones Bluetooth Audio",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.476501"
+  },
+  {
+    "name": "organizacao-de-escritorio",
+    "display_name": "Organizacao De Escritorio",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.478852"
+  },
+  {
+    "name": "plantas-jardinagem",
+    "display_name": "Plantas Jardinagem",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.481853"
+  },
+  {
+    "name": "ferramentas-kits-jogos",
+    "display_name": "Ferramentas Kits Jogos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.484523"
+  },
+  {
+    "name": "brinquedos-educativos",
+    "display_name": "Brinquedos Educativos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.486274"
+  },
+  {
+    "name": "acessorios-camera",
+    "display_name": "Acessorios Camera",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.487907"
+  },
+  {
+    "name": "kits-presente-namoro-amigos",
+    "display_name": "Kits Presente Namoro Amigos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.489564"
+  },
+  {
+    "name": "acessorios-viagem",
+    "display_name": "Acessorios Viagem",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.491221"
+  },
+  {
+    "name": "suportes-celular-carro-moto",
+    "display_name": "Suportes Celular Carro Moto",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.492842"
+  },
+  {
+    "name": "quadros-decorativos",
+    "display_name": "Quadros Decorativos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.494519"
+  },
+  {
+    "name": "acessorios-moda-bolsas-cintos",
+    "display_name": "Acessorios Moda Bolsas Cintos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.496164"
+  },
+  {
+    "name": "proteinas-suplementos-naturais",
+    "display_name": "Proteinas Suplementos Naturais",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.497730"
+  },
+  {
+    "name": "acessorios-banheiro",
+    "display_name": "Acessorios Banheiro",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.499376"
+  },
+  {
+    "name": "pelucias-decoracao-k-pop-geek",
+    "display_name": "Pelucias Decoracao K Pop Geek",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.500982"
+  },
+  {
+    "name": "controles-joysticks-pc-console",
+    "display_name": "Controles Joysticks Pc Console",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.502665"
+  },
+  {
+    "name": "acessorios-leitura",
+    "display_name": "Acessorios Leitura",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.504357"
+  },
+  {
+    "name": "maquiagem-esmalte-k-beauty",
+    "display_name": "Maquiagem Esmalte K Beauty",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.505976"
+  },
+  {
+    "name": "tapetes-papes",
+    "display_name": "Tapetes Papes",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.507601"
+  },
+  {
+    "name": "cabos-carregadores",
+    "display_name": "Cabos Carregadores",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.509191"
+  },
+  {
+    "name": "caixas-surpresa-mystery-box",
+    "display_name": "Caixas Surpresa Mystery Box",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.510805"
+  },
+  {
+    "name": "protecao-saude",
+    "display_name": "Protecao Saude",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.512444"
+  },
+  {
+    "name": "gravadoras-customizacao",
+    "display_name": "Gravadoras Customizacao",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.514042"
+  },
+  {
+    "name": "acessorios-pet-roupinhas-lacos",
+    "display_name": "Acessorios Pet Roupinhas Lacos",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.515774"
+  },
+  {
+    "name": "webcams-microfones-streaming",
+    "display_name": "Webcams Microfones Streaming",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.517406"
+  },
+  {
+    "name": "pilhas-baterias-recarregaveis",
+    "display_name": "Pilhas Baterias Recarregaveis",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.519096"
+  },
+  {
+    "name": "caixas-de-som-bluetooth",
+    "display_name": "Caixas De Som Bluetooth",
+    "margin_min": 40,
+    "margin_max": 80,
+    "competition": "média",
+    "seasonality": "estável",
+    "avg_product_price": 97,
+    "top_products": [
+      "produto genérico"
+    ],
+    "suppliers_count": 50,
+    "score": 7.0,
+    "timestamp": "2026-05-15T20:46:58.520724"
+  }
+]

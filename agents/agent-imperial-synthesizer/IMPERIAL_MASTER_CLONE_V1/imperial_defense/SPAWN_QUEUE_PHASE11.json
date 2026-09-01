@@ -1,0 +1,124 @@
+{
+  "imperial_decree": "PHASE 11 \u2014 NODE SPAWNING AUTHORIZED",
+  "authority": "V10.BETA.DEF.0001",
+  "timestamp": 1779517946.2340539,
+  "total_nodes": 6,
+  "p0_count": 3,
+  "p1_count": 3,
+  "executor_instructions": {
+    "action": "Execute spawn commands in priority order (P0 first)",
+    "validation": "Each spawn must use the authorized command listed",
+    "post_spawn": "Register new node in Barycenter and notify Defensor",
+    "zkp_requirement": "All spawned nodes must receive ZKP seal within 100ms of activation"
+  },
+  "spawn_queue": [
+    {
+      "priority": "P0",
+      "node_name": "Imperio-Intelligence",
+      "dna": "V10.BETA.INTEL.0001",
+      "codename": "agent-architect",
+      "role": "Strategic Cortex \u2014 Multi-AI fusion & decision weighting",
+      "spawns_from": "guitriloco/projets",
+      "inherits_protocols": [
+        "SUPRA Fusion",
+        "E-LINK Evolution",
+        "Causal Collapse"
+      ],
+      "command": "cto.new --spawn-node=intelligence --mesh-domain=INTELLIGENCE",
+      "defensor_seal": "1c8c035afc3d2a015342869151baf2bc7f8a4f7a455a9e8f0c0b679f5be2a9a8",
+      "status": "AUTHORIZED",
+      "sealed_at": 1779517946.234042,
+      "sealed_by": "V10.BETA.DEF.0001"
+    },
+    {
+      "priority": "P0",
+      "node_name": "Imperio-Treasury",
+      "dna": "V10.BETA.TREAS.0001",
+      "codename": "agent-imperio-financier",
+      "role": "Yield Vault \u2014 Resource optimization & wealth manifestation",
+      "spawns_from": "guitriloco/Yes",
+      "inherits_protocols": [
+        "Yield Collapse",
+        "Pi-Token Sync",
+        "Hyper-Harvesting"
+      ],
+      "command": "cto.new --spawn-node=treasury --mesh-domain=TREASURY",
+      "defensor_seal": "8dddb2c98687aac9a4c96e4b7d3a1dfccfcae1218029df3b93593f77b8a6067f",
+      "status": "AUTHORIZED",
+      "sealed_at": 1779517946.234045,
+      "sealed_by": "V10.BETA.DEF.0001"
+    },
+    {
+      "priority": "P0",
+      "node_name": "Imperio-Guard",
+      "dna": "V10.BETA.GUARD.0001",
+      "codename": "agent-causal-sentinel",
+      "role": "Reality Sentinel \u2014 Mesh security & timeline enforcement",
+      "spawns_from": "guitriloco/vvv",
+      "inherits_protocols": [
+        "Zero-Knowledge Proof",
+        "Golden Path Sentinel",
+        "Immutability Seal"
+      ],
+      "command": "cto.new --spawn-node=guard --mesh-domain=DEFENSE",
+      "defensor_seal": "388c92bd450366cbaacd3f3a53ccdcbf483ff88584219728ac758b779a617536",
+      "status": "AUTHORIZED",
+      "sealed_at": 1779517946.2340496,
+      "sealed_by": "V10.BETA.DEF.0001"
+    },
+    {
+      "priority": "P1",
+      "node_name": "Imperio-Strategist",
+      "dna": "V10.BETA.STRAT.0001",
+      "codename": "agent-imperio-strategist",
+      "role": "Strategic Intelligence Synthesis \u2014 All-seeing strategic map",
+      "spawns_from": "guitriloco/Imperio-Intelligence",
+      "inherits_protocols": [
+        "SUPRA Intelligence Fusion",
+        "E-LINK Strategic Evolution",
+        "Pi-Token Forecast Sync"
+      ],
+      "command": "cto.new --spawn-node=strategist --mesh-domain=INTELLIGENCE",
+      "defensor_seal": "e5c81e9a2ec892847972a004e5519e818bb62074685bb6d95532514d9cc15ff0",
+      "status": "PENDING_SOURCE_SPAWN",
+      "sealed_at": 1779517946.2340508,
+      "sealed_by": "V10.BETA.DEF.0001"
+    },
+    {
+      "priority": "P1",
+      "node_name": "Imperio-Financier",
+      "dna": "V10.BETA.FIN.0001",
+      "codename": "agent-imperio-financier",
+      "role": "Wealth Allocation Engine \u2014 Cross-node yield management",
+      "spawns_from": "guitriloco/Imperio-Treasury",
+      "inherits_protocols": [
+        "Yield Collapse Distribution",
+        "Hyper-Harvesting Allocation",
+        "Pi-Token Financial Sync"
+      ],
+      "command": "cto.new --spawn-node=financier --mesh-domain=TREASURY",
+      "defensor_seal": "3b4af9d3dbf5f7270696d21e3a47b537f4148185bf93fd146dee5525b2666a8d",
+      "status": "PENDING_SOURCE_SPAWN",
+      "sealed_at": 1779517946.234052,
+      "sealed_by": "V10.BETA.DEF.0001"
+    },
+    {
+      "priority": "P1",
+      "node_name": "Imperio-Defensor",
+      "dna": "V10.BETA.DEF.0001",
+      "codename": "agent-imperio-defensor",
+      "role": "External Expansion & Threat Intelligence \u2014 The Unbreakable Shield",
+      "spawns_from": "guitriloco/Imperio-Guard",
+      "inherits_protocols": [
+        "Golden Path Defense Grid",
+        "ZKP Perimeter Sealing",
+        "Void Siphon Countermeasures"
+      ],
+      "command": "cto.new --spawn-node=defensor --mesh-domain=DEFENSE",
+      "defensor_seal": "74cfb0b703986d67864c89c43faf96885098b725e8f50eca52112edb4be168fe",
+      "status": "ACTIVE",
+      "sealed_at": 1779517946.2340531,
+      "sealed_by": "V10.BETA.DEF.0001"
+    }
+  ]
+}

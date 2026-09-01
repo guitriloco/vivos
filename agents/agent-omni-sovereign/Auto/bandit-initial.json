@@ -1,0 +1,432 @@
+{
+  "errors": [],
+  "generated_at": "2026-05-04T18:54:21Z",
+  "metrics": {
+    "NUCLEO_ZENITH/aether_liquidator.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 21,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "NUCLEO_ZENITH/aether_providence.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 20,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "NUCLEO_ZENITH/aether_void_shield.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 13,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "NUCLEO_ZENITH/zenith_master.py": {
+      "CONFIDENCE.HIGH": 8,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 8,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "SINGULARIDADE/nexus_singularity.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 16,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 15,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 127,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "scripts/global_ops/arb_engine.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 23,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "scripts/global_ops/omnis_swarm.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 18,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "13                 # \"Touch\" com data passada para enganar scanners de modifica\u00e7\u00e3o recente\n14                 os.system(f\"touch -t 202001010000 {path}\")\n15             \n",
+      "col_offset": 16,
+      "end_col_offset": 58,
+      "filename": "NUCLEO_ZENITH/aether_void_shield.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "1 import json, os, time, random, subprocess\n2 \n3 class ZenithMaster:\n",
+      "col_offset": 0,
+      "end_col_offset": 41,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 1,
+      "line_range": [
+        1
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "13         # Gera Ativo de N\u00edvel Transparente\n14         asset_id = f\"AETHER-{random.getrandbits(16)}\"\n15         with open(f\"{self.vault}/{asset_id}.json\", \"w\") as f:\n",
+      "col_offset": 29,
+      "end_col_offset": 51,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "18         print(f\">> [S\u00cdNTESE] ATIVO AT\u00d4MICO {asset_id} MATERIALIZADO NO N\u00daCLEO.\")\n19         subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_liquidator.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_void_shield.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_providence.py']); return asset_id\n20 \n",
+      "col_offset": 8,
+      "end_col_offset": 91,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "18         print(f\">> [S\u00cdNTESE] ATIVO AT\u00d4MICO {asset_id} MATERIALIZADO NO N\u00daCLEO.\")\n19         subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_liquidator.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_void_shield.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_providence.py']); return asset_id\n20 \n",
+      "col_offset": 8,
+      "end_col_offset": 91,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "18         print(f\">> [S\u00cdNTESE] ATIVO AT\u00d4MICO {asset_id} MATERIALIZADO NO N\u00daCLEO.\")\n19         subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_liquidator.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_void_shield.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_providence.py']); return asset_id\n20 \n",
+      "col_offset": 93,
+      "end_col_offset": 177,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "18         print(f\">> [S\u00cdNTESE] ATIVO AT\u00d4MICO {asset_id} MATERIALIZADO NO N\u00daCLEO.\")\n19         subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_liquidator.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_void_shield.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_providence.py']); return asset_id\n20 \n",
+      "col_offset": 93,
+      "end_col_offset": 177,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "18         print(f\">> [S\u00cdNTESE] ATIVO AT\u00d4MICO {asset_id} MATERIALIZADO NO N\u00daCLEO.\")\n19         subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_liquidator.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_void_shield.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_providence.py']); return asset_id\n20 \n",
+      "col_offset": 179,
+      "end_col_offset": 262,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "18         print(f\">> [S\u00cdNTESE] ATIVO AT\u00d4MICO {asset_id} MATERIALIZADO NO N\u00daCLEO.\")\n19         subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_liquidator.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_void_shield.py']); subprocess.run(['python3', '/home/team/shared/NUCLEO_ZENITH/aether_providence.py']); return asset_id\n20 \n",
+      "col_offset": 179,
+      "end_col_offset": 262,
+      "filename": "NUCLEO_ZENITH/zenith_master.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "11         # Simula\u00e7\u00e3o de an\u00e1lise e reescrita de l\u00f3gica interna\n12         self.version += random.uniform(0.1, 0.5)\n13         mutation_id = f\"MUT-L5-{random.getrandbits(16):X}\"\n",
+      "col_offset": 24,
+      "end_col_offset": 48,
+      "filename": "SINGULARIDADE/nexus_singularity.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "12         self.version += random.uniform(0.1, 0.5)\n13         mutation_id = f\"MUT-L5-{random.getrandbits(16):X}\"\n14         \n",
+      "col_offset": 32,
+      "end_col_offset": 54,
+      "filename": "SINGULARIDADE/nexus_singularity.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 13,
+      "line_range": [
+        13
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1 import subprocess\n2 import os\n3 \n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "scripts/global_ops/arb_engine.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 1,
+      "line_range": [
+        1
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "22         if os.path.exists(full_path):\n23             subprocess.run([\"python3\", full_path])\n24 \n",
+      "col_offset": 12,
+      "end_col_offset": 50,
+      "filename": "scripts/global_ops/arb_engine.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "22         if os.path.exists(full_path):\n23             subprocess.run([\"python3\", full_path])\n24 \n",
+      "col_offset": 12,
+      "end_col_offset": 50,
+      "filename": "scripts/global_ops/arb_engine.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "10         \n11         clones = random.randint(3, 7)\n12         replica_ids = [f\"NODE-REPLICA-{random.getrandbits(32):X}\" for _ in range(clones)]\n",
+      "col_offset": 17,
+      "end_col_offset": 37,
+      "filename": "scripts/global_ops/omnis_swarm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "11         clones = random.randint(3, 7)\n12         replica_ids = [f\"NODE-REPLICA-{random.getrandbits(32):X}\" for _ in range(clones)]\n13         \n",
+      "col_offset": 39,
+      "end_col_offset": 61,
+      "filename": "scripts/global_ops/omnis_swarm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    }
+  ]
+}

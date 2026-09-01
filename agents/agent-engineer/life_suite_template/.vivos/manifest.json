@@ -1,0 +1,11 @@
+{
+  "aggregate": "LIFE-SUITE",
+  "version": "13.0",
+  "nexus_role": "BASE_NODE",
+  "fused_repos": [
+    "Nectar_Health",
+    "Nectar_Pets",
+    "Nectar_Wealth"
+  ],
+  "status": "COLONIZED"
+}

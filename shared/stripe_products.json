@@ -1,0 +1,427 @@
+{
+  "status": "DRAFT_SIMULATED",
+  "currency": "usd",
+  "products_count": 42,
+  "products": [
+    {
+      "product_id": "prod_v17_yield-siphon",
+      "name": "\u269c\ufe0f YIELD-SIPHON (Supreme Core) \u269c\ufe0f",
+      "description": "High-Performance C++ Arbitrage Siphon Protocol (0.368\u03bcs decision latency)",
+      "price_id": "price_v17_yield-siphon",
+      "price": 499,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_yield-siphon"
+    },
+    {
+      "product_id": "prod_v17_wraith-mesh",
+      "name": "\u269c\ufe0f WRAITH-MESH (Supreme Core) \u269c\ufe0f",
+      "description": "Zero-Trust Autonomous Firewall & Node routing mesh",
+      "price_id": "price_v17_wraith-mesh",
+      "price": 299,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_wraith-mesh"
+    },
+    {
+      "product_id": "prod_v17_cognitive-sdk",
+      "name": "\u269c\ufe0f COGNITIVE-SDK (Supreme Core) \u269c\ufe0f",
+      "description": "14-Model AI Sovereign Intelligence Orchestration SDK",
+      "price_id": "price_v17_cognitive-sdk",
+      "price": 99,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_cognitive-sdk"
+    },
+    {
+      "product_id": "prod_v17_secure-vault",
+      "name": "\u269c\ufe0f SECURE-VAULT (Supreme Core) \u269c\ufe0f",
+      "description": "ZKP Immutable Ledger and Encrypted Multi-tenant Vault",
+      "price_id": "price_v17_secure-vault",
+      "price": 199,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_secure-vault"
+    },
+    {
+      "product_id": "prod_v17_omni-hub",
+      "name": "\u269c\ufe0f OMNI-HUB (Supreme Core) \u269c\ufe0f",
+      "description": "Central Command and Imperial Control Hub",
+      "price_id": "price_v17_omni-hub",
+      "price": 999,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_omni-hub"
+    },
+    {
+      "product_id": "prod_v17_mutant-nectar",
+      "name": "\u269c\ufe0f MUTANT-NECTAR (Supreme Core) \u269c\ufe0f",
+      "description": "Self-Evolving Code and Mutation Engine (E-LINK)",
+      "price_id": "price_v17_mutant-nectar",
+      "price": 149,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_mutant-nectar"
+    },
+    {
+      "product_id": "prod_v17_life-suite",
+      "name": "\u269c\ufe0f LIFE-SUITE (Supreme Core) \u269c\ufe0f",
+      "description": "Wealth, Pets, and Health Sovereign Suite Bundle",
+      "price_id": "price_v17_life-suite",
+      "price": 49,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_life-suite"
+    },
+    {
+      "product_id": "prod_v17_yield-siphon_fin",
+      "name": "\ud83d\udca0 VIVOS-FIN-YIELD-SIPHON (Fintech & Arbitrage) \ud83d\udca0",
+      "description": "Specialized fractal variant of YIELD-SIPHON optimized for Fintech & Arbitrage industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_yield-siphon_fin",
+      "price": 623,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_yield-siphon_fin"
+    },
+    {
+      "product_id": "prod_v17_yield-siphon_cyber",
+      "name": "\ud83d\udca0 VIVOS-CYBER-YIELD-SIPHON (Cybersecurity & Defense) \ud83d\udca0",
+      "description": "Specialized fractal variant of YIELD-SIPHON optimized for Cybersecurity & Defense industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_yield-siphon_cyber",
+      "price": 623,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_yield-siphon_cyber"
+    },
+    {
+      "product_id": "prod_v17_yield-siphon_bio",
+      "name": "\ud83d\udca0 VIVOS-BIO-YIELD-SIPHON (Biotech & Genetic Simulation) \ud83d\udca0",
+      "description": "Specialized fractal variant of YIELD-SIPHON optimized for Biotech & Genetic Simulation industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_yield-siphon_bio",
+      "price": 623,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_yield-siphon_bio"
+    },
+    {
+      "product_id": "prod_v17_yield-siphon_def",
+      "name": "\ud83d\udca0 VIVOS-DEF-YIELD-SIPHON (Defense & Sovereign Networks) \ud83d\udca0",
+      "description": "Specialized fractal variant of YIELD-SIPHON optimized for Defense & Sovereign Networks industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_yield-siphon_def",
+      "price": 623,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_yield-siphon_def"
+    },
+    {
+      "product_id": "prod_v17_yield-siphon_log",
+      "name": "\ud83d\udca0 VIVOS-LOG-YIELD-SIPHON (Logistics & Supply-Chain Optimization) \ud83d\udca0",
+      "description": "Specialized fractal variant of YIELD-SIPHON optimized for Logistics & Supply-Chain Optimization industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_yield-siphon_log",
+      "price": 623,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_yield-siphon_log"
+    },
+    {
+      "product_id": "prod_v17_wraith-mesh_fin",
+      "name": "\ud83d\udca0 VIVOS-FIN-WRAITH-MESH (Fintech & Arbitrage) \ud83d\udca0",
+      "description": "Specialized fractal variant of WRAITH-MESH optimized for Fintech & Arbitrage industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_wraith-mesh_fin",
+      "price": 373,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_wraith-mesh_fin"
+    },
+    {
+      "product_id": "prod_v17_wraith-mesh_cyber",
+      "name": "\ud83d\udca0 VIVOS-CYBER-WRAITH-MESH (Cybersecurity & Defense) \ud83d\udca0",
+      "description": "Specialized fractal variant of WRAITH-MESH optimized for Cybersecurity & Defense industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_wraith-mesh_cyber",
+      "price": 373,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_wraith-mesh_cyber"
+    },
+    {
+      "product_id": "prod_v17_wraith-mesh_bio",
+      "name": "\ud83d\udca0 VIVOS-BIO-WRAITH-MESH (Biotech & Genetic Simulation) \ud83d\udca0",
+      "description": "Specialized fractal variant of WRAITH-MESH optimized for Biotech & Genetic Simulation industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_wraith-mesh_bio",
+      "price": 373,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_wraith-mesh_bio"
+    },
+    {
+      "product_id": "prod_v17_wraith-mesh_def",
+      "name": "\ud83d\udca0 VIVOS-DEF-WRAITH-MESH (Defense & Sovereign Networks) \ud83d\udca0",
+      "description": "Specialized fractal variant of WRAITH-MESH optimized for Defense & Sovereign Networks industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_wraith-mesh_def",
+      "price": 373,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_wraith-mesh_def"
+    },
+    {
+      "product_id": "prod_v17_wraith-mesh_log",
+      "name": "\ud83d\udca0 VIVOS-LOG-WRAITH-MESH (Logistics & Supply-Chain Optimization) \ud83d\udca0",
+      "description": "Specialized fractal variant of WRAITH-MESH optimized for Logistics & Supply-Chain Optimization industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_wraith-mesh_log",
+      "price": 373,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_wraith-mesh_log"
+    },
+    {
+      "product_id": "prod_v17_cognitive-sdk_fin",
+      "name": "\ud83d\udca0 VIVOS-FIN-COGNITIVE-SDK (Fintech & Arbitrage) \ud83d\udca0",
+      "description": "Specialized fractal variant of COGNITIVE-SDK optimized for Fintech & Arbitrage industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_cognitive-sdk_fin",
+      "price": 123,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_cognitive-sdk_fin"
+    },
+    {
+      "product_id": "prod_v17_cognitive-sdk_cyber",
+      "name": "\ud83d\udca0 VIVOS-CYBER-COGNITIVE-SDK (Cybersecurity & Defense) \ud83d\udca0",
+      "description": "Specialized fractal variant of COGNITIVE-SDK optimized for Cybersecurity & Defense industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_cognitive-sdk_cyber",
+      "price": 123,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_cognitive-sdk_cyber"
+    },
+    {
+      "product_id": "prod_v17_cognitive-sdk_bio",
+      "name": "\ud83d\udca0 VIVOS-BIO-COGNITIVE-SDK (Biotech & Genetic Simulation) \ud83d\udca0",
+      "description": "Specialized fractal variant of COGNITIVE-SDK optimized for Biotech & Genetic Simulation industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_cognitive-sdk_bio",
+      "price": 123,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_cognitive-sdk_bio"
+    },
+    {
+      "product_id": "prod_v17_cognitive-sdk_def",
+      "name": "\ud83d\udca0 VIVOS-DEF-COGNITIVE-SDK (Defense & Sovereign Networks) \ud83d\udca0",
+      "description": "Specialized fractal variant of COGNITIVE-SDK optimized for Defense & Sovereign Networks industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_cognitive-sdk_def",
+      "price": 123,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_cognitive-sdk_def"
+    },
+    {
+      "product_id": "prod_v17_cognitive-sdk_log",
+      "name": "\ud83d\udca0 VIVOS-LOG-COGNITIVE-SDK (Logistics & Supply-Chain Optimization) \ud83d\udca0",
+      "description": "Specialized fractal variant of COGNITIVE-SDK optimized for Logistics & Supply-Chain Optimization industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_cognitive-sdk_log",
+      "price": 123,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_cognitive-sdk_log"
+    },
+    {
+      "product_id": "prod_v17_secure-vault_fin",
+      "name": "\ud83d\udca0 VIVOS-FIN-SECURE-VAULT (Fintech & Arbitrage) \ud83d\udca0",
+      "description": "Specialized fractal variant of SECURE-VAULT optimized for Fintech & Arbitrage industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_secure-vault_fin",
+      "price": 248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_secure-vault_fin"
+    },
+    {
+      "product_id": "prod_v17_secure-vault_cyber",
+      "name": "\ud83d\udca0 VIVOS-CYBER-SECURE-VAULT (Cybersecurity & Defense) \ud83d\udca0",
+      "description": "Specialized fractal variant of SECURE-VAULT optimized for Cybersecurity & Defense industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_secure-vault_cyber",
+      "price": 248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_secure-vault_cyber"
+    },
+    {
+      "product_id": "prod_v17_secure-vault_bio",
+      "name": "\ud83d\udca0 VIVOS-BIO-SECURE-VAULT (Biotech & Genetic Simulation) \ud83d\udca0",
+      "description": "Specialized fractal variant of SECURE-VAULT optimized for Biotech & Genetic Simulation industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_secure-vault_bio",
+      "price": 248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_secure-vault_bio"
+    },
+    {
+      "product_id": "prod_v17_secure-vault_def",
+      "name": "\ud83d\udca0 VIVOS-DEF-SECURE-VAULT (Defense & Sovereign Networks) \ud83d\udca0",
+      "description": "Specialized fractal variant of SECURE-VAULT optimized for Defense & Sovereign Networks industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_secure-vault_def",
+      "price": 248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_secure-vault_def"
+    },
+    {
+      "product_id": "prod_v17_secure-vault_log",
+      "name": "\ud83d\udca0 VIVOS-LOG-SECURE-VAULT (Logistics & Supply-Chain Optimization) \ud83d\udca0",
+      "description": "Specialized fractal variant of SECURE-VAULT optimized for Logistics & Supply-Chain Optimization industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_secure-vault_log",
+      "price": 248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_secure-vault_log"
+    },
+    {
+      "product_id": "prod_v17_omni-hub_fin",
+      "name": "\ud83d\udca0 VIVOS-FIN-OMNI-HUB (Fintech & Arbitrage) \ud83d\udca0",
+      "description": "Specialized fractal variant of OMNI-HUB optimized for Fintech & Arbitrage industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_omni-hub_fin",
+      "price": 1248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_omni-hub_fin"
+    },
+    {
+      "product_id": "prod_v17_omni-hub_cyber",
+      "name": "\ud83d\udca0 VIVOS-CYBER-OMNI-HUB (Cybersecurity & Defense) \ud83d\udca0",
+      "description": "Specialized fractal variant of OMNI-HUB optimized for Cybersecurity & Defense industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_omni-hub_cyber",
+      "price": 1248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_omni-hub_cyber"
+    },
+    {
+      "product_id": "prod_v17_omni-hub_bio",
+      "name": "\ud83d\udca0 VIVOS-BIO-OMNI-HUB (Biotech & Genetic Simulation) \ud83d\udca0",
+      "description": "Specialized fractal variant of OMNI-HUB optimized for Biotech & Genetic Simulation industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_omni-hub_bio",
+      "price": 1248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_omni-hub_bio"
+    },
+    {
+      "product_id": "prod_v17_omni-hub_def",
+      "name": "\ud83d\udca0 VIVOS-DEF-OMNI-HUB (Defense & Sovereign Networks) \ud83d\udca0",
+      "description": "Specialized fractal variant of OMNI-HUB optimized for Defense & Sovereign Networks industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_omni-hub_def",
+      "price": 1248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_omni-hub_def"
+    },
+    {
+      "product_id": "prod_v17_omni-hub_log",
+      "name": "\ud83d\udca0 VIVOS-LOG-OMNI-HUB (Logistics & Supply-Chain Optimization) \ud83d\udca0",
+      "description": "Specialized fractal variant of OMNI-HUB optimized for Logistics & Supply-Chain Optimization industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_omni-hub_log",
+      "price": 1248,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_omni-hub_log"
+    },
+    {
+      "product_id": "prod_v17_mutant-nectar_fin",
+      "name": "\ud83d\udca0 VIVOS-FIN-MUTANT-NECTAR (Fintech & Arbitrage) \ud83d\udca0",
+      "description": "Specialized fractal variant of MUTANT-NECTAR optimized for Fintech & Arbitrage industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_mutant-nectar_fin",
+      "price": 186,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_mutant-nectar_fin"
+    },
+    {
+      "product_id": "prod_v17_mutant-nectar_cyber",
+      "name": "\ud83d\udca0 VIVOS-CYBER-MUTANT-NECTAR (Cybersecurity & Defense) \ud83d\udca0",
+      "description": "Specialized fractal variant of MUTANT-NECTAR optimized for Cybersecurity & Defense industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_mutant-nectar_cyber",
+      "price": 186,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_mutant-nectar_cyber"
+    },
+    {
+      "product_id": "prod_v17_mutant-nectar_bio",
+      "name": "\ud83d\udca0 VIVOS-BIO-MUTANT-NECTAR (Biotech & Genetic Simulation) \ud83d\udca0",
+      "description": "Specialized fractal variant of MUTANT-NECTAR optimized for Biotech & Genetic Simulation industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_mutant-nectar_bio",
+      "price": 186,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_mutant-nectar_bio"
+    },
+    {
+      "product_id": "prod_v17_mutant-nectar_def",
+      "name": "\ud83d\udca0 VIVOS-DEF-MUTANT-NECTAR (Defense & Sovereign Networks) \ud83d\udca0",
+      "description": "Specialized fractal variant of MUTANT-NECTAR optimized for Defense & Sovereign Networks industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_mutant-nectar_def",
+      "price": 186,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_mutant-nectar_def"
+    },
+    {
+      "product_id": "prod_v17_mutant-nectar_log",
+      "name": "\ud83d\udca0 VIVOS-LOG-MUTANT-NECTAR (Logistics & Supply-Chain Optimization) \ud83d\udca0",
+      "description": "Specialized fractal variant of MUTANT-NECTAR optimized for Logistics & Supply-Chain Optimization industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_mutant-nectar_log",
+      "price": 186,
+      "currency": "usd",
+      "billing_scheme": "one_time",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_mutant-nectar_log"
+    },
+    {
+      "product_id": "prod_v17_life-suite_fin",
+      "name": "\ud83d\udca0 VIVOS-FIN-LIFE-SUITE (Fintech & Arbitrage) \ud83d\udca0",
+      "description": "Specialized fractal variant of LIFE-SUITE optimized for Fintech & Arbitrage industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_life-suite_fin",
+      "price": 61,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_life-suite_fin"
+    },
+    {
+      "product_id": "prod_v17_life-suite_cyber",
+      "name": "\ud83d\udca0 VIVOS-CYBER-LIFE-SUITE (Cybersecurity & Defense) \ud83d\udca0",
+      "description": "Specialized fractal variant of LIFE-SUITE optimized for Cybersecurity & Defense industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_life-suite_cyber",
+      "price": 61,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_life-suite_cyber"
+    },
+    {
+      "product_id": "prod_v17_life-suite_bio",
+      "name": "\ud83d\udca0 VIVOS-BIO-LIFE-SUITE (Biotech & Genetic Simulation) \ud83d\udca0",
+      "description": "Specialized fractal variant of LIFE-SUITE optimized for Biotech & Genetic Simulation industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_life-suite_bio",
+      "price": 61,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_life-suite_bio"
+    },
+    {
+      "product_id": "prod_v17_life-suite_def",
+      "name": "\ud83d\udca0 VIVOS-DEF-LIFE-SUITE (Defense & Sovereign Networks) \ud83d\udca0",
+      "description": "Specialized fractal variant of LIFE-SUITE optimized for Defense & Sovereign Networks industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_life-suite_def",
+      "price": 61,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_life-suite_def"
+    },
+    {
+      "product_id": "prod_v17_life-suite_log",
+      "name": "\ud83d\udca0 VIVOS-LOG-LIFE-SUITE (Logistics & Supply-Chain Optimization) \ud83d\udca0",
+      "description": "Specialized fractal variant of LIFE-SUITE optimized for Logistics & Supply-Chain Optimization industry with PHI 1.618 resonance.",
+      "price_id": "price_v17_life-suite_log",
+      "price": 61,
+      "currency": "usd",
+      "billing_scheme": "month",
+      "checkout_url": "https://checkout.stripe.com/pay/simulated_v17_life-suite_log"
+    }
+  ]
+}

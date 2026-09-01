@@ -1,0 +1,35 @@
+nohup: ignoring input
+/home/team/shared/fusion/WRAITH-MESH/orchestration/sovereignty_api.py:261: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [741181]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Warning: sovereign_essence or Mirror_Protocol not found. Some endpoints will be limited.
+Warning: sovereign_essence or Mirror_Protocol not found. Some endpoints will be limited.
+[REGIONAL-FORGE] Initialized in ClusterRegion.ALPHA as ClusterRole.EXECUTION_FORGE
+Warning: Could not load SoupLog library: /home/agent-engineer/Auto/build/libsouplog.so: cannot open shared object file: Permission denied
+[REGIONAL-FORGE] Initialized in ClusterRegion.ALPHA as ClusterRole.EXECUTION_FORGE
+INFO:     10.12.225.76:42012 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:37640 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:52510 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:50228 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:37324 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:60800 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:34450 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:38572 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:57922 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:33122 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:58570 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:38992 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:40826 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:42930 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:49046 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:40880 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.225.76:58694 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.12.4.80:35104 - "GET / HTTP/1.1" 404 Not Found

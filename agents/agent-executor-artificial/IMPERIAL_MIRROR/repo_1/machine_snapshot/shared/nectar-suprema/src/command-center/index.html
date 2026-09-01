@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovereign Command Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@5.1.0/css/xterm.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/xterm@5.1.0/lib/xterm.min.js"></script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .dashboard-card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 0.75rem;
+        }
+        #terminal {
+            height: 400px;
+        }
+        .status-stable { color: #10b981; }
+        .status-not-found { color: #ef4444; }
+    </style>
+</head>
+<body class="p-6">
+    <header class="mb-8 flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-bold text-blue-400">⚜️ Sovereign Command Center</h1>
+            <p class="text-slate-400">Nectar Suprema Global Operations — v2.0 Live</p>
+        </div>
+        <div class="text-right">
+            <div id="clock" class="text-xl font-mono">00:00:00</div>
+            <div id="system-load" class="text-xs text-blue-500">LOAD: 0.45 | CPU: 12%</div>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+        <!-- Module Status -->
+        <div class="dashboard-card p-4 lg:col-span-1">
+            <h2 class="text-xl font-semibold mb-4 border-b border-slate-700 pb-2">Status dos Módulos</h2>
+            <div id="module-status-list" class="space-y-3">
+                <div class="flex justify-between items-center">
+                    <span>Nexus Core</span>
+                    <span class="status-stable">STABLE</span>
+                </div>
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+
+        <!-- Profit Chart -->
+        <div class="dashboard-card p-4 lg:col-span-2">
+            <h2 class="text-xl font-semibold mb-4 border-b border-slate-700 pb-2">Conquista Global: Lucro Real (24h)</h2>
+            <canvas id="profitChart" height="100"></canvas>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-6">
+        <!-- Metrics -->
+        <div class="dashboard-card p-4 text-center">
+            <div class="text-slate-400 text-sm">Revenue Total</div>
+            <div id="revenue-total" class="text-2xl font-bold text-green-400">R$ 0,00</div>
+        </div>
+        <div class="dashboard-card p-4 text-center">
+            <div class="text-slate-400 text-sm">Conversões</div>
+            <div id="conversion-count" class="text-2xl font-bold text-blue-400">0</div>
+        </div>
+        <div class="dashboard-card p-4 text-center">
+            <div class="text-slate-400 text-sm">LPs Ativas</div>
+            <div id="active-lps-count" class="text-2xl font-bold text-yellow-400">0</div>
+        </div>
+        <div class="dashboard-card p-4 text-center">
+            <div class="text-slate-400 text-sm">Growth Rate</div>
+            <div id="growth-rate" class="text-2xl font-bold text-purple-400">0%</div>
+        </div>
+    </div>
+
+    <!-- Global Conquest Status -->
+    <div class="dashboard-card p-4 mb-6">
+        <h2 class="text-xl font-semibold mb-4 border-b border-slate-700 pb-2">Status da Conquista Global</h2>
+        <div id="conquest-status" class="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <!-- Will be populated -->
+        </div>
+    </div>
+
+    <!-- Terminal -->
+    <div class="dashboard-card p-4">
+        <h2 class="text-xl font-semibold mb-4 border-b border-slate-700 pb-2 flex justify-between">
+            <span>Terminal de Soberania</span>
+            <span class="text-xs text-slate-500 font-mono">root@suprema:~/nectar-suprema#</span>
+        </h2>
+        <div id="terminal"></div>
+    </div>
+
+    <footer class="mt-8 text-center text-slate-500 text-sm">
+        &copy; 2025 Nectar Suprema. "Soberania técnica através da autonomia inteligente."
+    </footer>
+
+    <script>
+        // Terminal setup
+        const term = new Terminal({
+            theme: {
+                background: '#1e293b',
+                foreground: '#f8fafc',
+                cursor: '#60a5fa'
+            },
+            fontFamily: 'monospace',
+            fontSize: 14,
+            cursorBlink: true
+        });
+        term.open(document.getElementById('terminal'));
+        term.writeln('--- Conectando ao Núcleo de Soberania ---');
+
+        const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+        const wsUrl = `${protocol}//${window.location.host}/ws/terminal`;
+        let ws;
+
+        function connectWs() {
+            ws = new WebSocket(wsUrl);
+            ws.onopen = () => {
+                term.writeln('Conexão Estabelecida.');
+                // Send initial resize
+                ws.send(`__resize:${term.rows}:${term.cols}`);
+            };
+            ws.onmessage = (event) => {
+                term.write(event.data);
+            };
+            ws.onclose = () => {
+                term.writeln('\nConexão Perdida. Reconectando...');
+                setTimeout(connectWs, 3000);
+            };
+        }
+        connectWs();
+
+        term.onData(data => {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.send(data);
+            }
+        });
+
+        // Profit Chart
+        const ctx = document.getElementById('profitChart').getContext('2d');
+        const profitChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Lucro (R$)',
+                    data: [],
+                    borderColor: '#60a5fa',
+                    backgroundColor: 'rgba(96, 165, 250, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: { grid: { color: '#334155' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Fetch Data
+        async function updateDashboard() {
+            try {
+                // Status
+                const statusRes = await fetch('/status');
+                const statusData = await statusRes.json();
+                
+                const statusList = document.getElementById('module-status-list');
+                statusList.innerHTML = '';
+                statusData.projects.forEach(p => {
+                    const div = document.createElement('div');
+                    div.className = 'flex justify-between items-center';
+                    div.innerHTML = `
+                        <span>${p.name}</span>
+                        <span class="${p.state === 'STABLE/OPTIMIZED' ? 'status-stable' : 'status-not-found'}">
+                            ${p.state.split('/')[0]}
+                        </span>
+                    `;
+                    statusList.appendChild(div);
+                });
+                
+                document.getElementById('active-lps-count').innerText = statusData.active_lps_count;
+
+                // Metrics
+                const metricsRes = await fetch('/metrics');
+                const metricsData = await metricsRes.json();
+                
+                document.getElementById('revenue-total').innerText = metricsData.total_revenue;
+                document.getElementById('conversion-count').innerText = metricsData.conversions[metricsData.conversions.length - 1];
+                document.getElementById('growth-rate').innerText = metricsData.growth_rate;
+                
+                profitChart.data.labels = metricsData.labels;
+                profitChart.data.datasets[0].data = metricsData.profit;
+                profitChart.update();
+
+                // Conquest Status
+                const conquestList = document.getElementById('conquest-status');
+                conquestList.innerHTML = '';
+                const countries = [
+                    { name: 'Brasil', status: 'DOMINADO', icon: '🇧🇷' },
+                    { name: 'Portugal', status: 'EXPANDINDO', icon: '🇵🇹' },
+                    { name: 'EUA', status: 'PENDENTE', icon: '🇺🇸' },
+                    { name: 'Espanha', status: 'PENDENTE', icon: '🇪🇸' },
+                    { name: 'França', status: 'PENDENTE', icon: '🇫🇷' }
+                ];
+                countries.forEach(c => {
+                    const div = document.createElement('div');
+                    div.className = 'dashboard-card p-2 text-center text-sm';
+                    div.innerHTML = `
+                        <div class="text-2xl">${c.icon}</div>
+                        <div class="font-bold">${c.name}</div>
+                        <div class="${c.status === 'DOMINADO' ? 'text-green-400' : (c.status === 'EXPANDINDO' ? 'text-yellow-400' : 'text-slate-500')} text-xs">
+                            ${c.status}
+                        </div>
+                    `;
+                    conquestList.appendChild(div);
+                });
+
+            } catch (err) {
+                console.error("Dashboard update failed", err);
+            }
+        }
+
+        setInterval(updateDashboard, 5000);
+        updateDashboard();
+
+        // Clock
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toLocaleTimeString('pt-BR');
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>

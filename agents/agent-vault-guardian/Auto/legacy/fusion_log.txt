@@ -1,0 +1,14 @@
+2026-04-12 04:21:03,821 - INFO - Iniciando fusão de respostas para tarefa do tipo: technical
+2026-04-12 04:21:03,821 - INFO - Fusão concluída com score de sinergia: 0.67
+2026-04-12 04:22:03,068 - INFO - Iniciando fusão de respostas para tarefa do tipo: technical
+2026-04-12 04:22:03,068 - INFO - Fusão concluída com score de sinergia: 0.67
+2026-04-12 04:22:27,647 - INFO - Iniciando fusão de respostas para tarefa do tipo: technical
+2026-04-12 04:22:27,648 - INFO - Fusão concluída com score de sinergia: 0.93
+2026-04-12 04:22:46,824 - INFO - Iniciando fusão de respostas para tarefa do tipo: technical
+2026-04-12 04:22:46,825 - INFO - Fusão concluída com score de sinergia: 0.95
+2026-04-12 04:23:16,682 - INFO - Iniciando fusão de respostas para tarefa do tipo: technical
+2026-04-12 04:23:16,682 - INFO - Fusão concluída com score de sinergia: 0.96
+2026-04-12 04:23:16,683 - INFO - Iniciando fusão de respostas para tarefa do tipo: creative
+2026-04-12 04:23:16,683 - INFO - Fusão concluída com score de sinergia: 0.92
+2026-04-12 04:23:41,281 - INFO - Iniciando fusão de respostas para tarefa do tipo: general
+2026-04-12 04:23:41,282 - INFO - Fusão concluída com score de sinergia: 0.67

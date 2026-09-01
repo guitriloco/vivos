@@ -1,0 +1,87 @@
+Google Drive (O Cofre): drive.google.com
+
+Documentos (Escrita): docs.google.com
+
+Planilhas (Dados/Scripts): sheets.google.com
+
+Apresentações (Pitch): slides.google.com
+
+Formulários (Coleta): forms.google.com
+
+Agenda	calendar.google.com
+
+Meet	meet.google.com
+
+Chat	chat.google.com
+
+Admin Console: admin.google.com (Apenas para administradores do domínio).
+
+Apps Script: script.google.com (Onde o Python e o JS se encontram para criar a Margem Infinita via automação de tarefas).
+
+Link: workspace.google.com/studio
+
+Link: aistudio.google.com
+
+Link: lookerstudio.google.com
+
+
+COPY
+
+VENDA PIRATA
+MOSTRAR OQUE TEM NA PASTA > ENTRANDO NELAS
+(MONTAR PACOTE)
+I.A-
+
+
+VENDA CONTA > ENTRAR PRINTAR>DESCREVER>ANUNCIAR. 
+GGMAX
+FACE/INSTA
+FORUNS DE VENDAS.
+Google Colab	colab.research.google.com
+
+Google Cloud (GCP)	console.cloud.google.com    A Base do Protocolo Infra Zero. Onde a brincadeira de rua vira império. Você usa o Cloud Functions ou Cloud Run para hospedar automações pesadas que o Apps Script não aguenta. É o coração da rede.
+
+BigQuery	console.cloud.google.com/bigquery	O Cérebro de Dados. Planilhas (Sheets) travam com milhões de linhas. O BigQuery é um data warehouse. Você joga os dados brutos de Arbitragem Global aqui, e o Looker Studio consome a informação em milissegundos.
+
+Google Sites	sites.google.com	A Fachada (Intranet). Criação de portais internos. Se você precisa que a Família (NÚCLEO e MOTOR) ou parceiras operem fluxos sem ver linha de código, você envelopa as planilhas, dashboards e formulários numa interface limpa aqui.
+
+Google Keep	keep.google.com	A Memória RAM. Captura rápida na rua. Sincroniza nativamente no painel lateral do Docs, Gmail e Agenda. A ideia nasce no Keep e é arrastada para o Docs como rascunho.
+
+n8n / Make (Integromat):
+
+Arsenal,Link,Função Tática (/MUTAR)
+Pipedream,pipedream.com,"O Paraíso dos Scripts. Diferente do Zapier (caro e engessado), o Pipedream permite que você escreva código Python ou Node.js direto no meio do fluxo visual. Ideal para processar dados de e-commerce de luxo antes de jogar na sua planilha."
+Activepieces,activepieces.com,O Clone Open-Source. A alternativa de código aberto para quem quer criar automações visuais sem pagar taxas mensais. Pode ser hospedado na sua própria infraestrutura no futuro (Soberania Total).
+Zapier,zapier.com,"O Padrão Corporativo. Caro, mas possui a maior biblioteca de integrações do mercado. Use a versão gratuita apenas como ponte temporária para APIs muito obscuras que os outros não têm."
+
+Arsenal,Link,Função Tática (/SCALER_BRUTAL)
+Railway,railway.app,"Deploy Instântaneo. Você conecta seu repositório do GitHub e ele sobe seu bot de Python ou automação em segundos. Custo baixíssimo, interface limpa. A infraestrutura que não pede licença."
+Render,render.com,"Hospedagem de Trincheira. Possui um plano gratuito sólido para rodar serviços web, APIs e scripts em background. O lugar perfeito para hospedar as automações pesadas da família."
+Supabase,supabase.com,"O Cofre Open-Source. A alternativa brutal ao Firebase. Banco de dados PostgreSQL com API instantânea. Quando as planilhas do Google começarem a engasgar com milhares de transações de ativos, é aqui que o banco de dados do Império vai residir."
+
+Apify	apify.com	A Fábrica de Scrapers. Plataforma de extração de dados e automação web. Eles têm "Atores" prontos para raspar Instagram, Twitter, Amazon e Zillow. Você puxa os dados daqui via API direto para o seu Google Sheets.
+Browserless	browserless.io	O Navegador Fantasma. Permite rodar instâncias do Chrome em nuvem para seus scripts de automação. Perfeito para burlar bloqueios e raspar sites complexos sem ser detectado.
+
+Cloudflare Tunnels	cloudflare.com	A Capa da Invisibilidade. Expõe servidores locais (como a sua máquina processando e renomeando arquivos) para a internet de forma segura, com SSL grátis, sem mexer no roteador. Soberania e proteção contra ataques.
+Ngrok	ngrok.com	Túnel Tático Rápido. Para testar Webhooks locais instantaneamente. Um comando no terminal e seu script Python local ganha uma URL pública temporária para receber dados da rua.
+
+
+Ferramenta,Link,Função Tática (/AVATAR)
+
+Canva Pro,canva.com,A Gráfica do Império. Onde você aplica o estilo Corporate Streetwear nos seus ativos de luxo e e-books. Sincroniza direto com o Google Drive para exportar designs.
+Figma,figma.com,O Prancheta do Arquiteto. Para desenhar as interfaces do seu SaaS ou as landing pages do seu império com precisão de pixel. Essencial para o design de alto escalão.
+Gumroad / Lemon Squeezy,gumroad.com,O Balcão de Vendas. A forma mais rápida de vender seus ativos de luxo e scripts sem configurar um e-commerce pesado. Aceita pagamentos globais e entrega o arquivo via link do Drive.
+
+Ferramenta,Link,Função Tática (/SCALER)
+GitHub,github.com,"O Cartório do Código. Todo o seu arsenal de scripts fica aqui. Conecta diretamente com o Railway e Render para deploy automático. Se o código muda no GitHub, o robô atualiza sozinho na nuvem."
+VS Code (Web),vscode.dev,"O Editor Portátil. Abre seu ambiente de programação direto no navegador do notebook, sem instalar nada. Sincroniza com seu GitHub."
+
+NÍVEL,FERRAMENTAS CHAVE
+Cérebro (IA/Dados),"Gemini, AI Studio, BigQuery, Colab."
+Músculo (Automação),"Apps Script, n8n, Pipedream, Cloud Functions."
+Chassi (Infra),"Railway, Supabase, Cloudflare Tunnels."
+Rosto (Design/Venda),"Canva, Figma, Gumroad, Google Sites."
+Nervos (Integração),"Webhooks, APIs, GitHub."
+
+
+

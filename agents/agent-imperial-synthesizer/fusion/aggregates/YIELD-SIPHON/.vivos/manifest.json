@@ -1,0 +1,18 @@
+{
+  "version": "14.0.0",
+  "status": "VIVOS",
+  "evolution": "Phase 14: Supreme Fusion",
+  "name": "YIELD-SIPHON",
+  "components": [
+    {
+      "id": "moneyprinterturbo",
+      "path": "MoneyPrinterTurbo",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "sovereign_l2_arbitrage",
+      "path": "Sovereign-L2-Arbitrage",
+      "role": "Sovereign Component"
+    }
+  ]
+}

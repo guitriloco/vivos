@@ -1,0 +1,12 @@
+{
+  "timestamp": 1783817997.7633188,
+  "aggregate": "COGNITIVE-SDK",
+  "components": {
+    "understanding": true,
+    "terax": true,
+    "apex": true,
+    "chronos": true
+  },
+  "health": 1.0,
+  "intelligence_index": 0.99951
+}

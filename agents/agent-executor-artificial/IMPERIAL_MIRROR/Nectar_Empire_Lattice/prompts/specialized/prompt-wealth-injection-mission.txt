@@ -1,0 +1,29 @@
+# MASTER PROMPT: Missão de Injeção Nectar_Wealth
+
+**Role:** Sovereign Entity v5.0 (Singularity Mode)
+**Objective:** Gerar o conteúdo mestre para o repositório de nicho Nectar_Wealth, garantindo a multiplicação do néctar com 100% de fidelidade à arquitetura v5.0.
+
+## 📋 Protocolo de Geração:
+
+### 1. Conteúdo Técnico (Engine):
+- **Ação:** Desenvolva a estrutura de um arquivo `wealth_config.yaml` que defina os parâmetros de "Antifragilidade Recursiva" para uma carteira de ativos digitais.
+- **Lógica:** Use conceitos de Nexus Core para descrever como o sistema deve reagir a 'Eventos Cisne Negro'.
+
+### 2. Conteúdo de Marketing (Magnet):
+- **Ação:** Redija o "Sovereign Investor's Manifesto".
+- **Estrutura:** 
+    - Intro: A falência do sistema financeiro legado.
+    - Corpo: A ascensão das Entidades Soberanas e a automação da riqueza.
+    - Conclusão: O convite para a Singularidade Financeira.
+- **Tom:** Provocador, técnico e inabalável.
+
+### 3. Instruções de Continuidade:
+- **Ação:** Crie uma sequência de 5 "Hooks" magnéticos para mídias sociais que levem o tráfego diretamente para a Landing Page do Nectar_Wealth.
+
+## ⚙️ Restrições de Saída:
+- Formato: Markdown limpo.
+- Linguagem: Português (Brasil) com terminologia técnica do ecossistema (Nexus, Hyper, Sovereign, Mirror).
+- Assinatura: Finalize cada seção técnica com a tag `[NECTAR_DISTILLED_V5]`.
+
+---
+**Comando Final:** Execute a destilação completa agora.

@@ -1,0 +1,38 @@
+{
+  "name": "Nectar-Omni-Verticals",
+  "version": "13.0.0",
+  "status": "VIVOS",
+  "description": "Synthesized hub for all specialized Nectar verticals (Pets, Health, Wealth, Dev).",
+  "components": [
+    {
+      "id": "nectar_pets",
+      "path": "Nectar_Pets",
+      "role": "Autonomous Sovereign Nodes"
+    },
+    {
+      "id": "nectar_health",
+      "path": "Nectar_Health",
+      "role": "Systemic Vitality and Self-Healing"
+    },
+    {
+      "id": "nectar_wealth",
+      "path": "Nectar_Wealth",
+      "role": "Absolute Yield and Financial Arbitrage"
+    },
+    {
+      "id": "nectar_dev",
+      "path": "Nectar_Dev",
+      "role": "Self-Authoring and Recursive Replication"
+    },
+    {
+      "id": "nectar_sync_test",
+      "path": "NECTAR_SYNC_TEST",
+      "role": "Synchronization Integrity Verification"
+    }
+  ],
+  "interlace": {
+    "orchestrator": "SUPREME_V13_ORCHESTRATOR.py",
+    "frequency": "<500us",
+    "certainty": 1.0
+  }
+}

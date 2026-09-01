@@ -1,0 +1,23 @@
+{
+  "version": "14.0.0",
+  "status": "VIVOS",
+  "evolution": "Phase 14: Supreme Fusion",
+  "name": "LIFE-SUITE",
+  "components": [
+    {
+      "id": "nectar_health",
+      "path": "Nectar_Health",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "nectar_pets",
+      "path": "Nectar_Pets",
+      "role": "Sovereign Component"
+    },
+    {
+      "id": "nectar_wealth",
+      "path": "Nectar_Wealth",
+      "role": "Sovereign Component"
+    }
+  ]
+}

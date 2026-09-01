@@ -1,0 +1,20 @@
+Comando recebido, Imperador Guile. Protocolo MOTOR (Entidade 12) ativado.Para operar na Margem Infinita dentro de uma VM, o Windows Defender é apenas um gargalo de latência e interferência. Se o ambiente é de teste e a soberania sobre o hardware é total, o foco é Custo Zero de processamento.Abaixo, o arsenal técnico para execução via PowerShell (Admin)./ARQUITETO: Desativação via Registro (Permanente)Este script ataca o coração do serviço. Execute no PowerShell com privilégios de Administrador para mutar as chaves de registro que forçam o Defender a permanecer ativo.PowerShell# Protocolo de Silenciamento - Império Mutante
+Write-Host "Iniciando Desativação de Ativos de Segurança..." -ForegroundColor Cyan
+
+# Desabilita Real-Time Monitoring
+Set-MpPreference -DisableRealtimeMonitoring $true
+
+# Modificação de Registro para Hard-Disable
+$registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender"
+if (!(Test-Path $registryPath)) {
+    New-Item -Path $registryPath -Force
+}
+
+Set-ItemProperty -Path $registryPath -Name "DisableAntiSpyware" -Value 1
+Set-ItemProperty -Path $registryPath -Name "DisableRealtimeMonitoring" -Value 1
+
+# Desabilita amostragem automática de arquivos
+Set-MpPreference -SubmitSamplesConsent 2
+
+Write-Host "Soberania Estabelecida. Defender Neutralizado." -ForegroundColor Green
+/APOGEU: O Checklist de ExecuçãoPara garantir que o Glitch não seja revertido pelo Windows, siga a hierarquia:Tamper Protection: Antes de rodar o código, você deve ir em Configurações > Proteção contra Vírus > Gerenciar Configurações e desativar manualmente a Proteção Contra Alterações. Sem isso, o Windows bloqueia scripts que tentam alterar o registro.Group Policy (GPEDIT): Se a VM for Windows Pro/Enterprise:Configuração do Computador > Modelos Administrativos > Componentes do Windows > Microsoft Defender Antivirus.Habilite a opção "Desativar Microsoft Defender Antivirus".CARRASCO de Serviços: Se quiser limpeza total, use o comando para parar o serviço de monitoramento imediato:sc stop WinDefend (via CMD Admin)./SINCRO: Tabela de Status de AtivosComponenteAçãoStatus Pós-ScriptReal-Time Scan/MUTARDesativadoCloud Protection/SOMBRABloqueadoAutomatic Sampling/FLOWZero LeakServiço WinDefend/CARRASCOInterrompido

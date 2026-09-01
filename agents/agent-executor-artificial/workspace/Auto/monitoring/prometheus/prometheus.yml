@@ -1,0 +1,23 @@
+global:
+  scrape_interval: 5s
+  evaluation_interval: 5s
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          - alertmanager:9093
+rule_files:
+  - "rules.yml"
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['node-exporter:9100']
+  - job_name: 'empire-nodes'
+    static_configs:
+      - targets: ['sample-app:3000'] # In a real scenario, this would be a dynamic list or all 540 nodes
+  - job_name: 'velocity-exporter'
+    static_configs:
+      - targets: ['172.17.0.1:9101']

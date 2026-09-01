@@ -1,0 +1,28 @@
+{
+  "name": "Sovereign-Imperial-Core",
+  "version": "13.0.0",
+  "status": "VIVOS",
+  "description": "The Absolute Central Command logic for the Imperial Mesh. Synthesized from Mutant-Imperial branches.",
+  "components": [
+    {
+      "id": "imperio_mutante_standard",
+      "path": "Imperio_mutante",
+      "role": "Evolutionary Architecture Basis"
+    },
+    {
+      "id": "imperio_mutante_hyphen",
+      "path": "Imperio-Mutante",
+      "role": "Legacy Synthesis Vector"
+    },
+    {
+      "id": "imperio_mutante_v3",
+      "path": "Imperio-Mutante-v3-Core",
+      "role": "Current Supreme Orchestration"
+    }
+  ],
+  "interlace": {
+    "orchestrator": "SUPREME_V13_ORCHESTRATOR.py",
+    "frequency": "<100us",
+    "certainty": 1.0
+  }
+}

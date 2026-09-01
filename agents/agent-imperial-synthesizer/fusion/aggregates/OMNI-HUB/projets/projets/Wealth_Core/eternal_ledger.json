@@ -1,0 +1,17 @@
+[
+    {
+        "commitment": "fd7bcc2bf7ddf0105c4437e6c2e8fb5ce408fb4e79732231c341c3f6229e9d03",
+        "salt": "198daf4a4775ea3cb1c12f3bb45a540a",
+        "data": {
+            "amount": 70.0,
+            "source": "AETHER_CORE",
+            "destination": "ETERNAL_LEDGER",
+            "timestamp": 1776398321.859414,
+            "metadata": {
+                "action_id": "test_action",
+                "strategy": "TEST_STRATEGY"
+            }
+        },
+        "status": "SEALED"
+    }
+]

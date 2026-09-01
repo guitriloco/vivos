@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+VIVOS_HOME="${HOME}/.vivos"
+VVV_DIR="${VIVOS_HOME}/vvv"
+echo "🔄 VIVOS Ghost Node — Syncing with VVV vault..."
+if [ -d "$VVV_DIR/.git" ]; then
+    cd "$VVV_DIR"
+    git pull --ff-only 2>/dev/null && echo "✅ Vault synced." || echo "⚠️ Sync skipped."
+    # Copy vault seals to local ledger
+    rsync -a "$VVV_DIR/seals/" "${VIVOS_HOME}/seals/" 2>/dev/null || true
+else
+    echo "⚠️ VVV not cloned. Run 'vivos-install' first."
+fi
+# Run pulse after sync
+python3 "${VIVOS_HOME}/bin/phi_resonance.py"
+echo "✅ Sync complete."

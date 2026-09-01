@@ -1,0 +1,370 @@
+[
+  {
+    "id": "bio-wealth-aws-us-east-1-node-00",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "public_ip": "168.1.230.36",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-aws-eu-west-1-node-00",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "public_ip": "168.1.93.208",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-aws-ap-southeast-1-node-00",
+    "niche": "bio-wealth",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "public_ip": "168.1.186.212",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-digitalocean-nyc1-node-00",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "public_ip": "168.1.219.129",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-digitalocean-ams3-node-00",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "public_ip": "168.1.247.53",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-digitalocean-sgp1-node-00",
+    "niche": "bio-wealth",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "public_ip": "168.1.248.19",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-gcp-us-central1-node-00",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "us-central1",
+    "public_ip": "168.1.107.183",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-gcp-europe-west1-node-00",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "public_ip": "168.1.100.191",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "bio-wealth-gcp-asia-southeast1-node-00",
+    "niche": "bio-wealth",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "public_ip": "168.1.146.101",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-aws-us-east-1-node-00",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "public_ip": "168.1.1.182",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-aws-eu-west-1-node-00",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "public_ip": "168.1.202.102",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-aws-ap-southeast-1-node-00",
+    "niche": "financas",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "public_ip": "168.1.152.236",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-digitalocean-nyc1-node-00",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "public_ip": "168.1.7.96",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-digitalocean-ams3-node-00",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "public_ip": "168.1.130.248",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-digitalocean-sgp1-node-00",
+    "niche": "financas",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "public_ip": "168.1.166.57",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-gcp-us-central1-node-00",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "us-central1",
+    "public_ip": "168.1.210.251",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-gcp-europe-west1-node-00",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "public_ip": "168.1.153.52",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "financas-gcp-asia-southeast1-node-00",
+    "niche": "financas",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "public_ip": "168.1.126.13",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-aws-us-east-1-node-00",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "public_ip": "168.1.16.108",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-aws-eu-west-1-node-00",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "public_ip": "168.1.85.243",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-aws-ap-southeast-1-node-00",
+    "niche": "e-commerce",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "public_ip": "168.1.241.135",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-digitalocean-nyc1-node-00",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "public_ip": "168.1.150.55",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-digitalocean-ams3-node-00",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "public_ip": "168.1.235.98",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-digitalocean-sgp1-node-00",
+    "niche": "e-commerce",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "public_ip": "168.1.83.98",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-gcp-us-central1-node-00",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "us-central1",
+    "public_ip": "168.1.253.126",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-gcp-europe-west1-node-00",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "public_ip": "168.1.136.175",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "e-commerce-gcp-asia-southeast1-node-00",
+    "niche": "e-commerce",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "public_ip": "168.1.66.115",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-aws-us-east-1-node-00",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "public_ip": "168.1.163.127",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-aws-eu-west-1-node-00",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "public_ip": "168.1.51.115",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-aws-ap-southeast-1-node-00",
+    "niche": "health-tech",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "public_ip": "168.1.105.78",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-digitalocean-nyc1-node-00",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "public_ip": "168.1.24.7",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-digitalocean-ams3-node-00",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "public_ip": "168.1.101.127",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-digitalocean-sgp1-node-00",
+    "niche": "health-tech",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "public_ip": "168.1.212.235",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-gcp-us-central1-node-00",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "us-central1",
+    "public_ip": "168.1.187.0",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-gcp-europe-west1-node-00",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "public_ip": "168.1.158.226",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "health-tech-gcp-asia-southeast1-node-00",
+    "niche": "health-tech",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "public_ip": "168.1.158.149",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-aws-us-east-1-node-00",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "public_ip": "168.1.245.117",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-aws-eu-west-1-node-00",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "public_ip": "168.1.130.67",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-aws-ap-southeast-1-node-00",
+    "niche": "real-estate",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "public_ip": "168.1.105.169",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-digitalocean-nyc1-node-00",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "nyc1",
+    "public_ip": "168.1.46.244",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-digitalocean-ams3-node-00",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "ams3",
+    "public_ip": "168.1.210.145",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-digitalocean-sgp1-node-00",
+    "niche": "real-estate",
+    "provider": "DigitalOcean",
+    "region": "sgp1",
+    "public_ip": "168.1.38.45",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-gcp-us-central1-node-00",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "us-central1",
+    "public_ip": "168.1.251.196",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-gcp-europe-west1-node-00",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "europe-west1",
+    "public_ip": "168.1.89.234",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "real-estate-gcp-asia-southeast1-node-00",
+    "niche": "real-estate",
+    "provider": "GCP",
+    "region": "asia-southeast1",
+    "public_ip": "168.1.44.67",
+    "role": "Regional Hub / Spacelift Gateway"
+  },
+  {
+    "id": "synthesis-l2-aggregator-central",
+    "niche": "global",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "public_ip": "168.1.255.255",
+    "role": "Synthesis L2 Aggregator / Central Intelligence"
+  }
+]

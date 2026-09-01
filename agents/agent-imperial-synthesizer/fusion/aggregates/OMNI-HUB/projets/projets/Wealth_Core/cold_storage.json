@@ -1,0 +1,14 @@
+[
+    {
+        "commitment": "9b8ae52bb3c71422f3631bcbf60e8fb7cd30bad07cfa4b591dc1b7358f2f7c0c",
+        "salt": "134056e8b08356ad72224ef86802489f",
+        "data": {
+            "amount": 30.0,
+            "source": "AETHER_CORE",
+            "destination": "COLD_STORAGE",
+            "timestamp": 1776398321.859414,
+            "reference_proof": "fd7bcc2bf7ddf0105c4437e6c2e8fb5ce408fb4e79732231c341c3f6229e9d03"
+        },
+        "status": "SIPHONED"
+    }
+]

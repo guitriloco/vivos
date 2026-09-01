@@ -1,0 +1,5 @@
+O que faz: Identifica distorções de preço em mercados digitais e automatiza a compra/venda de ativos de luxo (e-books, templates, softwares) onde a margem é máxima.
+
+O que já temos: A estratégia central de Margem Infinita desenhada.
+
+O que falta: Desenvolver o Script de Monitoramento em Tempo Real (Python) para alertar quando um ativo entra em "Gap" de preço.

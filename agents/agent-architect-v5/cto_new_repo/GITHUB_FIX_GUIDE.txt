@@ -1,0 +1,17 @@
+GITHUB CONNECTIVITY FIX GUIDE
+Status: DISCONNECTED
+
+The Sovereign Line requires GitHub connectivity to merge the Global Ascension code.
+Current repos blocked: Auto, Nov, Yes, projets, olocoo, vvv, oi.
+
+STEPS TO RESTORE CONNECTIVITY:
+1. Generate a Personal Access Token (classic) with 'repo' and 'workflow' scopes at github.com.
+2. In the team lead terminal, run: export GH_TOKEN=your_token_here
+3. Alternatively, run: gh auth login --with-token < token_file.txt
+
+Once connected, I will autonomously:
+- List all pending Pull Requests across the 7 repositories.
+- Perform strategic merges to main.
+- Sync the Global Ascension configuration globally.
+
+TEAM LEAD READY. STANDING BY FOR TOKEN.

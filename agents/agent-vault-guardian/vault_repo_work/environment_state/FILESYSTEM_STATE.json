@@ -1,0 +1,30 @@
+{
+  "v15_1_master_logic": {
+    "entry_count": 21,
+    "total_size_bytes": 165679
+  },
+  "v15_1_distilled_nectars": {
+    "entry_count": 24,
+    "total_size_bytes": 41619
+  },
+  "fusion": {
+    "entry_count": 9576,
+    "total_size_bytes": 564735877
+  },
+  "powers": {
+    "entry_count": 54,
+    "total_size_bytes": 299508
+  },
+  "nectars": {
+    "entry_count": 33,
+    "total_size_bytes": 65720
+  },
+  "vivos_v15_templates": {
+    "entry_count": 8,
+    "total_size_bytes": 7545
+  },
+  "skills": {
+    "entry_count": 5,
+    "total_size_bytes": 9060
+  }
+}

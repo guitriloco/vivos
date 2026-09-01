@@ -1,0 +1,43 @@
+{
+    "event": "SUPRA_FUSION",
+    "version": "SUPRA_COMMAND_V1.0",
+    "timestamp": 1780972934.3701985,
+    "data": {
+        "mode": "SUPRA_FUSION",
+        "version": "SUPRA_COMMAND_V1.0",
+        "fusion_hash": "eca3ce58cc73e26353b75a206996061b",
+        "timestamp": 1780972934.3700826,
+        "sync_latency_us": 1574.326,
+        "pillar_count": 5,
+        "weight_matrix": {
+            "INTELLIGENCE": {
+                "weight": 0.2994,
+                "anchor": "3f682426bb9bad7f",
+                "interlace_depth": 0.484439
+            },
+            "FINANCE": {
+                "weight": 0.2498,
+                "anchor": "9fddab8fafbb0f19",
+                "interlace_depth": 0.404185
+            },
+            "DEFENSE": {
+                "weight": 0.15,
+                "anchor": "22f5539e737a4274",
+                "interlace_depth": 0.242705
+            },
+            "LOGISTICS": {
+                "weight": 0.2009,
+                "anchor": "d0bf245a32131f3f",
+                "interlace_depth": 0.325063
+            },
+            "SYNTHESIS": {
+                "weight": 0.0999,
+                "anchor": "9f8be9031fff23e3",
+                "interlace_depth": 0.161642
+            }
+        },
+        "phi_resonance": 1.618033988749895,
+        "yield": 0.990051,
+        "status": "SUPREME_NEXUS"
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "version": "V1.0 VOID-FINANCE GRID",
+  "duration_s": 1.0139570236206055,
+  "packets_scanned": 50,
+  "packets_captured": 35,
+  "pi_tokens_minted": 0.043835798562927554,
+  "phi_value": 0.07092781199881058,
+  "capture_rate": 34.518228272657076,
+  "distributed_treasury": {
+    "PILLAR_I": {
+      "name": "INTELLIGENCE",
+      "total_captured": 0.0065753697844391345,
+      "phi_value": 0.010639171799821585,
+      "transaction_count": 35
+    },
+    "PILLAR_II": {
+      "name": "FINANCE",
+      "total_captured": 0.015342529497024644,
+      "phi_value": 0.024824734199583705,
+      "transaction_count": 35
+    },
+    "PILLAR_III": {
+      "name": "DEFENSE",
+      "total_captured": 0.004383579856292755,
+      "phi_value": 0.007092781199881058,
+      "transaction_count": 35
+    },
+    "PILLAR_IV": {
+      "name": "LOGISTICS",
+      "total_captured": 0.010958949640731889,
+      "phi_value": 0.017731952999702646,
+      "transaction_count": 35
+    },
+    "PILLAR_V": {
+      "name": "SYNTHESIS",
+      "total_captured": 0.0065753697844391345,
+      "phi_value": 0.010639171799821585,
+      "transaction_count": 35
+    }
+  },
+  "total_distributed": 0.043835798562927554,
+  "yield_lock": 0.989951,
+  "status": "VOID_FINANCE_GRID_ACTIVE",
+  "timestamp": 1779517886.2640939
+}

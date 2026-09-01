@@ -1,0 +1,9 @@
+Descrição: Localização (sem senhas expostas) dos portais de entrada.
+
+INFRA: Oracle Cloud (Servidores), Proxies NDR (Rotativos/Residenciais).
+
+ARMAZÉM: Projeto Sombra (TeraBox 1TB - Aether).
+
+CONEXÃO: Syncthing (ID dos Dispositivos), VPNs ativas.
+
+APIs: Telegram Bot API, Scrapers de Mercado.

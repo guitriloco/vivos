@@ -1,0 +1,96 @@
+### Empire Security — Bandit Configuration
+### High-confidence security hotspots for Python governance scripts
+
+# Include tests for all severity levels (used for filtering output)
+include:
+  - B413  # blacklist: Use of Markov Chain Attacks
+  - B410  # blacklist: import lxml
+  - B409  # blacklist: import lxml
+  - B301  # blacklist: use of pickle
+  - B302  # blacklist: marshal
+  - B303  # blacklist: sqlite3
+  - B304  # blacklist: ciphers
+  - B310  # blacklist: urli open
+  - B311  # bandit: random module
+  - B312  # bandit: telnetlib
+  - B313  # bandit: xml
+  - B314  # bandit: xml
+  - B315  # bandit: xml
+  - B316  # bandit: xml
+  - B317  # bandit: xml
+  - B318  # bandit: xml
+  - B319  # bandit: pickle
+  - B320  # bandit: pickle
+  - B321  # bandit: marshal
+  - B322  # bandit: input
+  - B323  # bandit: yaml
+  - B324  # bandit: yaml
+  - B325  # bandit: archive
+  - B401  # blacklist: import pycryptodome
+  - B402  # blacklist: import pycryptodome
+  - B403  # blacklist: import lxml
+  - B405  # blacklist: import lxml
+  - B406  # blacklist: import lxml
+  - B407  # blacklist: import lxml
+  - B412  # blacklist: import pycryptodome
+  - B416  # blacklist: import lxml
+  - B417  # blacklist: import lxml
+  - B418  # blacklist: import lxml
+  - B419  # blacklist: import lxml
+  - B420  # blacklist: import lxml
+  - B421  # blacklist: import lxml
+  - B501  # hardcoded-password
+  - B502  # ssl-with-no-version
+  - B503  # ssl-with-no-version
+  - B504  # ssl-with-no-version
+  - B505  # weak-crypto-key
+  - B506  # yaml
+  - B507  # hardcoded-password
+  - B508  # hardcoded-password
+  - B509  # hardcoded-password
+  - B510  # hardcoded-password
+  - B601  # string injection
+  - B602  # string injection
+  - B603  # string injection
+  - B604  # string injection
+  - B605  # string injection
+  - B606  # string injection
+  - B607  # string injection
+  - B608  # string injection
+  - B701  # string injection
+  - B702  # string injection
+  - B703  # string injection
+
+exclude:
+  - B101  # assert_used — too noisy in test code
+  - B102  # exec_used
+  - B103  # set_bad_file_permissions
+  - B104  # hardcoded-password
+  - B105  # hardcoded-password
+  - B106  # hardcoded-password
+  - B107  # hardcoded-password
+  - B108  # hardcoded-password
+  - B109  # hardcoded-password
+  - B110  # try-except-pass
+  - B111  # exec_used
+  - B112  # try-except-pass
+  - B113  # request-without-timeout
+  - B201  # flask-debug-true
+  - B202  # request-without-timeout
+  - B203  # request-without-timeout
+  - B204  # request-without-timeout
+  - B205  # request-without-timeout
+  - B206  # hardcoded-password
+  - B207  # baron-two-sum
+  - B208  # baron-two-sum
+  - B209  # baron-two-sum
+  - B210  # request-without-timeout
+  - B301  # pickle
+  - B401  # import pycryptodome
+  - B501  # hardcoded-password
+
+# Profile defaults
+profile:
+  named_mode:
+    confidence_level: medium
+    severity_level: medium

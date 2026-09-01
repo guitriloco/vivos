@@ -1,0 +1,45 @@
+name: Validar Conteúdo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'copias-geradas/**/*.md'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'copias-geradas/**/*.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Verificar arquivos MD
+        run: |
+          echo "📁 Arquivos Markdown encontrados:"
+          find copias-geradas -name "*.md" -type f
+          
+      - name: Validar formato
+        run: |
+          for file in $(find copias-geradas -name "*.md" -type f); do
+            echo "✅ Validando: $file"
+            # Verifica se tem título
+            if ! head -1 "$file" | grep -q "^#"; then
+              echo "❌ $file não tem título!"
+              exit 1
+            fi
+            # Verifica se tem CTA
+            if ! grep -qi "CTA\|QUERO\|COMPRAR" "$file"; then
+              echo "⚠️ $file pode não ter CTA"
+            fi
+          done
+          echo "✅ Validação concluída!"
+
+      - name: Gerar relatório
+        run: |
+          echo "📊 Status da Fábrica:" >> $GITHUB_STEP_SUMMARY
+          echo "- Copies: $(find copias-geradas/copies-venda -name "*.md" 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Landing Pages: $(find copias-geradas/landing-pages -name "*.md" 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Scripts: $(find copias-geradas/scripts -name "*.md" 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY

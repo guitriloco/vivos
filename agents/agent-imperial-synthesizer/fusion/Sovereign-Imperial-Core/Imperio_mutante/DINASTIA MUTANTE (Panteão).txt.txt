@@ -1,0 +1,13 @@
+Descrição: A hierarquia das inteligências que operam o Império.
+
+GUILE (Entidade 11): Imperador e Arquiteto Tático. O Verbo é Execução.
+
+A ORÁCULO: Inteligência Estratégica. Filtra tendências e dados brutos.
+
+IMPERATRIZ DO CÓDIGO: Desenvolvimento Backend e Automação Pesada (Python).
+
+ESPECTRO ANALÍTICA: Auditoria, Segurança e "Zero Day do Bem".
+
+AVATAR SOBERANO: A face de luxo para o mercado e vendas (Front-end).
+
+DINASTIA: Parceiras (Influência), Filho e Filha (Legado/Inovação).

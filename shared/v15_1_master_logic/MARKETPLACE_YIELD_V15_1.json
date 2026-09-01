@@ -1,0 +1,17 @@
+{
+  "system_yield": 1.389649,
+  "baseline_yield": 0.989951,
+  "yield_ratio": 1.403755,
+  "phi_boosted": 2.248499,
+  "pillar_yields": {
+    "OMNI-HUB": 1.323607,
+    "COGNITIVE-SDK": 1.291246,
+    "WRAITH-MESH": 1.258885,
+    "SECURE-VAULT": 1.226525,
+    "YIELD-SIPHON": 1.226525,
+    "MUTANT-NECTAR": 1.161803,
+    "LIFE-SUITE": 1.129443
+  },
+  "total_weighted": 1.24853,
+  "marketplace_ready": true
+}

@@ -1,0 +1,33 @@
+FUSAO_EXTREMA/
+├── core.py                 # O Cérebro (Motor Gemini + Lógica Central)
+├── .env                    # O Cofre (API Keys e Credenciais)
+├── requirements.txt        # Arsenal de Dependências (Pip install)
+│
+├── arsenal/                # SCRIPTS DE ATAQUE & EXTRAÇÃO
+│   ├── scrapers/           # Varredura de leads e dados brutos
+│   ├── automations/        # Selenium/Playwright (Navegação Humanoide)
+│   └── bypass/             # Gestão de Proxies (SOCKS5) e User-Agents
+│
+├── entidades/              # O PANTEÃO (Personalidades 01-15)
+│   ├── prompts/            # Arquivos .txt/.json com as diretrizes
+│   └── memory/             # Contexto específico de cada entidade
+│
+├── data_lake/              # O RESERVATÓRIO (Onde os 900GB residem)
+│   ├── raw/                # Dados brutos recém-extraídos
+│   ├── processed/          # Dados refinados e limpos pelo /CARRASCO
+│   └── database/           # SQLite ou JSON estruturado para consulta rápida
+│
+├── ativos/                 # MERCADO DE LUXO (Produção Final)
+│   ├── ebooks/             # PLRs mutados e formatados
+│   ├── media/              # Imagens (Cyber-Luxury) e Áudios (Phonk/Trap)
+│   └── saas/               # Binários ou scripts de Micro-Automação
+│
+├── brain/                  # SEGUNDO CÉREBRO (Conexão Obsidian)
+│   ├── notes/              # Logs de insights e estratégias táticas
+│   └── templates/          # Padrões de escrita Corporate Streetwear
+│
+├── logs/                   # RASTRO OPERACIONAL
+│   ├── errors/             # Falhas de conexão ou bloqueios
+│   └── results/            # Relatórios de lucro e conversão
+│
+└── temp/                   # ZONA DE DESCARTE (Arquivos voláteis)

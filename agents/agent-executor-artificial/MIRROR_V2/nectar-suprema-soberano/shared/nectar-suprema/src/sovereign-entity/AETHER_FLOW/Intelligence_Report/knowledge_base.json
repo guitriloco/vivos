@@ -1,0 +1,749 @@
+{
+    "predicted_niches": [
+        {
+            "name": "Energia Solar Residencial",
+            "slug": "energia-solar",
+            "potential": 0.95,
+            "category": "Home"
+        },
+        {
+            "name": "Acess\u00f3rios de Celular Premium",
+            "slug": "acessorios-celular",
+            "potential": 0.88,
+            "category": "Tech"
+        },
+        {
+            "name": "Suplementos Naturais Bio-hacking",
+            "slug": "suplementos",
+            "potential": 0.92,
+            "category": "Health"
+        },
+        {
+            "name": "Produtos Pet de Luxo",
+            "slug": "pets-luxo",
+            "potential": 0.85,
+            "category": "Pets"
+        },
+        {
+            "name": "Consultoria de IA para PMEs",
+            "slug": "ia-negocios",
+            "potential": 0.97,
+            "category": "B2B"
+        }
+    ],
+    "active_expansions": [
+        {
+            "niche": "Acess\u00f3rios de Celular Premium",
+            "slug": "acessorios-celular",
+            "timestamp": "2026-05-12 02:43:13.621665",
+            "status": "LIVE"
+        },
+        {
+            "niche": "Acess\u00f3rios de Celular Premium",
+            "slug": "acessorios-celular",
+            "timestamp": "2026-05-12 02:43:46.549506",
+            "status": "LIVE",
+            "calibrated_roi": 0.88
+        },
+        {
+            "niche": "Dominando o Mercado de Energia Solar",
+            "slug": "energia-solar",
+            "timestamp": "2026-05-15 20:42:10.041091",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Acess\u00f3rios de Celular",
+            "slug": "acessorios-celular",
+            "timestamp": "2026-05-15 20:42:10.112952",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Suplementos Naturais",
+            "slug": "suplementos-naturais",
+            "timestamp": "2026-05-15 20:42:10.179713",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Produtos Pet de Luxo",
+            "slug": "pets-luxo",
+            "timestamp": "2026-05-15 20:42:10.245997",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Consultoria de IA",
+            "slug": "ia-consultoria",
+            "timestamp": "2026-05-15 20:42:10.308271",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Maquiagem Vegana",
+            "slug": "maquiagem-vegana",
+            "timestamp": "2026-05-15 20:42:10.372328",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Decora\u00e7\u00e3o Minimalista",
+            "slug": "decoracao-minimalista",
+            "timestamp": "2026-05-15 20:42:10.435737",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Utens\u00edlios de Cozinha Inteligentes",
+            "slug": "cozinha-inteligente",
+            "timestamp": "2026-05-15 20:42:10.502002",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Moda Fitness Sustent\u00e1vel",
+            "slug": "fitness-sustentavel",
+            "timestamp": "2026-05-15 20:42:10.568591",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Gadgets de Produtividade",
+            "slug": "gadgets-produtividade",
+            "timestamp": "2026-05-15 20:42:10.639673",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Brinquedos Educativos Montessori",
+            "slug": "brinquedos-montessori",
+            "timestamp": "2026-05-15 20:42:10.704108",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cuidado com a Barba",
+            "slug": "cuidado-barba",
+            "timestamp": "2026-05-15 20:42:10.766018",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Ferramentas de DIY",
+            "slug": "ferramentas-diy",
+            "timestamp": "2026-05-15 20:42:10.823899",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Acess\u00f3rios para Carros El\u00e9tricos",
+            "slug": "acessorios-carros-eletricos",
+            "timestamp": "2026-05-15 20:42:10.895435",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Marmitas Fitness",
+            "slug": "marmitas-fitness",
+            "timestamp": "2026-05-15 20:42:10.971878",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Perfumaria Artesanal",
+            "slug": "perfumaria-artesanal",
+            "timestamp": "2026-05-15 20:42:11.038579",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Papelaria Criativa",
+            "slug": "papelaria-creativa",
+            "timestamp": "2026-05-15 20:42:11.096752",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Roupas para Yoga",
+            "slug": "yoga-wear",
+            "timestamp": "2026-05-15 20:42:11.163493",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Equipamentos de Podcast",
+            "slug": "equipamentos-podcast",
+            "timestamp": "2026-05-15 20:42:11.221509",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Horta Urbana",
+            "slug": "horta-urbana",
+            "timestamp": "2026-05-15 20:42:11.278013",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cal\u00e7ados Confort\u00e1veis",
+            "slug": "calcados-conforto",
+            "timestamp": "2026-05-15 20:42:11.339643",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Jogos de Tabuleiro Modernos",
+            "slug": "jogos-tabuleiro",
+            "timestamp": "2026-05-15 20:42:11.397333",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Produtos de Limpeza Ecol\u00f3gicos",
+            "slug": "limpeza-eco",
+            "timestamp": "2026-05-15 20:42:11.457295",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Acess\u00f3rios para Ciclismo",
+            "slug": "acessorios-ciclismo",
+            "timestamp": "2026-05-15 20:42:11.517398",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Moda Infantil Org\u00e2nica",
+            "slug": "moda-infantil-organica",
+            "timestamp": "2026-05-15 20:42:11.575943",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Treino em Casa",
+            "slug": "treino-em-casa",
+            "timestamp": "2026-05-15 20:42:11.781751",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Caf\u00e9s Especiais",
+            "slug": "cafes-especiais",
+            "timestamp": "2026-05-15 20:42:11.840896",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de \u00d3leos Essenciais",
+            "slug": "oleos-essenciais",
+            "timestamp": "2026-05-15 20:42:11.907235",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Skincare e Prote\u00e7\u00e3o Solar",
+            "slug": "skincare-sol",
+            "timestamp": "2026-05-15 20:42:11.967070",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Smartwatches",
+            "slug": "smartwatches",
+            "timestamp": "2026-05-15 20:42:12.026557",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Fones Bluetooth",
+            "slug": "fones-bluetooth",
+            "timestamp": "2026-05-15 20:42:12.093049",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Mochilas Antifurto",
+            "slug": "mochilas-antifurto",
+            "timestamp": "2026-05-15 20:42:12.156949",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Organizadores de Casa",
+            "slug": "organizadores-casa",
+            "timestamp": "2026-05-15 20:42:12.213866",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Quadros e Arte Digital",
+            "slug": "arte-digital",
+            "timestamp": "2026-05-15 20:42:12.285329",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Velas Arom\u00e1ticas",
+            "slug": "velas-aromaticas",
+            "timestamp": "2026-05-15 20:42:12.345158",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cuidado Cabelos Cacheados",
+            "slug": "cabelos-cacheados",
+            "timestamp": "2026-05-15 20:42:12.405304",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Rel\u00f3gios de Parede Modernos",
+            "slug": "relogios-parede",
+            "timestamp": "2026-05-15 20:42:12.472523",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Lumin\u00e1rias Criativas",
+            "slug": "luminarias-criativas",
+            "timestamp": "2026-05-15 20:42:12.535107",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Tapetes Personalizados",
+            "slug": "tapetes-personalizados",
+            "timestamp": "2026-05-15 20:42:12.593562",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Meias Divertidas",
+            "slug": "meias-divertidas",
+            "timestamp": "2026-05-15 20:42:12.658377",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Canecas T\u00e9rmicas",
+            "slug": "canecas-termicas",
+            "timestamp": "2026-05-15 20:42:12.723800",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Fotografia com Celular",
+            "slug": "foto-celular",
+            "timestamp": "2026-05-15 20:42:12.790950",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cases para Notebook",
+            "slug": "cases-notebook",
+            "timestamp": "2026-05-15 20:42:12.854742",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Bijuterias Naturais",
+            "slug": "bijuterias-naturais",
+            "timestamp": "2026-05-15 20:42:12.917711",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Itens de Praia e Piscina",
+            "slug": "itens-praia",
+            "timestamp": "2026-05-15 20:42:12.978529",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Roupa de Cama de Seda",
+            "slug": "cama-seda",
+            "timestamp": "2026-05-15 20:42:13.035042",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Pijamas Confort\u00e1veis",
+            "slug": "pijamas-conforto",
+            "timestamp": "2026-05-15 20:42:13.093199",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Guarda-chuvas Resistentes",
+            "slug": "guarda-chuvas",
+            "timestamp": "2026-05-15 20:42:13.154286",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Suportes Ergon\u00f4micos",
+            "slug": "suportes-ergonomicos",
+            "timestamp": "2026-05-15 20:42:13.218999",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Kits Sobreviv\u00eancia Urbana",
+            "slug": "kits-sobrevivencia",
+            "timestamp": "2026-05-15 20:42:13.281627",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Energia Solar para Motorhomes",
+            "slug": "solar-motorhome",
+            "timestamp": "2026-05-15 20:42:13.338511",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Acess\u00f3rios Celular para Criadores 50+",
+            "slug": "acessorios-criadores-50",
+            "timestamp": "2026-05-15 20:42:13.733774",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Suplementos para Gamers",
+            "slug": "suplementos-gamers",
+            "timestamp": "2026-05-15 20:42:13.794731",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Produtos Gatos Apartamento Pequeno",
+            "slug": "gatos-apartamento",
+            "timestamp": "2026-05-15 20:42:13.854921",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de IA para Psic\u00f3logos",
+            "slug": "ia-psicologos",
+            "timestamp": "2026-05-15 20:42:13.912473",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Maquiagem Pele Sens\u00edvel ao Sol",
+            "slug": "maquiagem-pele-sensivel",
+            "timestamp": "2026-05-15 20:42:13.968721",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Decora\u00e7\u00e3o Home Office TI",
+            "slug": "decoracao-office-ti",
+            "timestamp": "2026-05-15 20:42:14.033707",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cozinha Dieta Cetog\u00eanica",
+            "slug": "cozinha-keto",
+            "timestamp": "2026-05-15 20:42:14.096814",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Moda Fitness Crossfit Vegano",
+            "slug": "fitness-crossfit-vegano",
+            "timestamp": "2026-05-15 20:42:14.158311",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Gadgets para TDAH",
+            "slug": "gadgets-tdah",
+            "timestamp": "2026-05-15 20:42:14.220240",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Brinquedos Montessori Madeira Al\u00e9rgicos",
+            "slug": "montessori-alergicos",
+            "timestamp": "2026-05-15 20:42:14.274877",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Est\u00e9tica para Calv\u00edcie Precoce",
+            "slug": "estetica-calvicie",
+            "timestamp": "2026-05-15 20:42:14.335878",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de DIY Apartamentos Alugados",
+            "slug": "diy-alugados",
+            "timestamp": "2026-05-15 20:42:14.403919",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Carga Port\u00e1til Carros El\u00e9tricos",
+            "slug": "carga-carro-eletrico",
+            "timestamp": "2026-05-15 20:42:14.475353",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Marmitas Ganho de Massa Limpa",
+            "slug": "marmitas-massa-limpa",
+            "timestamp": "2026-05-15 20:42:14.554271",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Perfumaria Ferom\u00f4nios Sint\u00e9ticos",
+            "slug": "perfume-feromonios",
+            "timestamp": "2026-05-15 20:42:14.623416",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Planejamento Casamentos Homoafetivos",
+            "slug": "casamento-homoafetivo",
+            "timestamp": "2026-05-15 20:42:14.688630",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Roupas Yoga Absor\u00e7\u00e3o Suor",
+            "slug": "yoga-absorcao-suor",
+            "timestamp": "2026-05-15 20:42:14.763703",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Podcast Port\u00e1til Entrevistas Rua",
+            "slug": "podcast-rua",
+            "timestamp": "2026-05-15 20:42:15.192663",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Horta Temperos Luz UV",
+            "slug": "horta-uv",
+            "timestamp": "2026-05-15 20:42:15.266018",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cal\u00e7ados Profissionais Sa\u00fade",
+            "slug": "calcados-saude",
+            "timestamp": "2026-05-15 20:42:15.327665",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Jogos Tabuleiro Solo",
+            "slug": "jogos-solo",
+            "timestamp": "2026-05-15 20:42:15.455286",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Limpeza Eco Animais Ex\u00f3ticos",
+            "slug": "limpeza-eco-exoticos",
+            "timestamp": "2026-05-15 20:42:15.518887",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Ciclismo Urbano Noturno",
+            "slug": "ciclismo-noturno",
+            "timestamp": "2026-05-15 20:42:15.582670",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Moda Infantil Ci\u00eancia e Astro",
+            "slug": "moda-infantil-ciencia",
+            "timestamp": "2026-05-15 20:42:15.645358",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Treino Idosos Mobilidade Reduzida",
+            "slug": "treino-mobilidade",
+            "timestamp": "2026-05-15 20:42:15.742849",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Caf\u00e9s Serra da Mantiqueira",
+            "slug": "cafes-mantiqueira",
+            "timestamp": "2026-05-15 20:42:15.846031",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Difusores Inteligentes Alexa",
+            "slug": "difusores-alexa",
+            "timestamp": "2026-05-15 20:42:15.913068",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Skincare para Nadadores",
+            "slug": "skincare-nadadores",
+            "timestamp": "2026-05-15 20:42:16.055502",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Smartwatches Sa\u00fade Mental",
+            "slug": "smartwatches-mental",
+            "timestamp": "2026-05-15 20:42:16.297674",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Fones de Ouvido para Dormir",
+            "slug": "fones-dormir",
+            "timestamp": "2026-05-15 20:42:16.365347",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Mochilas N\u00f4mades Painel Solar",
+            "slug": "mochilas-solar",
+            "timestamp": "2026-05-15 20:42:16.428716",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Organizadores Sneakerheads",
+            "slug": "organizadores-sneakers",
+            "timestamp": "2026-05-15 20:42:16.488337",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Arte NFT Molduras F\u00edsicas",
+            "slug": "arte-nft-fisica",
+            "timestamp": "2026-05-15 20:42:16.551326",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Velas Cheiro de Livro Novo",
+            "slug": "velas-livro",
+            "timestamp": "2026-05-15 20:42:16.632608",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cuidado Transi\u00e7\u00e3o Capilar",
+            "slug": "transicao-capilar",
+            "timestamp": "2026-05-15 20:42:16.784025",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Rel\u00f3gios Parede Biofilia",
+            "slug": "relogios-biofilia",
+            "timestamp": "2026-05-15 20:42:16.847359",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Lumin\u00e1rias Levita\u00e7\u00e3o Magn\u00e9tica",
+            "slug": "luminarias-levitacao",
+            "timestamp": "2026-05-15 20:42:16.906920",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Tapetes Ultra Absorventes",
+            "slug": "tapetes-absorventes",
+            "timestamp": "2026-05-15 20:42:16.985032",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Meias Compress\u00e3o Viagens Longas",
+            "slug": "meias-viagem",
+            "timestamp": "2026-05-15 20:42:17.056241",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Garrafas Filtro Integrado",
+            "slug": "garrafas-filtro",
+            "timestamp": "2026-05-15 20:42:17.250130",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Lentes Celular Cinema",
+            "slug": "lentes-cinema-celular",
+            "timestamp": "2026-05-15 20:42:17.317337",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Cases Couro de Cacto",
+            "slug": "cases-couro-cacto",
+            "timestamp": "2026-05-15 20:42:17.538082",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Bijuterias Geom\u00e9tricas 3D",
+            "slug": "bijuterias-3d",
+            "timestamp": "2026-05-15 20:42:17.599940",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Toalhas Praia Anti-Areia",
+            "slug": "toalhas-anti-areia",
+            "timestamp": "2026-05-15 20:42:17.671721",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Fronhas de Seda Anti-Frizz",
+            "slug": "fronhas-seda",
+            "timestamp": "2026-05-15 20:42:17.811739",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Pijamas T\u00e9rmicos Inverno",
+            "slug": "pijamas-termicos",
+            "timestamp": "2026-05-15 20:42:17.872148",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Guarda-chuvas Invertidos",
+            "slug": "guarda-chuvas-invertidos",
+            "timestamp": "2026-05-15 20:42:17.930961",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Suportes Notebook Bambu Cooler",
+            "slug": "suporte-notebook-bambu",
+            "timestamp": "2026-05-15 20:42:17.988946",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        },
+        {
+            "niche": "Dominando o Mercado de Kits Sobreviv\u00eancia Urbana EDC",
+            "slug": "kits-edc",
+            "timestamp": "2026-05-15 20:42:18.046619",
+            "status": "LIVE",
+            "calibrated_roi": 0.85
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "OMNI-HUB",
+  "version": "13.0",
+  "aggregate": true,
+  "repositories": [
+    "guitriloco/cto.new",
+    "guitriloco/projets",
+    "guitriloco/Nov"
+  ],
+  "pillars": [
+    "Intelligence",
+    "Geometry",
+    "Observation"
+  ],
+  "vivos_standard": "VIVOS-13.0-SUPREME"
+}

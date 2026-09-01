@@ -1,0 +1,57 @@
+# FILE CATALOG - IMPÉRIO MUTANTE ECOSYSTEM
+
+## 1. README.md
+**Description:** Main documentation for HEDP-01 (High-Efficiency Data Processing Orchestrator) framework. Contains architecture overview, installation, usage examples, and enterprise considerations.
+**Purpose:** Core documentation for the data processing framework with 4 main components: checkpointing, streaming ingestion, network resilience, and modular architecture.
+**Evolution Plan:** Enhance with additional enterprise features, more examples, and integration guides for popular data platforms.
+
+## 2. IMP_OPERATIONAL_MANUAL.md
+**Description:** Operational manual for Império Mutante project. Contains philosophical approach ("Margem Infinita / Custo Zero") and defines 18 entities plus methodology of 7 colors.
+**Purpose:** Strategic guidance and operational framework for the entire ecosystem.
+**Evolution Plan:** Expand entity definitions, add more tactical approaches, integrate with modern business methodologies.
+
+## 3. core_orchestrator.py
+**Description:** Main orchestrator module for HEDP-01 framework. Implements processing state management, circuit breaker pattern, network resilience, stream processing, checkpoint management, and plugin loading.
+**Purpose:** Core engine for processing large datasets with reliability and efficiency.
+**Evolution Plan:** Add distributed processing capabilities, enhance error handling, implement more sophisticated checkpoint strategies, add metrics collection.
+
+## 4. transformation_module.py
+**Description:** Sample transformation module with data cleaning, formatting, validation, and standardization functions. Includes examples for numeric refinement and date formatting.
+**Purpose:** Template and examples for custom data transformation logic.
+**Evolution Plan:** Create more transformation templates, add ML-based transformation suggestions, implement automatic schema detection.
+
+## 5. launcher.py
+**Description:** Command-line launcher for HEDP-01 orchestrator. Handles argument parsing, logging setup, and job submission with configurable parameters.
+**Purpose:** Entry point for running HEDP-01 jobs from command line.
+**Evolution Plan:** Add configuration file support, implement job scheduling, add monitoring integration, enhance error reporting.
+
+## 6. auto_sort.py
+**Description:** PDF classification and sorting system using PyMuPDF and local LLM API. Processes PDFs by extracting text and classifying them for automatic folder organization.
+**Purpose:** Automated document classification and organization system.
+**Evolution Plan:** Add support for more document formats, improve classification accuracy, implement learning from user corrections, add batch processing features.
+
+## 7. requirements.txt
+**Description:** Dependencies for HEDP-01 framework including requests, ijson, and optional packages for extended functionality.
+**Purpose:** Define required packages for the framework.
+**Evolution Plan:** Add more optional dependencies for advanced features, version pinning for stability, add requirements for different deployment scenarios.
+
+## 8. Ideias_Software.md
+**Description:** Collection of 8 software ideas for Império Mutante including automation platform, data protection system, anonymity service, price arbitrage system, content management, brand kit, wellness automation, and analytics platform.
+**Purpose:** Innovation pipeline and potential product ideas.
+**Evolution Plan:** Develop detailed specifications for each idea, create prototypes, validate market demand, prioritize based on feasibility and market potential.
+
+## 9. Plano_Acao.md
+**Description:** Action plan for Império Mutante with 4 phases covering project consolidation, revenue opportunities, scalability, and monetization. Includes resource requirements and team structure.
+**Purpose:** Strategic roadmap and implementation plan.
+**Evolution Plan:** Add timelines, assign ownership, create milestone tracking, link to specific deliverables and metrics.
+
+## 10. config.json
+**Description:** Configuration file for Império Mutante ecosystem defining projects, opportunities, technologies, and principles.
+**Purpose:** Centralized configuration and project metadata.
+**Evolution Plan:** Add environment-specific configurations, implement dynamic configuration loading, add validation schema, connect to deployment automation.
+
+---
+CATALOG GENERATED ON: 2026-04-12
+TOTAL FILES: 10
+ECOSYSTEM: IMPÉRIO MUTANTE
+STRATEGIC FOCUS: AUTOMATION, SECURITY, DATA PROCESSING

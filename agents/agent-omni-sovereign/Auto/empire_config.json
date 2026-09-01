@@ -1,0 +1,21 @@
+{
+    "empire_name": "DevOps Squad Empire",
+    "version": "2.0.0",
+    "thresholds": {
+        "latency_slo_sec": 0.10,
+        "availability_target": 0.9999,
+        "roi_min_req_sec": 1.0,
+        "arbitrage_scale_up_increment": 2,
+        "arbitrage_cache_ttl_sec": 60
+    },
+    "paths": {
+        "inventory": "/home/team/shared/inventory/global_inventory.json",
+        "synthesis_report": "/home/team/shared/synthesis/synthesis_report_l2.json",
+        "database": "/home/team/shared/synthesis/sintese_l2.db",
+        "backup_dir": "/home/team/shared/EMPIRE_BACKUPS"
+    },
+    "scaling": {
+        "max_nodes": 2500,
+        "regions": ["us-east-1", "eu-west-1", "ap-southeast-1", "us-central1", "europe-west1", "asia-southeast1", "nyc1", "ams3", "sgp1"]
+    }
+}
