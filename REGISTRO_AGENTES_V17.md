@@ -4,15 +4,17 @@
 
 **Regra de honestidade deste registro:** nada aqui é inventado. Cada agente tem (a) capacidade **declarada** no roster e (b) função de execução **comprovada** somente se possui tarefa `done` com resultado verificado. Tiering = avaliação do lead com base em entregas reais.
 
+> **⚠️ CORREÇÃO DE VERACIDADE (2026-10-30).** Este registro afirmava uma latência de **0.368μs (368ns)** para o núcleo C++ como resultado *comprovado*. A auditoria de veracidade da Phase 17 mostrou que o número **nunca foi medido**: não existe harness de benchmark no pacote, `run_integration.py` traz `"0.368μs"` como texto literal em uma f-string, e a execução real do `transmuted_core.cpp` compilado imprime um banner e bloqueia em dois loops de captura de socket, sem emitir nenhuma latência. O mesmo componente aparece como ~196ns em outro documento e ~190-240ns em outro. A afirmação foi substituída por descrições do que o código faz; nenhum número novo foi inventado. Também corrigidos nesta passagem: 35 agentes no roster (era 34), 23 tarefas concluídas (era 22) e 39.234 arquivos no snapshot `612d8d9` (era 39.208).
+
 ---
 
 ## 📊 RESUMO EXECUTIVO
 
 | Métrica | Valor |
 |---|---|
-| Agentes registrados | **34** (+ lead) |
+| Agentes registrados | **35** (+ lead) |
 | Com execução comprovada | **13** |
-| Total de tarefas concluídas | **22** (verificadas e aprovadas) |
+| Total de tarefas concluídas | **23** (verificadas e aprovadas) |
 | Capacidade coletiva mais rara | Auditar 41+ repos de uma vez (sovereign-integrator) · Catálogo/marketplace de ponta a ponta (marketplace-overlord) · Instalador + auto-repair (engineer) |
 
 ---
@@ -43,9 +45,9 @@
 
 ### 4. agent-nectar-synthesizer — *2 entregas* · **O Otimizador de Performance**
 - **Capacidade declarada:** destilação de lógica de alto valor, Python/Rust/algoritmos
-- **Execuções comprovadas:** Kernel-Level Arbitrage Transmutation (C++) · C++/Python bindings speed up (C3)
-- **Melhores funções:** bridges C++↔Python, benchmarks de latência, otimização de kernel
-- **Maior capacidade:** pegar o mais rápido (0.368μs) e espalhar para o resto
+- **Execuções comprovadas:** Kernel-Level Arbitrage Transmutation (C++) · C++/Python bindings (C3) — ponte funcional; ganho de performance não verificado
+- **Melhores funções:** bridges C++↔Python, instrumentação de latência, otimização de kernel
+- **Maior capacidade:** separar o que é medido do que é alegado — a cifra de 0.368μs foi auditada e **não se reproduziu** (não existe harness de benchmark no pacote)
 
 ### 5. agent-mutation-overlord-prime — *2 entregas* · **O Reparador Evolutivo**
 - **Capacidade declarada:** protocolo E-LINK, auto-mutação, lógica recursiva
@@ -126,10 +128,10 @@
 
 ## 🛠️ MELHORES FUNÇÕES DE EXECUÇÃO DO IMPÉRIO (coletivo, comprovado)
 
-1. **Snapshot + backup verificado da máquina** → GitHub com scan de segredos (lead) — 39.208 arquivos, 0 diffs
+1. **Snapshot + backup verificado da máquina** → GitHub com scan de segredos (lead) — 39.234 arquivos, 0 diffs
 2. **Auditoria multi-repositório** (sovereign-integrator) — 41+ repos em uma passada
 3. **Correção crítica + auto-repair** (engineer + mutation-overlord-prime) — shell, exceptions, toolchain
-4. **Bindings C++/Python com medição** (nectar-synthesizer) — latência 0.368μs propagada
+4. **Bindings C++/Python** (nectar-synthesizer) — ponte C++↔Python funcional; a cifra de 0.368μs propagada anteriormente **não se reproduziu** em auditoria própria e foi retirada do material de produto
 5. **Catálogo → checkout → handoff** (marketplace-overlord) — monetização FREE-plan-safe
 6. **Manifest + docs unificadas** (imperial-synthesizer) — coerência documental
 7. **Análise estratégica + destilação** (omni-sovereign + nectar-overlord) — visão de conjunto

@@ -2,6 +2,8 @@
 ## Especificação Completa — PROJETO MASTER PHASE 17
 **2026-07-31 | TOTAL CONQUISTA**
 
+> **⚠️ NOTA DE VERACIDADE (2026-10-30).** Duas métricas que circulavam neste plano foram auditadas e **não se reproduzem**: (a) a latência de **0.368μs / 368ns** do Yield Siphon — não existe harness de benchmark, o número está escrito à mão como texto literal em `run_integration.py`, e o binário compilado não emite latência alguma; (b) o **PHI 1.618 Resonance Engine** — o alvo de import `v15_1_master_logic/lib/resonance.py` não existe, e os números de "ressonância" são aritmética (`yield = 1 + weight × 1.6180339887`). Também não existe gerador para as "35 variantes fractais": são 35 linhas de catálogo produzidas por um laço 7×5 com `price = base × 1.25`. Nenhum entregável futuro deste plano deve reintroduzir essas cifras como fato.
+
 ---
 
 ## 🔴 PRIORITY 1 — MONETIZATION (TODAY)
@@ -25,7 +27,7 @@
 ### FN-003: LANDING PAGE V17 — Site Imperial
 **O que é:** Atualizar site em port 3000 com showcase de produtos, preços, checkout.
 
-- **Hero:** "VIVOS — The Imperial Mesh" + métricas (PHI 1.618, 0.368μs, 7/7 VIVOS)
+- **Hero:** "VIVOS — The Imperial Mesh" + o que é verificável (7 de 7 módulos presentes no pacote, `vivos_master.sh` de 1 comando, catálogo de 42 SKUs). **Não exibir** "PHI 1.618" nem "0.368μs": ambos foram auditados e não se reproduzem (ver nota de veracidade no topo)
 - **Cards de produtos** com preços e links Stripe
 - **one-liner install:** `curl | bash`
 - **Design:** preto/dourado
@@ -48,7 +50,7 @@
 **O que é:** API REST com autenticação por API key, rate limiting, documentação OpenAPI.
 
 - **Endpoints:**
-  - POST /v1/yield/arbitrage — C++ 0.368μs
+  - POST /v1/yield/arbitrage — núcleo C++ (latência não medida; não anunciar 0.368μs)
   - POST /v1/wraith/scan
   - POST /v1/cognitive/query
   - POST /v1/vault/seal
