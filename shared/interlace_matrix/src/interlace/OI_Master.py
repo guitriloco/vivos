@@ -30,7 +30,7 @@ class Node:
         global wraith_core
         # Simulate some work
         time.sleep(random.uniform(0.01, 0.05))
-if wraith_core:
+        if wraith_core:
             try:
                 engine = wraith_core.WraithEngine(f"Node-{self.node_id}")
                 result = engine.process_data(task_data)
@@ -46,7 +46,7 @@ def main():
     time.sleep(1) # Give it a second to start
 
     local_nodes = [Node(i)
-for i in range(1, 4)]
+        for i in range(1, 4)]
     tasks = [f"Payload-{i}" for i in range(20)]
     
     kb = KnowledgeBase()
@@ -70,7 +70,7 @@ for i in range(1, 4)]
         for i, task in enumerate(tasks):
             node = nodes[i % len(nodes)]
             futures.append(executor.submit(node.run_task, task))
-for future in concurrent.futures.as_completed(futures):
+        for future in concurrent.futures.as_completed(futures):
             try:
                 result = future.result()
             except Exception as exc:
@@ -85,7 +85,7 @@ for future in concurrent.futures.as_completed(futures):
     performance_signals = audit(execution_time, len(tasks))
     
     # Main Evolution Loop (run for a few cycles to demonstrate)
-for cycle in range(1, 3):
+    for cycle in range(1, 3):
         print(f"\n=== EVOLUTION CYCLE {cycle} ===")
         
         # Refresh remote nodes at the start of each cycle
@@ -95,7 +95,7 @@ for cycle in range(1, 3):
 
         # 3. MUTATE -> VALIDATE -> REBUILD
         original_code, mutated_code = run_mutation_cycle(performance_signals, kb)
-if original_code and mutated_code:
+        if original_code and mutated_code:
             print(f"\n[CYCLE {cycle}] Mutation Cycle Complete: System Evolved")
             
             # 4. Run again to show performance change and DISTILL
@@ -103,7 +103,7 @@ if original_code and mutated_code:
             start_time = time.time()
             with concurrent.futures.ThreadPoolExecutor(max_workers=len(nodes)) as executor:
                 futures = [executor.submit(nodes[i % len(nodes)].run_task, task)
-for i, task in enumerate(tasks)]
+                for i, task in enumerate(tasks)]
                 concurrent.futures.wait(futures)
             execution_time = time.time() - start_time
             print(f"[POST-MUTATION] Tasks completed in {execution_time:.2f} seconds.")
@@ -112,7 +112,7 @@ for i, task in enumerate(tasks)]
 
             # 5. DISTILL
             fragment = distiller.distill(original_code, mutated_code, performance_signals, new_performance_signals)
-if fragment:
+            if fragment:
                 kb.add_fragment(fragment)
                 print(f"[DISTILL] Knowledge fragment added: {fragment['insight']}")
                 

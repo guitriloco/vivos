@@ -81,7 +81,7 @@ with lang_col:
     selected_index = 0
     for i, code in enumerate(locales.keys()):
         display_languages.append(f"{code} - {locales[code].get('Language')}")
-if code == st.session_state.get("ui_language", ""):
+        if code == st.session_state.get("ui_language", ""):
             selected_index = i
 
     selected_language = st.selectbox(
@@ -91,7 +91,7 @@ if code == st.session_state.get("ui_language", ""):
         key="top_language_selector",
         label_visibility="collapsed",
     )
-if selected_language:
+    if selected_language:
         code = selected_language.split(" - ")[0].strip()
         st.session_state["ui_language"] = code
         config.ui["language"] = code
@@ -115,7 +115,7 @@ def get_all_fonts():
             if file.endswith(".ttf") or file.endswith(".ttc"):
                 fonts.append(file)
     fonts.sort()
-return fonts
+    return fonts
 
 def get_all_songs():
     songs = []
@@ -123,7 +123,7 @@ def get_all_songs():
         for file in files:
             if file.endswith(".mp3"):
                 songs.append(file)
-return songs
+    return songs
 
 def open_task_folder(task_id):
     try:
@@ -181,7 +181,7 @@ def init_log():
             + "- <level>{message}</>"
             + "\n"
         )
-return _format
+        return _format
 
     logger.add(
         sys.stdout,
@@ -195,7 +195,7 @@ init_log()
 locales = utils.load_locales(i18n_dir)
 def tr(key):
     loc = locales.get(st.session_state["ui_language"], {})
-return loc.get("Translation", {}).get(key, key)
+    return loc.get("Translation", {}).get(key, key)
 
 # 创建基础设置折叠框
 if not config.app.get("hide_config", False):
@@ -449,7 +449,7 @@ if not config.app.get("hide_config", False):
                     value=llm_model_name,
                     key=f"{llm_provider}_model_name_input",
                 )
-if st_llm_model_name:
+                if st_llm_model_name:
                     config.app[f"{llm_provider}_model_name"] = st_llm_model_name
             else:
                 st_llm_model_name = None
@@ -470,7 +470,7 @@ if st_llm_model_name:
                 st_llm_account_id = st.text_input(
                     tr("Account ID"), value=llm_account_id
                 )
-if st_llm_account_id:
+                if st_llm_account_id:
                     config.app[f"{llm_provider}_account_id"] = st_llm_account_id
 
         # 右侧面板 - API 密钥设置
@@ -478,14 +478,14 @@ if st_llm_account_id:
 
             def get_keys_from_config(cfg_key):
                 api_keys = config.app.get(cfg_key, [])
-if isinstance(api_keys, str):
+                if isinstance(api_keys, str):
                     api_keys = [api_keys]
                 api_key = ", ".join(api_keys)
-return api_key
+                return api_key
 
             def save_keys_to_config(cfg_key, value):
                 value = value.replace(" ", "")
-if value:
+                if value:
                     config.app[cfg_key] = value.split(",")
 
             st.write(tr("Video Source Settings"))
@@ -547,7 +547,7 @@ with left_panel:
                     video_subject=params.video_subject, language=params.video_language
                 )
                 terms = llm.generate_terms(params.video_subject, script)
-if "Error: " in script:
+                if "Error: " in script:
                     st.error(tr(script))
                 elif "Error: " in terms:
                     st.error(tr(terms))
@@ -557,14 +557,14 @@ if "Error: " in script:
         params.video_script = st.text_area(
             tr("Video Script"), value=st.session_state["video_script"], height=280
         )
-if st.button(tr("Generate Video Keywords"), key="auto_generate_terms"):
+        if st.button(tr("Generate Video Keywords"), key="auto_generate_terms"):
             if not params.video_script:
                 st.error(tr("Please Enter the Video Subject"))
                 st.stop()
 
             with st.spinner(tr("Generating Video Keywords")):
                 terms = llm.generate_terms(params.video_subject, params.video_script)
-if "Error: " in terms:
+                if "Error: " in terms:
                     st.error(tr(terms))
                 else:
                     st.session_state["video_terms"] = ", ".join(terms)
@@ -609,7 +609,7 @@ with middle_panel:
             uploaded_files = st.file_uploader(
                 "Upload Local Files",
                 type=local_file_types + [file_type.upper()
-for file_type in local_file_types],
+                    for file_type in local_file_types],
                 accept_multiple_files=True,
             )
 
@@ -726,7 +726,7 @@ for file_type in local_file_types],
             v: v.replace("Female", tr("Female"))
             .replace("Male", tr("Male"))
             .replace("Neural", "")
-for v in filtered_voices
+            for v in filtered_voices
         }
 
         saved_voice_name = config.ui.get("voice_name", "")
@@ -752,7 +752,7 @@ for v in filtered_voices
                 tr("Speech Synthesis"),
                 options=list(friendly_names.values()),
                 index=min(saved_voice_name_index, len(friendly_names) - 1)
-if friendly_names
+                if friendly_names
                 else 0,
             )
 
@@ -798,9 +798,9 @@ if friendly_names
                         voice_file=audio_file,
                         voice_volume=params.voice_volume,
                     )
-if sub_maker and os.path.exists(audio_file):
+                if sub_maker and os.path.exists(audio_file):
                     st.audio(audio_file, format="audio/mp3")
-if os.path.exists(audio_file):
+                    if os.path.exists(audio_file):
                         os.remove(audio_file)
 
         # 当选择V2版本或者声音是V2声音时，显示服务区域和API key输入框
@@ -866,11 +866,11 @@ if os.path.exists(audio_file):
             tr("Custom Audio File"),
             type=custom_audio_file_types
             + [file_type.upper()
-for file_type in custom_audio_file_types],
+                for file_type in custom_audio_file_types],
             accept_multiple_files=False,
             key="custom_audio_file_uploader",
         )
-if uploaded_audio_file:
+        if uploaded_audio_file:
             st.audio(uploaded_audio_file, format="audio/mp3")
             st.info(
                 tr(
@@ -901,7 +901,7 @@ if uploaded_audio_file:
             custom_bgm_file = st.text_input(
                 tr("Custom Background Music File"), key="custom_bgm_file_input"
             )
-if custom_bgm_file and os.path.exists(custom_bgm_file):
+            if custom_bgm_file and os.path.exists(custom_bgm_file):
                 params.bgm_file = custom_bgm_file
                 # st.write(f":red[已选择自定义背景音乐]：**{custom_bgm_file}**")
         params.bgm_volume = st.selectbox(
@@ -952,9 +952,9 @@ with right_panel:
                 value=str(saved_custom_position),
                 key="custom_position_input",
             )
-try:
+            try:
                 params.custom_position = float(custom_position)
-if params.custom_position < 0 or params.custom_position > 100:
+                if params.custom_position < 0 or params.custom_position > 100:
                     st.error(tr("Please enter a value between 0 and 100"))
                 else:
                     config.ui["custom_position"] = params.custom_position
@@ -986,15 +986,15 @@ if params.custom_position < 0 or params.custom_position > 100:
 
         with col1:
             st.subheader("Pexels API Keys")
-if config.app["pexels_api_keys"]:
+            if config.app["pexels_api_keys"]:
                 st.write(tr("Current Keys:"))
-for key in config.app["pexels_api_keys"]:
+                for key in config.app["pexels_api_keys"]:
                     st.code(key)
             else:
                 st.info(tr("No Pexels API Keys currently"))
 
             new_key = st.text_input(tr("Add Pexels API Key"), key="pexels_new_key")
-if st.button(tr("Add Pexels API Key")):
+            if st.button(tr("Add Pexels API Key")):
                 if new_key and new_key not in config.app["pexels_api_keys"]:
                     config.app["pexels_api_keys"].append(new_key)
                     config.save_config()
@@ -1003,26 +1003,26 @@ if st.button(tr("Add Pexels API Key")):
                     st.warning(tr("This API Key already exists"))
                 else:
                     st.error(tr("Please enter a valid API Key"))
-if config.app["pexels_api_keys"]:
+            if config.app["pexels_api_keys"]:
                 delete_key = st.selectbox(
                     tr("Select Pexels API Key to delete"), config.app["pexels_api_keys"], key="pexels_delete_key"
                 )
-if st.button(tr("Delete Selected Pexels API Key")):
+                if st.button(tr("Delete Selected Pexels API Key")):
                     config.app["pexels_api_keys"].remove(delete_key)
                     config.save_config()
                     st.success(tr("Pexels API Key deleted successfully"))
 
         with col2:
             st.subheader("Pixabay API Keys")
-if config.app["pixabay_api_keys"]:
+            if config.app["pixabay_api_keys"]:
                 st.write(tr("Current Keys:"))
-for key in config.app["pixabay_api_keys"]:
+                for key in config.app["pixabay_api_keys"]:
                     st.code(key)
             else:
                 st.info(tr("No Pixabay API Keys currently"))
 
             new_key = st.text_input(tr("Add Pixabay API Key"), key="pixabay_new_key")
-if st.button(tr("Add Pixabay API Key")):
+            if st.button(tr("Add Pixabay API Key")):
                 if new_key and new_key not in config.app["pixabay_api_keys"]:
                     config.app["pixabay_api_keys"].append(new_key)
                     config.save_config()
@@ -1031,11 +1031,11 @@ if st.button(tr("Add Pixabay API Key")):
                     st.warning(tr("This API Key already exists"))
                 else:
                     st.error(tr("Please enter a valid API Key"))
-if config.app["pixabay_api_keys"]:
+            if config.app["pixabay_api_keys"]:
                 delete_key = st.selectbox(
                     tr("Select Pixabay API Key to delete"), config.app["pixabay_api_keys"], key="pixabay_delete_key"
                 )
-if st.button(tr("Delete Selected Pixabay API Key")):
+                if st.button(tr("Delete Selected Pixabay API Key")):
                     config.app["pixabay_api_keys"].remove(delete_key)
                     config.save_config()
                     st.success(tr("Pixabay API Key deleted successfully"))
@@ -1044,23 +1044,23 @@ start_button = st.button(tr("Generate Video"), use_container_width=True, type="p
 if start_button:
     config.save_config()
     task_id = str(uuid4())
-if not params.video_subject and not params.video_script:
+    if not params.video_subject and not params.video_script:
         st.error(tr("Video Script and Subject Cannot Both Be Empty"))
         scroll_to_bottom()
         st.stop()
-if params.video_source not in ["pexels", "pixabay", "local"]:
+    if params.video_source not in ["pexels", "pixabay", "local"]:
         st.error(tr("Please Select a Valid Video Source"))
         scroll_to_bottom()
         st.stop()
-if params.video_source == "pexels" and not config.app.get("pexels_api_keys", ""):
+    if params.video_source == "pexels" and not config.app.get("pexels_api_keys", ""):
         st.error(tr("Please Enter the Pexels API Key"))
         scroll_to_bottom()
         st.stop()
-if params.video_source == "pixabay" and not config.app.get("pixabay_api_keys", ""):
+    if params.video_source == "pixabay" and not config.app.get("pixabay_api_keys", ""):
         st.error(tr("Please Enter the Pixabay API Key"))
         scroll_to_bottom()
         st.stop()
-if uploaded_audio_file:
+    if uploaded_audio_file:
         task_dir = utils.task_dir(task_id)
         # 上传文件名来自浏览器，不能直接拼到磁盘路径里；这里只保留扩展名，
         # 并使用固定文件名保存到当前任务目录，避免路径穿越或特殊字符问题。
@@ -1101,7 +1101,7 @@ if uploaded_audio_file:
             m.provider = material.get("provider", "local")
             m.url = material.get("url", "")
             m.duration = material.get("duration", 0)
-if m.url:
+            if m.url:
                 params.video_materials.append(m)
 
     log_container = st.empty()
@@ -1122,7 +1122,7 @@ if m.url:
     scroll_to_bottom()
 
     result = tm.start(task_id=task_id, params=params)
-if not result or "videos" not in result:
+    if not result or "videos" not in result:
         st.error(tr("Video Generation Failed"))
         logger.error(tr("Video Generation Failed"))
         scroll_to_bottom()
@@ -1130,13 +1130,14 @@ if not result or "videos" not in result:
 
     video_files = result.get("videos", [])
     st.success(tr("Video Generation Completed"))
-try:
+    try:
         if video_files:
             player_cols = st.columns(len(video_files) * 2 + 1)
-for i, url in enumerate(video_files):
+            for i, url in enumerate(video_files):
                 player_cols[i * 2 + 1].video(url)
     except Exception as e:
-        print(f"WARNING: {e}")open_task_folder(task_id)
+        print(f"WARNING: {e}")
+    open_task_folder(task_id)
     logger.info(tr("Video Generation Completed"))
     scroll_to_bottom()
 

@@ -44,7 +44,7 @@ class ZKPLatticeSeal:
         self.master_seed = hashlib.sha256(f"IMPERIAL_ZKP_{datetime.now().isoformat()}".encode()).hexdigest()
         self.seal_registry = {}
         logger.info(f"[LAYER 1] ZKP Lattice Seal initialized. Seed: {self.master_seed[:8]}...")
-def generate_seal(self, node_dna: str, state_hash: str) -> str:
+    def generate_seal(self, node_dna: str, state_hash: str) -> str:
         """Generate a ZKP seal for a state transition."""
         seal_data = f"{node_dna}:{state_hash}:{self.master_seed}"
         seal = hashlib.sha256(seal_data.encode()).hexdigest()
@@ -66,7 +66,7 @@ def generate_seal(self, node_dna: str, state_hash: str) -> str:
             logger.info(f"[LAYER 1] ✅ ZKP Seal VERIFIED for {node_dna}")
         else:
             logger.warning(f"[LAYER 1] ❌ ZKP Seal REJECTED for {node_dna}")
-return is_valid
+        return is_valid
     
     def seal_all_nodes(self, mesh_nodes: dict) -> dict:
         """Apply ZKP seal to every node in the mesh."""
@@ -76,14 +76,14 @@ return is_valid
             seal = self.generate_seal(node_id, state_hash)
             seals[node_id] = {'seal': seal, 'state_hash': state_hash}
         logger.info(f"[LAYER 1] 🔒 Sealed {len(seals)} nodes with ZKP Lattice")
-return seals
+        return seals
     
     def detect_breach(self, mesh_nodes: dict, previous_seals: dict) -> list:
         """Detect any nodes whose state has changed without authorization."""
         breaches = []
         for node_id, node_state in mesh_nodes.items():
             current_hash = hashlib.sha256(json.dumps(node_state, sort_keys=True).encode()).hexdigest()
-if node_id in previous_seals:
+            if node_id in previous_seals:
                 if current_hash != previous_seals[node_id]['state_hash']:
                     breaches.append({
                         'node': node_id,
@@ -91,11 +91,11 @@ if node_id in previous_seals:
                         'actual': current_hash,
                         'severity': 'CRITICAL'
                     })
-if breaches:
+        if breaches:
             logger.warning(f"[LAYER 1] 🚨 Detected {len(breaches)} ZKP breaches!")
         else:
             logger.info(f"[LAYER 1] ✅ All {len(mesh_nodes)} nodes seal-intact")
-return breaches
+        return breaches
 
 # ─── LAYER 2: GOLDEN PATH SENTINEL ───
 
@@ -108,25 +108,25 @@ class GoldenPathSentinel:
         self.pulse_interval_us = 500
         self.pulse_count = 0
         logger.info(f"[LAYER 2] Golden Path Sentinel deployed. Threshold: {self.divergence_threshold}")
-def set_golden_state(self, state: dict):
+    def set_golden_state(self, state: dict):
         """Define the canonical Golden Path state."""
         self.golden_state = state
         state_hash = hashlib.sha256(json.dumps(state, sort_keys=True).encode()).hexdigest()
         logger.info(f"[LAYER 2] 🔱 Golden Path set. State hash: {state_hash[:12]}...")
-return state_hash
+        return state_hash
     
     def scan_timelines(self, mesh_state: dict) -> list:
         """Scan all nodes for divergence from the Golden Path."""
         if not self.golden_state:
             logger.error("[LAYER 2] No Golden Path set! Cannot scan.")
-return []
+            return []
         
         self.pulse_count += 1
         divergences = []
         
         for node_id, node_state in mesh_state.items():
             divergence = self._calculate_divergence(node_state)
-if divergence > self.divergence_threshold:
+            if divergence > self.divergence_threshold:
                 divergences.append({
                     'node': node_id,
                     'divergence': round(divergence, 6),
@@ -134,9 +134,9 @@ if divergence > self.divergence_threshold:
                     'required_action': 'PRUNE_AND_CORRECT'
                 })
                 logger.warning(f"[LAYER 2] ⚠️ Divergence detected: {node_id} ({divergence:.6f})")
-if not divergences:
+        if not divergences:
             logger.info(f"[LAYER 2] ✅ Pulse #{self.pulse_count}: All nodes on Golden Path")
-return divergences
+        return divergences
     
     def _calculate_divergence(self, node_state: dict) -> float:
         """Calculate probability divergence from Golden Path."""
@@ -144,8 +144,8 @@ return divergences
             return 1.0
         # Compare state vectors — simplified divergence metric
         current_prob = node_state.get('probability', node_state.get('yield', 0.989))
-return abs(1.0 - current_prob)
-def enforce_correction(self, divergences: list) -> dict:
+        return abs(1.0 - current_prob)
+    def enforce_correction(self, divergences: list) -> dict:
         """Execute O(-t²) causal correction on divergent nodes."""
         corrections = []
         for d in divergences:
@@ -170,7 +170,7 @@ def enforce_correction(self, divergences: list) -> dict:
     def prune_divergent_timeline(self, node_id: str) -> dict:
         """Prune a divergent node from the timeline entirely."""
         logger.info(f"[LAYER 2] ✂️ Pruning divergent timeline: {node_id}")
-return {
+        return {
             'action': 'TIMELINE_PRUNE',
             'node': node_id,
             'branch': 'DIVERGENT',
@@ -188,21 +188,21 @@ class VoidSiphonDefense:
         self.absorption_count = 0
         self.threat_level = 'LOW'
         logger.info(f"[LAYER 3] Void Siphon Defense active — absorption ready")
-def load_threat_signatures(self, signatures: list):
+    def load_threat_signatures(self, signatures: list):
         """Load known threat signatures for matching."""
         self.threat_signatures = signatures
         logger.info(f"[LAYER 3] Loaded {len(signatures)} threat signatures")
-def scan_entry(self, payload: dict, entry_point: str) -> dict:
+    def scan_entry(self, payload: dict, entry_point: str) -> dict:
         """Scan incoming data at a mesh entry point."""
         threat_score = self._analyze_threat(payload)
-if threat_score > 0.95:
+        if threat_score > 0.95:
             result = self._activate_void_absorption(payload, entry_point, threat_score)
             logger.warning(f"[LAYER 3] 🚨 Threat absorbed at {entry_point} (score: {threat_score:.4f})")
-return result
+            return result
         
         if threat_score > 0.70:
             logger.info(f"[LAYER 3] ⚠️ Suspicious activity at {entry_point} (score: {threat_score:.4f}) — monitoring")
-return {
+            return {
                 'status': 'MONITORING',
                 'entry': entry_point,
                 'threat_score': threat_score,
@@ -237,8 +237,8 @@ return {
         
         # Random noise factor (simulated)
         score += random.uniform(-0.05, 0.05)
-return min(1.0, max(0.0, score))
-def _activate_void_absorption(self, payload: dict, entry_point: str, threat_score: float) -> dict:
+        return min(1.0, max(0.0, score))
+    def _activate_void_absorption(self, payload: dict, entry_point: str, threat_score: float) -> dict:
         """Send payload to computational void — zero residue, zero trace."""
         self.absorption_count += 1
         
@@ -258,17 +258,17 @@ def _activate_void_absorption(self, payload: dict, entry_point: str, threat_scor
         
         # Log to registry
         self._log_absorption(absorption)
-return absorption
+        return absorption
     
     def _log_absorption(self, absorption: dict):
         """Log threat absorption to Imperial Registry."""
         log_entry = json.dumps(absorption)
-try:
+        try:
             with open(REGISTRY_LOG, 'a') as f:
                 f.write(f"[VOID_SIPHON] {log_entry}\n")
         except Exception as e:
             print(f"WARNING: {e}")
-            def get_threat_summary(self) -> dict:
+    def get_threat_summary(self) -> dict:
         """Return threat summary for the defense dashboard."""
         return {
             'total_absorptions': self.absorption_count,
@@ -287,11 +287,11 @@ class RealityLock:
         self.lock_seal = None
         self.locked_state = None
         logger.info(f"[LAYER 4] Reality Lock initialized — unlocked state")
-def capture_state(self, mesh_state: dict) -> str:
+    def capture_state(self, mesh_state: dict) -> str:
         """Capture the current Imperial mesh state."""
         state_hash = hashlib.sha256(json.dumps(mesh_state, sort_keys=True).encode()).hexdigest()
         logger.info(f"[LAYER 4] 📸 State captured: {state_hash[:12]}...")
-return state_hash
+        return state_hash
     
     def apply_lock(self, mesh_state: dict) -> dict:
         """Apply the Reality Lock — state becomes immutable."""
@@ -323,7 +323,7 @@ return state_hash
         }
         
         logger.info(f"[LAYER 4] 🔒 Reality Lock APPLIED — {len(mesh_state)} nodes sealed")
-return result
+        return result
     
     def check_lock_integrity(self, current_mesh_state: dict) -> dict:
         """Verify that the Reality Lock has not been broken."""
@@ -346,7 +346,7 @@ return result
             logger.critical(f"[LAYER 4] 🚨 REALITY LOCK BREACHED — state mismatch!")
         else:
             logger.info(f"[LAYER 4] ✅ Reality Lock intact — integrity: 100%")
-return result
+        return result
     
     def emergency_unlock(self, override_code: str) -> dict:
         """Emergency unlock — requires override code."""
@@ -354,7 +354,7 @@ return result
         if override_code == expected_code:
             self.is_locked = False
             logger.warning(f"[LAYER 4] ⚠️ Emergency unlock executed — reality mutable")
-return {'status': 'UNLOCKED', 'code': override_code}
+            return {'status': 'UNLOCKED', 'code': override_code}
         return {'status': 'REJECTED', 'error': 'INVALID_OVERRIDE_CODE'}
 
 # ─── LAYER 5: IMPERIAL PERIMETER (Node Spawn Gate) ───
@@ -374,7 +374,7 @@ class ImperialPerimeter:
         self.spawn_queue = []
         self.spawn_log = []
         logger.info(f"[LAYER 5] Imperial Perimeter active — {len(self.authorized_dnas)} authorized DNAs")
-def request_spawn(self, parent_dna: str, child_type: str, requester: str, child_dna: str) -> dict:
+    def request_spawn(self, parent_dna: str, child_type: str, requester: str, child_dna: str) -> dict:
         """Submit a spawn request for authorization."""
         request = {
             'id': hashlib.sha256(f"{parent_dna}:{child_type}:{time.time()}".encode()).hexdigest()[:12],
@@ -388,7 +388,7 @@ def request_spawn(self, parent_dna: str, child_type: str, requester: str, child_
         }
         self.spawn_queue.append(request)
         logger.info(f"[LAYER 5] 📋 Spawn request {request['id']}: {child_type} from {requester}")
-return request
+        return request
     
     def authorize_spawn(self, request_id: str) -> dict:
         """Authorize a spawn request with Defensor seal."""
@@ -410,7 +410,7 @@ return request
                 self.spawn_log.append(req)
                 
                 logger.info(f"[LAYER 5] ✅ Spawn {req['child_type']} AUTHORIZED — Seal: {auth_seal[:12]}")
-return req
+                return req
         
         return {'error': 'REQUEST_NOT_FOUND_OR_ALREADY_PROCESSED'}
     
@@ -421,7 +421,7 @@ return req
                 req['status'] = 'REJECTED'
                 req['rejection_reason'] = reason
                 logger.warning(f"[LAYER 5] ❌ Spawn {req['child_type']} REJECTED: {reason}")
-return req
+                return req
         return {'error': 'REQUEST_NOT_FOUND'}
     
     def get_authorized_spawns(self) -> list:
@@ -438,7 +438,7 @@ return req
             self.authorized_dnas[node_dna]['status'] = 'ACTIVE'
             self.authorized_dnas[node_dna]['activated_at'] = time.time()
             logger.info(f"[LAYER 5] ✅ New node registered: {node_name} ({node_dna})")
-return {'status': 'REGISTERED', 'dna': node_dna, 'node': node_name}
+            return {'status': 'REGISTERED', 'dna': node_dna, 'node': node_name}
         return {'error': 'DNA_NOT_IN_AUTHORIZED_REGISTRY'}
 
 # ─── IMPERIAL DEFENSE GRID ORCHESTRATOR ───
@@ -457,7 +457,7 @@ class ImperialDefenseGrid:
         logger.info("=" * 60)
         logger.info("🛡️ IMPERIAL DEFENSE GRID V1.0 — INITIALIZED")
         logger.info("=" * 60)
-def full_activation(self, mesh_state: dict) -> dict:
+    def full_activation(self, mesh_state: dict) -> dict:
         """Activate all five layers of the Sovereign Perimeter."""
         logger.info("🔱 FULL PERIMETER ACTIVATION SEQUENCE INITIATED")
         
@@ -503,7 +503,7 @@ def full_activation(self, mesh_state: dict) -> dict:
         logger.info("=" * 60)
         logger.info("🔱 SOVEREIGN PERIMETER — FULLY ACTIVE: 5/5 LAYERS")
         logger.info("=" * 60)
-return summary
+        return summary
     
     def status_report(self) -> dict:
         """Generate a comprehensive status report for the Defense Grid."""
@@ -569,7 +569,7 @@ if __name__ == "__main__":
     
     # Run a Golden Path scan
     divergences = grid.layer2.scan_timelines(mesh_state)
-if divergences:
+    if divergences:
         corrections = grid.layer2.enforce_correction(divergences)
         print(json.dumps(corrections, indent=2))
     else:

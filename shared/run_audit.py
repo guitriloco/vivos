@@ -29,7 +29,7 @@ for root, dirs, files in os.walk(BASE):
         continue
     for f in files:
         fp = os.path.join(root, f)
-if f.endswith('.py'): py_files.append(fp)
+        if f.endswith('.py'): py_files.append(fp)
         elif f.endswith('.cpp'): cpp_files.append(fp)
         elif f.endswith('.rs'): rs_files.append(fp)
         elif f.endswith('.sh'): sh_files.append(fp)
@@ -41,9 +41,9 @@ print("\n=== PHASE 1: Python Syntax Check ===")
 for fp in py_files:
     try:
         res = subprocess.run(['python3', '-m', 'py_compile', fp], capture_output=True, text=True, timeout=10)
-if res.returncode != 0:
+        if res.returncode != 0:
             lines = [l for l in res.stderr.split('\n')
-if l.strip()]
+                if l.strip()]
             msg = lines[-2] if len(lines) >= 2 else lines[-1] if lines else "Syntax error"
             log("PYTHON_SYNTAX", fp, "CRITICAL", msg)
     except subprocess.TimeoutExpired:
@@ -65,18 +65,18 @@ for fp in py_files:
     for i, line in enumerate(lines):
         if 'except:' in line and 'Exception' not in line:
             log_warn("BARE_EXCEPT", fp, "MEDIUM", f"Line {i+1}: bare 'except:' without exception type")
-if re.search(r'password\s*=|secret\s*=|api_key\s*=|token\s*=[\'\"][^\*]', line, re.I):
+        if re.search(r'password\s*=|secret\s*=|api_key\s*=|token\s*=[\'\"][^\*]', line, re.I):
             log_warn("HARDCODED_SECRET", fp, "HIGH", f"Line {i+1}: possible secret hardcoded: {line.strip()[:60]}")
-if 'import subprocess' in line and 'shell=True' in content:
+        if 'import subprocess' in line and 'shell=True' in content:
             log_warn("SHELL_INJECTION", fp, "HIGH", f"File uses subprocess with shell=True (potential risk)")
     
     # Check for dead code (functions defined but never called within the file)
     funcs = re.findall(r'def (\w+)\(', content)
-if len(funcs) > 3:
+    if len(funcs) > 3:
         for fn in funcs:
             # Count calls
             calls = content.count(fn + '(')
-if calls <= 1 and fn not in ['__init__', 'main']:
+            if calls <= 1 and fn not in ['__init__', 'main']:
                 log_warn("POSSIBLE_DEAD_CODE", fp, "LOW", f"Function '{fn}' defined but may never be called")
 
 # === PHASE 3: C++ Syntax Check ===
@@ -85,9 +85,9 @@ for fp in cpp_files:
     try:
         res = subprocess.run(['g++', '-fsyntax-only', '-std=c++17', fp], 
                            capture_output=True, text=True, timeout=30)
-if res.returncode != 0:
+        if res.returncode != 0:
             lines = [l for l in res.stderr.split('\n')
-if l.strip()]
+                if l.strip()]
             msg = lines[-1] if lines else "Compile error"
             log("CPP_SYNTAX", fp, "CRITICAL", msg)
     except Exception as e:
@@ -98,13 +98,15 @@ for fp in cpp_files:
     try:
         with open(fp, 'r') as f:
             content = f.read()
-if '#include <openssl/sha.h>' in content:
+        if '#include <openssl/sha.h>' in content:
             log_warn("CPP_DEPENDENCY", fp, "MEDIUM", "Requires OpenSSL development library (libssl-dev)")
-if 'std::this_thread::sleep_for' in content:
+        if 'std::this_thread::sleep_for' in content:
             log_warn("CPP_LATENCY", fp, "MEDIUM", "Contains sleep_for() - may affect latency targets (0.368μs)")
     except Exception as e:
-        print(f"WARNING: {e}")# === PHASE 4: Cross-pillar compatibility ===
-        print("\n=== PHASE 4: Cross-Pillar Compatibility ===")
+        print(f"WARNING: {e}")
+
+# === PHASE 4: Cross-pillar compatibility ===
+print("\n=== PHASE 4: Cross-Pillar Compatibility ===")
 for fp in py_files:
     try:
         with open(fp, 'r') as f:
@@ -114,7 +116,7 @@ for fp in py_files:
     
     # Check for imports of modules that may not exist
     imports = re.findall(r'^import (\w+)|^from (\w+)', content, re.MULTILINE)
-for imp in imports:
+    for imp in imports:
         mod = imp[0] or imp[1]
         if mod.startswith('cto_new') and os.path.dirname(fp) != os.path.dirname(os.path.join(BASE, 'cto.new')):
             log_warn("CROSS_IMPORT", fp, "MEDIUM", f"Import of '{mod}' may resolve differently across directories")
@@ -129,30 +131,34 @@ for gd in git_dirs:
     try:
         res = subprocess.run(['git', '-C', gd, 'status', '--short'], 
                            capture_output=True, text=True, timeout=10)
-if res.stdout.strip():
+        if res.stdout.strip():
             log("GIT_DIRTY", gd, "LOW", f"Uncommitted changes:\n{res.stdout.strip()[:200]}")
     except Exception as e:
-        print(f"WARNING: {e}")# === PHASE 6: Shell script check ===
-        print("\n=== PHASE 6: Shell Script Analysis ===")
+        print(f"WARNING: {e}")
+
+# === PHASE 6: Shell script check ===
+print("\n=== PHASE 6: Shell Script Analysis ===")
 for fp in sh_files:
     try:
         with open(fp, 'r') as f:
             content = f.read()
-if '#!/bin/bash' not in content and '#!/bin/sh' not in content:
+        if '#!/bin/bash' not in content and '#!/bin/sh' not in content:
             log_warn("SHELL_SHEBANG", fp, "MEDIUM", "Missing shebang line")
         lines = content.split('\n')
-for i, line in enumerate(lines):
+        for i, line in enumerate(lines):
             if line.strip().startswith('rm -rf') and not line.strip().endswith('/*'):
                 log_warn("DANGEROUS_RM", fp, "HIGH", f"Line {i+1}: dangerous rm -rf: {line.strip()}")
     except Exception as e:
-        print(f"WARNING: {e}")# === PHASE 7: Known issues from previous runtime ===
-        print("\n=== PHASE 7: Runtime Analysis ===")
+        print(f"WARNING: {e}")
+
+# === PHASE 7: Known issues from previous runtime ===
+print("\n=== PHASE 7: Runtime Analysis ===")
 # Check if lattice_resonance_v5.cpp in cto.new has sleep_for (latency issue)
 for fp in [os.path.join(BASE, "cto.new/Lattice_Resonance_V5.cpp")]:
     if os.path.exists(fp):
         with open(fp, 'r') as f:
             content = f.read()
-if 'sleep_for' in content:
+        if 'sleep_for' in content:
             log("LATENCY_ISSUE", fp, "HIGH", 
                 "Contains std::this_thread::sleep_for(std::chrono::milliseconds(10)) - "
                 "10ms sleep blocks the 0.368μs latency target")
@@ -162,7 +168,7 @@ for fp in [os.path.join(BASE, "void_stream_siphon.py")]:
     if os.path.exists(fp):
         with open(fp, 'r') as f:
             content = f.read()
-if 'shiphoned_data' in content:
+        if 'shiphoned_data' in content:
             log("TYPO", fp, "HIGH", "Variable 'shiphoned_data' (typo) - should be 'siphoned_data'")
 
 # === REPORT GENERATION ===
