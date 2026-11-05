@@ -9,7 +9,7 @@
     "sums_file": "SHA256SUMS",
     "verifier": "verify_bundle.sh",
     "installer_gate": "install.sh",
-    "files_listed": 52,
+    "files_listed": 51,
     "self_excluded": "SHA256SUMS (não pode conter o próprio hash)",
     "tamper_test": "1 byte alterado em cópia → verify_bundle.sh exit 1; restaurado → exit 0",
     "extra_file_policy": "arquivo presente no bundle e ausente do SHA256SUMS reprova a verificação",
@@ -21,11 +21,11 @@
     ]
   },
   "counts": {
-    "files_total": 52,
+    "files_total": 51,
     "pantheon_files": 36,
     "pantheon_dossiers": 35,
     "installer_bytes": 6848,
-    "benchmark_files": 8,
+    "benchmark_files": 7,
     "registry_files": 1
   },
   "contents": {
