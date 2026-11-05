@@ -30,7 +30,7 @@ class IntelligenceFusionV3:
         self.weights = SovereignWeights()
         self.fusion_history = []
         self.model_inputs = defaultdict(dict)
-def register_model_input(self, model_name: str, input_data: Dict[str, Any]):
+    def register_model_input(self, model_name: str, input_data: Dict[str, Any]):
         """Register input from a specific model."""
         self.model_inputs[model_name] = input_data
         
@@ -77,7 +77,7 @@ def register_model_input(self, model_name: str, input_data: Dict[str, Any]):
         }
         
         self.fusion_history.append(result)
-return result
+        return result
         
     def fuse_sovereign_strategy(self, claude_input: str, gemini_input: str) -> Dict[str, Any]:
         """
@@ -88,7 +88,7 @@ return result
             "gemini": {"insights": gemini_input, "type": "yield"}
         }
         return self.fuse_multi_model(inputs)
-def _get_model_weight(self, model_name: str) -> float:
+    def _get_model_weight(self, model_name: str) -> float:
         """Get weighting factor for a specific model."""
         weights_map = {
             "claude": self.weights.strategic,
@@ -97,7 +97,7 @@ def _get_model_weight(self, model_name: str) -> float:
             "custom": self.weights.efficiency
         }
         return weights_map.get(model_name, 0.5)
-def _extract_claude_insight(self, data: Dict[str, Any]) -> Dict[str, Any]:
+    def _extract_claude_insight(self, data: Dict[str, Any]) -> Dict[str, Any]:
         """Extract insight from Claude-style strategic input."""
         analysis = data.get("analysis", "")
         words = analysis.lower().split()
@@ -106,7 +106,7 @@ def _extract_claude_insight(self, data: Dict[str, Any]) -> Dict[str, Any]:
         strategic_terms = ["optimize", "improve", "bottleneck", "performance", "latency", "memory", "efficiency"]
         matches = sum(1 for term in strategic_terms if term in " ".join(words))
         score = min(1.0, matches / len(strategic_terms))
-return {
+        return {
             "score": score,
             "primary_concern": self._find_primary_concern(words),
             "recommended_action": self._determine_action(words)
@@ -121,7 +121,7 @@ return {
         yield_terms = ["rate", "percentage", "potential", "optimize", "increase", "maximize"]
         matches = sum(1 for term in yield_terms if term in " ".join(words))
         score = min(1.0, matches / len(yield_terms))
-return {
+        return {
             "score": score,
             "yield_delta": self._calculate_yield_delta(words),
             "priority_targets": self._extract_targets(words)
@@ -170,7 +170,7 @@ return {
         all_words = []
         for data in inputs.values():
             content = " ".join(str(v)
-for v in data.values()).lower().split()
+                for v in data.values()).lower().split()
             all_words.append(set(content))
             
         # Calculate pairwise overlap
@@ -180,7 +180,7 @@ for v in data.values()).lower().split()
             for j in range(i + 1, len(all_words)):
                 intersection = all_words[i].intersection(all_words[j])
                 union = all_words[i].union(all_words[j])
-if union:
+                if union:
                     total_overlap += len(intersection) / len(union)
                 pairs += 1
                 

@@ -48,7 +48,7 @@ class RepairLogger:
     def __init__(self, name: str = "vivos.auto-repair"):
         self.logger = logging.getLogger(name)
         self.logger.setLevel(logging.INFO)
-if not self.logger.handlers:
+        if not self.logger.handlers:
             handler = logging.StreamHandler(sys.stdout)
             formatter = logging.Formatter(
                 "⚜️ [%(asctime)s] [%(name)s] %(levelname)s: %(message)s",
@@ -61,18 +61,18 @@ if not self.logger.handlers:
     def info(self, msg: str, **extra):
         self.logger.info(msg)
         self._log_event("INFO", msg, extra)
-def warning(self, msg: str, **extra):
+    def warning(self, msg: str, **extra):
         self.logger.warning(msg)
         self._log_event("WARNING", msg, extra)
-def error(self, msg: str, **extra):
+    def error(self, msg: str, **extra):
         self.logger.error(msg)
         self._log_event("ERROR", msg, extra)
-def repair(self, component: str, action: str, outcome: str):
+    def repair(self, component: str, action: str, outcome: str):
         """Log a self-healing repair event."""
         msg = f"🛠️ REPAIR: {component} → {action} → {outcome}"
         self.logger.info(msg)
         self._log_event("REPAIR", msg, {"component": component, "action": action, "outcome": outcome})
-def _log_event(self, level: str, msg: str, extra: dict):
+    def _log_event(self, level: str, msg: str, extra: dict):
         self._repair_events.append({
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "level": level,
@@ -82,7 +82,7 @@ def _log_event(self, level: str, msg: str, extra: dict):
         # Persist to repair log periodically
         if len(self._repair_events) % 10 == 0:
             self._flush()
-def _flush(self):
+    def _flush(self):
         try:
             import json
             existing = []
@@ -128,7 +128,7 @@ for Golden Path resonance.
     """
     def decorator(func):
         @functools.wraps(func)
-def wrapper(*args, **kwargs):
+        def wrapper(*args, **kwargs):
             last_exc = None
             current_delay = delay * PHI  # PHI-resonant initial delay
             
@@ -138,13 +138,13 @@ def wrapper(*args, **kwargs):
                 except exceptions as e:
                     last_exc = e
                     tb = traceback.format_exc()
-if attempt < max_attempts:
+                    if attempt < max_attempts:
                         log.warning(
                             f"Retry {attempt}/{max_attempts} for {func.__name__}: {e}",
                             attempt=attempt, max_attempts=max_attempts,
                             delay=round(current_delay, 3)
                         )
-if on_retry:
+                        if on_retry:
                             on_retry(attempt, e)
                         time.sleep(current_delay)
                         current_delay = min(current_delay * backoff * PHI, MAX_RETRY_DELAY)
@@ -186,7 +186,7 @@ class SafeLoop:
                 action="loop_exit",
                 outcome=f"exited_with_error={exc_type.__name__}_after_{elapsed:.1f}s"
             )
-return False  # Don't suppress exceptions
+        return False  # Don't suppress exceptions
     
     def active(self) -> bool:
         """Check if loop should continue. Returns False if timeout or max iterations reached."""
@@ -241,7 +241,7 @@ def safe_loop(timeout: float = DEFAULT_TIMEOUT, max_iterations: int = 0,
                     break
     """
     guard = SafeLoop(timeout, max_iterations, name)
-try:
+    try:
         yield guard
     except KeyboardInterrupt:
         log.repair(component=name, action="interrupt", outcome="user_cancelled")
@@ -274,7 +274,7 @@ for custom handling
             f"safe_execute failed for {getattr(func, '__name__', str(func))}: {e}",
             error=str(e)
         )
-if on_error:
+        if on_error:
             try:
                 on_error(e)
             except Exception as e:
@@ -312,12 +312,12 @@ class GracefulHandler:
         self.log.warning(
             f"Graceful handler caught {exc_type.__name__} in {self.context}: {exc_val}"
         )
-if self.fallback:
+        if self.fallback:
             try:
                 self.fallback(exc_val)
             except Exception as e:
                 self.log.error(f"Fallback also failed in {self.context}: {e}")
-if self.re_raise:
+        if self.re_raise:
             return False  # Re-raise
         return True  # Suppress with logging
 
@@ -333,14 +333,14 @@ def with_timeout(seconds: float, func, *args, **kwargs):
     """
     if not hasattr(signal, 'SIGALRM'):
         return func(*args, **kwargs)
-def _handler(signum, frame):
+    def _handler(signum, frame):
         raise TimeoutError_(f"Operation timed out after {seconds}s")
     
     old_handler = signal.signal(signal.SIGALRM, _handler)
     signal.alarm(int(seconds))
-try:
+    try:
         result = func(*args, **kwargs)
-return result
+        return result
     finally:
         signal.alarm(0)
         signal.signal(signal.SIGALRM, old_handler)
@@ -360,7 +360,7 @@ def run_self_healing_audit() -> dict:
     
     # Check if repair log persists
     repair_file_exists = os.path.exists(REPAIR_LOG_PATH)
-return {
+    return {
         "status": "HEALTHY" if stats["repair_rate"] > 0.5 else "MONITORING",
         "repair_stats": stats,
         "repair_log_persisted": repair_file_exists,
@@ -377,16 +377,16 @@ def self_healing(cls):
     original_init = cls.__init__ if hasattr(cls, '__init__') else None
     
     @functools.wraps(original_init)
-def new_init(self, *args, **kwargs):
+    def new_init(self, *args, **kwargs):
         self._repair_log = RepairLogger(cls.__name__)
-if original_init:
+        if original_init:
             original_init(self, *args, **kwargs)
     
     cls.__init__ = new_init
     cls.auto_retry = staticmethod(auto_retry)
     cls.safe_loop = staticmethod(safe_loop)
     cls.safe_execute = staticmethod(safe_execute)
-return cls
+    return cls
 
 # ── PHI-Compliant Exponential Backoff ──────────────────────────────────────
 def phi_backoff(attempt: int, base_delay: float = 1.0) -> float:

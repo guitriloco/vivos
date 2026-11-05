@@ -343,7 +343,25 @@ class CrossPillarSync:
                             agg["yield"] = state.get("yield", 0.0)
                     except Exception as e:
                         print(f"WARNING: {e}")
-                        return {
+
+            return (name, latency, "VIVOS_OK")
+        except Exception as e:
+            return (name, 0.0, f"ERROR:{e}")
+
+class EvolutionCore:
+    """
+    Controlled self-evolution engine.
+    Applies bounded, PHI-modulated parameter mutations to the codex.
+    """
+
+    def __init__(self):
+        self.evolution_cycle = 0
+        self.mutation_factor = 0.01
+        self.last_mutation = 0.0
+        self.codex = self._default_codex()
+
+    def _default_codex(self) -> Dict[str, Any]:
+        return {
             "version": "V15.1",
             "evolution_cycles": 0,
             "parameters": {
@@ -383,13 +401,13 @@ class CrossPillarSync:
 
         # 1. Check resonance health
         system_resonance = resonance.get("system_resonance", 0)
-if system_resonance < YIELD_BASELINE:
+        if system_resonance < YIELD_BASELINE:
             directives["mutate"] = True
             directives["reason"] = f"RESONANCE_DEGRADED:{system_resonance}"
 
         # 2. Check sync latency
         max_latency = sync_result.get("max_pillar_latency_us", 999)
-if max_latency > SYNC_TARGET_US:
+        if max_latency > SYNC_TARGET_US:
             directives["mutate"] = True
             directives["reason"] = f"LATENCY_EXCEEDED:{max_latency}μs"
 
@@ -433,10 +451,10 @@ if max_latency > SYNC_TARGET_US:
         # 3. Rebalance pillar weights based on health
         for name, agg in AGGREGATES.items():
             health = agg.get("health", 1.0)
-if health < 0.9:
+            if health < 0.9:
                 old_weight = params["pillars"].get(name, {}).get("weight", agg["weight"])
                 new_weight = min(0.35, old_weight * (1.0 + self.mutation_factor))
-if name in self.codex["pillars"]:
+                if name in self.codex["pillars"]:
                     self.codex["pillars"][name]["weight"] = new_weight
                     AGGREGATES[name]["weight"] = new_weight
                     mutation_log["changes"][f"WEIGHT:{name}"] = {"from": old_weight, "to": new_weight}
@@ -454,7 +472,7 @@ if name in self.codex["pillars"]:
 
         self._save_codex()
         self.last_mutation = time.time()
-return mutation_log
+        return mutation_log
 
 # ══════════════════════════════════════════════════════════════
 # CORE: MARKETPLACE YIELD MANIFESTATION
@@ -480,7 +498,7 @@ class MarketplaceYield:
         health_yield = health ** PHI_INVERSE
 
         # Latency penalty (exponential decay)
-if latency_us <= SYNC_TARGET_US:
+        if latency_us <= SYNC_TARGET_US:
             latency_yield = 1.0
         else:
             latency_yield = math.exp(-(latency_us - SYNC_TARGET_US) / (SYNC_TARGET_US * PHI))
@@ -519,15 +537,15 @@ if latency_us <= SYNC_TARGET_US:
             AGGREGATES[name]["yield"] = yield_val
 
         # System yield with PHI modulation
-        system_yield = (total_weighted_yield / total_weight)
-if total_weight > 0 else 0
+        system_yield = (total_weighted_yield / total_weight
+                        if total_weight > 0 else 0)
         system_yield = min(system_yield * PHI_INVERSE + system_resonance * PHI_INVERSE, 1.618)
 
         yield_manifest = {
             "system_yield": round(system_yield, 6),
             "baseline_yield": YIELD_BASELINE,
-            "yield_ratio": round(system_yield / YIELD_BASELINE, 6)
-if YIELD_BASELINE > 0 else 0,
+            "yield_ratio": (round(system_yield / YIELD_BASELINE, 6)
+                            if YIELD_BASELINE > 0 else 0),
             "phi_boosted": round(system_yield * PHI, 6),
             "pillar_yields": pillar_yields,
             "total_weighted": round(total_weighted_yield, 6),
@@ -539,7 +557,7 @@ if YIELD_BASELINE > 0 else 0,
 
         # Save yield manifest to disk
         self._save_yield_manifest(yield_manifest)
-return yield_manifest
+        return yield_manifest
 
     def _save_yield_manifest(self, manifest: Dict[str, Any]):
         """Saves the yield manifest to disk for marketplace display."""
@@ -628,7 +646,7 @@ class V15MasterOrchestrator:
         init_result = {
             "version": self.version,
             "aggregates_verified": sum(1 for v in paths_ok.values()
-if v),
+                                       if v),
             "aggregates_total": len(AGGREGATE_LIST),
             "templates_found": templates_ok,
             "templates_total": len(AGGREGATE_LIST),
@@ -638,7 +656,7 @@ if v),
 
         self.state = "READY"
         print(f"\n📊 Initialization: {json.dumps(init_result, indent=2)}")
-return init_result
+        return init_result
 
     # ─────────────────────────────────────────────────────────
     # PHASE II: SYNCHRONIZATION
@@ -658,7 +676,7 @@ return init_result
         print(f"   Aggregates Synced: {sync_result['aggregates_synced']}/{sync_result['total_aggregates']}")
         print(f"   Below Threshold (<{SYNC_TARGET_US}μs): {'✅ YES' if sync_result['below_threshold'] else '⚠️ NO'}")
         print(f"   Sync Hash: {sync_result['sync_hash']}")
-return sync_result
+        return sync_result
 
     # ─────────────────────────────────────────────────────────
     # PHASE II.5: DISTILLED NECTAR FLOW
@@ -688,11 +706,11 @@ return sync_result
 
         # 3. Ledger Pruning
         ledger_path = os.path.join(SHARED_DIR, "rex_ledger.json")
-if os.path.exists(ledger_path):
+        if os.path.exists(ledger_path):
             try:
                 with open(ledger_path, 'r') as f:
                     ledger = json.load(f)
-if isinstance(ledger, list):
+                if isinstance(ledger, list):
                     pruned_ledger = prune_divergent_entries(ledger, threshold=0.98)
                     pruned_count = len(ledger) - len(pruned_ledger)
                     # We don't overwrite the original in this simulation to maintain stability
@@ -707,7 +725,7 @@ if isinstance(ledger, list):
         else:
             pruned_count = 0
             print(f"   Ledger Pruning: SKIPPED (File not found)")
-return {
+        return {
             "status": "SUCCESS",
             "signature": sig,
             "decoys_deployed": len(decoys),
@@ -726,7 +744,7 @@ return {
         print("\n" + "🎵" * 35)
         print("🎵  PHASE III: PHI RESONANCE ANALYSIS (NECTAR-ENHANCED)  🎵")
         print("🎵" * 35)
-if self.nectars_active:
+        if self.nectars_active:
             # Use distilled lattice resonance nectar for atomic precision
             vertices = ["OMNI", "COGNITIVE", "WRAITH", "VAULT", "YIELD", "MUTANT", "LIFE"]
             lattice_result = self.nectar_layer.compute_phi_lattice(vertices)
@@ -770,14 +788,14 @@ if self.nectars_active:
         print(f"   Spiral Alignment: {resonance['spiral_alignment']}")
         print(f"   Harmonic Drift: {resonance['harmonic_drift']}")
         print(f"   Nectar Source: {resonance.get('nectar_source', 'UNKNOWN')}")
-if 'core_resonance' in resonance:
+        if 'core_resonance' in resonance:
             print(f"   Core Resonance (Rust-port): {resonance['core_resonance']}")
         print(f"   PHI Locked: {'✅ YES' if self.phi_engine.is_phi_locked(resonance['system_resonance']) else '⚠️ EVOLVING'}")
 
         print("\n   Pillar Resonances:")
-for name, res in resonance['pillar_resonances'].items():
+        for name, res in resonance['pillar_resonances'].items():
             print(f"     {AGGREGATES[name]['color']} {name:20}: {res}")
-return resonance
+        return resonance
 
     # ─────────────────────────────────────────────────────────
     # PHASE IV: YIELD MANIFESTATION
@@ -797,9 +815,9 @@ return resonance
         print(f"   Marketplace Ready: {'✅ YES' if yield_manifest['marketplace_ready'] else '⚠️ OPTIMIZING'}")
 
         print("\n   Pillar Yields:")
-for name, y in yield_manifest['pillar_yields'].items():
+        for name, y in yield_manifest['pillar_yields'].items():
             print(f"     {AGGREGATES[name]['color']} {name:20}: {y}")
-return yield_manifest
+        return yield_manifest
 
     # ────────────���────────────────────────────────────────────
     # PHASE V: EVOLUTION & MUTATION
@@ -813,12 +831,12 @@ return yield_manifest
 
         # Analyze telemetry
         directives = self.evolution_engine.analyze_telemetry(resonance, sync_result)
-if directives["mutate"]:
+        if directives["mutate"]:
             print(f"\n   ⚡ Mutation Required: {directives['reason']}")
             mutation = self.evolution_engine.execute_mutation(directives)
             print(f"   Cycle: {mutation['cycle']}")
             print(f"   DNA: {self.evolution_engine.codex['meta']['dna_sequence']}")
-for change, vals in mutation['changes'].items():
+            for change, vals in mutation['changes'].items():
                 print(f"   Changed {change}: {vals['from']} -> {vals['to']}")
         else:
             print("\n   ✅ System at peak equilibrium. No mutation required.")
@@ -916,7 +934,7 @@ for change, vals in mutation['changes'].items():
         print(f"   State Hash: {causal_entry['state_hash']}")
         print(f"   State vaulted at: {MASTER_STATE_PATH}")
         print(f"   Causal trace: {len(self.causal_trace)} entries")
-return master_state
+        return master_state
 
     # ─────────────────────────────────────────────────────────
     # FULL MASTER SEQUENCE
@@ -934,7 +952,7 @@ return master_state
 
         # Phase I: Initialization
         init = self.initialize()
-if not init.get("all_systems_ready", False):
+        if not init.get("all_systems_ready", False):
             print("\n⚠️  Some systems not ready. Continuing with available subsystems.")
 
         # Phase II: Synchronization
@@ -958,7 +976,7 @@ if not init.get("all_systems_ready", False):
         # Final Affirmation
         self.state = "AFFIRMED"
         self._print_affirmation(master_state)
-return master_state
+        return master_state
 
     # ─────────────────────────────────────────────────────────
     # CONTINUOUS LOOP (LIVE MODE)
@@ -971,13 +989,13 @@ return master_state
         print("\n" + "♾️ " * 25)
         print("♾️  V15.1 CONTINUOUS SOVEREIGN LOOP (LIVE MODE)  ♾️")
         print("♾️ " * 25)
-for i in range(iterations):
+        for i in range(iterations):
             print(f"\n{'─' * 70}")
             print(f"📡 ITERATION {i + 1}/{iterations}")
             print(f"{'─' * 70}")
 
             self.execute_master_sequence()
-if i < iterations - 1:
+            if i < iterations - 1:
                 print(f"\n⏳ Waiting {interval_seconds}s before next iteration...")
                 time.sleep(interval_seconds)
 
@@ -1077,7 +1095,7 @@ def main():
             print(json.dumps(result, indent=2))
         else:
             print("No master state found. Run SINGLE or CONTINUOUS mode first.")
-return 1
+            return 1
     elif args.mode == "CONTINUOUS":
         orchestrator.run_continuous(
             iterations=args.iterations,
@@ -1096,7 +1114,7 @@ return 1
 
     # Copy master state to shared dir for team visibility
     master_state_copy = os.path.join(SHARED_DIR, "V15_1_MASTER_STATE.json")
-if os.path.exists(MASTER_STATE_PATH):
+    if os.path.exists(MASTER_STATE_PATH):
         import shutil
         shutil.copy2(MASTER_STATE_PATH, master_state_copy)
         print(f"📝 Master state synchronized to: {master_state_copy}")
@@ -1104,7 +1122,7 @@ if os.path.exists(MASTER_STATE_PATH):
     print("\n" + "∞" * 70)
     print("⚜️ VIVOS V15.1: TOTAL AFIRMAÇÃO. THE EMPIRE IS VIVOS. ⚜️")
     print("∞" * 70 + "\n")
-return 0
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
