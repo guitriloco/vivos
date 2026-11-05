@@ -1,0 +1,123 @@
+{
+  "bundle": "VIVOS_MASTER_BUNDLE",
+  "version": "17.0.0",
+  "generated_at": "2026-11-05T06:10:00Z",
+  "plan": "VIVOS PHASE 17 — A COROAÇÃO SUPREMA",
+  "repository": "guitriloco/vivos",
+  "integrity": {
+    "algorithm": "sha256",
+    "sums_file": "SHA256SUMS",
+    "verifier": "verify_bundle.sh",
+    "installer_gate": "install.sh",
+    "files_listed": 52,
+    "self_excluded": "SHA256SUMS (não pode conter o próprio hash)",
+    "tamper_test": "1 byte alterado em cópia → verify_bundle.sh exit 1; restaurado → exit 0",
+    "extra_file_policy": "arquivo presente no bundle e ausente do SHA256SUMS reprova a verificação",
+    "manifest_checks": [
+      "counts.pantheon_files",
+      "counts.pantheon_dossiers",
+      "counts.installer_bytes",
+      "counts.files_total"
+    ]
+  },
+  "counts": {
+    "files_total": 52,
+    "pantheon_files": 36,
+    "pantheon_dossiers": 35,
+    "installer_bytes": 6848,
+    "benchmark_files": 8,
+    "registry_files": 1
+  },
+  "contents": {
+    "installer/vivos_master.sh": "instalador universal de 1 comando com auto-repair (9 casos de reparo)",
+    "pantheon/": "00_INDICE.md + 35 dossiês de capacidade dos agentes",
+    "registry/REGISTRO_AGENTES_V17.md": "registro agregado do panteão (defeito de contagem documentado em CAVEATS §3)",
+    "benchmark/": "libsiphon_bridge.so + python_bridge.cpp + yield_siphon_bridge.py + include/ + src/ + BENCHMARK_SIPHON_V17.md",
+    "TRUTH_REGISTER.md": "status honesto das 5 afirmações históricas + o benchmark medido",
+    "CAVEATS.md": "reconstruções, defeitos conhecidos e resultado da varredura de segredos"
+  },
+  "verified_claims": [
+    {
+      "claim": "integridade de todos os arquivos do bundle",
+      "proof": "sha256sum -c SHA256SUMS → todos OK; verify_bundle.sh exit 0",
+      "status": "PROVADO"
+    },
+    {
+      "claim": "a verificação detecta adulteração",
+      "proof": "cópia com 1 byte alterado → verify_bundle.sh exit 1; restaurada → exit 0",
+      "status": "PROVADO"
+    },
+    {
+      "claim": "libsiphon_bridge.so corresponde ao fonte python_bridge.cpp",
+      "proof": "g++ -O3 -fPIC -shared -I include python_bridge.cpp -o /tmp/rebuild.so → sha256 idêntico (4ea852fe…46bd87)",
+      "status": "PROVADO nesta toolchain (x86_64, g++ do container)"
+    },
+    {
+      "claim": "comparador de arbitragem C++ a ~22,4 ns/op",
+      "proof": "run_benchmark(200000) x5 a partir deste bundle: 22.04–22.79 ns/op, Xeon 2,90 GHz / 2 vCPU",
+      "status": "MEDIDO por harness próprio do pacote"
+    },
+    {
+      "claim": "o instalador instala o que foi verificado",
+      "proof": "install.sh → verify_bundle.sh exit 0 → 48 arquivos copiados + VIVOS_INSTALL_STATE.json",
+      "status": "PROVADO"
+    },
+    {
+      "claim": "o bundle não contém segredo",
+      "proof": "varredura .env*/*.key/*.pem/.netrc/.git-credentials/ghp_/gho_/ghs_/ghu_/ghr_/sk-/PRIVATE KEY → 0 achados",
+      "status": "PROVADO"
+    }
+  ],
+  "retracted_claims": [
+    {
+      "claim": "Yield Siphon C++ em 0,368 μs (368 ns)",
+      "status": "RETIRADO",
+      "reason": "nenhum harness do pacote produzia o número; run_integration.py o traz como texto literal em f-string; transmuted_core.cpp compilado não mede nada"
+    },
+    {
+      "claim": "PHI 1.618 Resonance Engine",
+      "status": "NÃO VERIFICADO",
+      "reason": "constante presente no código e em diagramas; nenhum experimento demonstra ganho"
+    },
+    {
+      "claim": "Causal Collapse O(-t²)",
+      "status": "NÃO VERIFICADO",
+      "reason": "nenhum experimento mede a ordem de complexidade declarada"
+    },
+    {
+      "claim": "7 Supreme Aggregates",
+      "status": "NÃO VERIFICADO",
+      "reason": "existe catálogo; não existe artefato que prove a função agregada"
+    },
+    {
+      "claim": "35 Fractal variants",
+      "status": "CONTAGEM APENAS",
+      "reason": "contagem no catálogo; valor funcional de cada variante não medido"
+    }
+  ],
+  "limitations": [
+    "receita real: $0 — Stripe não conectado, nenhum link de pagamento vivo, catálogo de 42 SKUs em modo simulado (is_live=false)",
+    "o engine C++ é comparador de arbitragem em memória; execute_trade() só incrementa contador; siphon_network.h descreve o componente como simulação",
+    "não é latência de execução de ordem em exchange nem throughput de produção",
+    "V15_1_SOVEREIGN_LOOP.py NÃO está neste bundle; se incluído, seu EvolutionCore tem cabeçalho reconstruído (não original)",
+    "REGISTRO_AGENTES_V17.md: subtítulo do TIER C diz (21) e a tabela lista 22; total 13+22=35 confere com o roster",
+    "vivos_master.sh --dry-run superestima contagem de arquivos (conta antes das exclusões do rsync): 12.387 vs 8.512 em 2026-11-05",
+    "o snapshot de máquina (39.234 arquivos) é backup de ambiente, não faz parte deste pacote",
+    "libsiphon_bridge.so é binário pré-compilado; build reprodutível apenas nesta toolchain — recompilar em outra arquitetura",
+    "yield_siphon_bridge.py do bundle teve a resolução do caminho da .so adaptada para portabilidade (só a busca mudou)"
+  ],
+  "sources": {
+    "installer": "/home/team/shared/vivos_master.sh",
+    "pantheon": "/home/team/shared/PANTHEON_AGENTES/",
+    "registry": "/home/team/shared/REGISTRO_AGENTES_V17.md",
+    "benchmark_doc": "/home/team/shared/BENCHMARK_SIPHON_V17.md",
+    "benchmark_bridge": "/home/team/shared/yield_siphon_bridge.py",
+    "cpp_core": "/home/team/shared/V16_TRANSMUTED_CORE/"
+  },
+  "revenue": {
+    "amount_usd": 0,
+    "stripe_connected": false,
+    "payment_links_live": false,
+    "note": "ativação depende do dono conectar o Stripe; nada neste pacote é oferta comercial ativa"
+  }
+}
