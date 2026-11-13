@@ -20,7 +20,7 @@ sustente. Onde não há medição, está escrito "não verificado".
 | A verificação restaura o estado íntegro | byte reposto → `BUNDLE ÍNTEGRO — 51 arquivos verificados` | **exit 0** |
 | O manifesto não mente | contagens conferidas contra o disco: pantheon=36, dossiês=35, installer=6.848 B, total=51 | **confere** (`VIVOS_SUPREME_MANIFEST.json`) |
 | O binário não é caixa-preta | `g++ -O3 -fPIC -shared -I include python_bridge.cpp` | **sha256 idêntico** (`4ea852fe…46bd87`) |
-| O número de performance é medido, não declarado | 5×200.000 iterações, Xeon 2,90 GHz, 2 vCPU, duas sessões independentes | **22,04–22,79 ns/op** (`BENCHMARK_SIPHON_V17.md`) |
+| O número de performance é medido, não declarado | 5×200.000 iterações, Xeon 2,90 GHz, 2 vCPU, em duas sessões independentes: **22,23–22,49** ns/op (`BENCHMARK_SIPHON_V17.md`) e **22,04–22,79** ns/op (medição refeita dentro do bundle) | **22,04–22,79 ns/op** (união das duas sessões) |
 | O pacote não carrega segredo | varredura `.env*`, `*.key`, `*.pem`, `.netrc`, `.git-credentials`, `ghp_/gho_/ghs_/ghu_/ghr_`, `sk-`, `PRIVATE KEY` | **0 achados** (`CAVEATS.md`) |
 | A landing page V17 está no ar com o número real | HTTP 200 · 16.771 B · commit `77231f1` publicado · `ausente` = 0 · `368 ns` = 0 | **no ar** (`LANDING_V17_COMMIT_UPDATE.md`) |
 
@@ -72,7 +72,8 @@ Fonte dos caveats: `VIVOS_MASTER_BUNDLE/CAVEATS.md` e
 | 4 | `vivos_master.sh` (instalador de 1 comando) | ✅ commit `4f476c7` · 9 auto-repairs · 0 falhas |
 | 5 | `SEAL_FINAL_V17.md` (este selo) | ✅ |
 
-**5 de 5 fechados.** Nenhum pendente de time. O que resta não é entregável:
+**5 de 5 entregues.** Este selo é o quinto; ele entra na `main` pelo PR #5 — antes do
+merge, este documento existe só no branch. O que resta não é entregável do time:
 o merge do PR #4 já ocorreu (`77231f1`), e a receita depende exclusivamente de o dono
 conectar o Stripe — nenhuma promessa de receita é feita até lá.
 
