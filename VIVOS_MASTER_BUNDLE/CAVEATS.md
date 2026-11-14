@@ -133,6 +133,10 @@ Além da árvore aprovada, o bundle inclui `benchmark/src/transmuted_core.cpp` e
 prova de correspondência binário↔fonte (§6) seria impossível. Nada foi omitido
 em relação à especificação.
 
+## 11. `VIVOS_INSTALL_STATE.json` — isento no verificador, por ser artefato de runtime
+
+`verify_bundle.sh` ignora **exatamente** o `VIVOS_INSTALL_STATE.json` na raiz da árvore — o arquivo que `installer/vivos_master.sh` grava no próprio destino (`$TARGET/VIVOS_INSTALL_STATE.json`, com version/installed_at/source/mode/repairs/failures) — porque ele é gerado na instalação e nunca fez parte do pacote; sem essa isenção a árvore recém-instalada reprovava a própria verificação (§4 do `INSTALL_PROOF_2026-11-14.txt`), e qualquer outro arquivo desconhecido, **inclusive um `VIVOS_INSTALL_STATE.json` em subdiretório**, continua reprovando com exit 1.
+
 ---
 
 **Um defeito declarado é um ativo. Um defeito escondido é uma dívida.**

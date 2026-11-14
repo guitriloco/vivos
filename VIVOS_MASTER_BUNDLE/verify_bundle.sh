@@ -22,6 +22,17 @@ cd "$BUNDLE_ROOT" || exit 1
 
 SUMS_FILE="SHA256SUMS"
 MANIFEST="VIVOS_SUPREME_MANIFEST.json"
+
+# ── Isenção nominal única (achado §4 do INSTALL_PROOF) ──────────────
+# installer/vivos_master.sh grava "$TARGET/VIVOS_INSTALL_STATE.json" no
+# destino da instalação — que é a raiz desta árvore. O arquivo é artefato de
+# runtime, gerado na instalação, nunca fez parte do pacote. Ele é ignorado
+# EXATAMENTE neste caminho (raiz, nome exato). Qualquer outro arquivo
+# desconhecido — inclusive um VIVOS_INSTALL_STATE.json em subdiretório —
+# continua reprovando a verificação.
+EXEMPT_FILE="VIVOS_INSTALL_STATE.json"
+EXEMPT_PATH="./$EXEMPT_FILE"
+
 TMPDIR_V="$(mktemp -d 2>/dev/null || echo /tmp/vivos_verify.$$)"
 mkdir -p "$TMPDIR_V"
 cleanup() { rm -rf "$TMPDIR_V"; }
@@ -97,11 +108,18 @@ fi
 # ────────────────────────────────────────────────────────────────
 say ""
 say "[2/3] arquivos presentes no bundle que NÃO estão em $SUMS_FILE"
+# EXEMPT_PATH é excluído AQUI e só aqui: é o artefato de runtime que o próprio
+# instalador grava no destino. Qualquer outro arquivo desconhecido reprova.
 find . -type f \
      -not -path './.git/*' \
      -not -name "$SUMS_FILE" \
      -not -name '.DS_Store' \
+     -not -path "$EXEMPT_PATH" \
      | sed 's|^\./||' | LC_ALL=C sort > "$TMPDIR_V/actual.txt"
+
+if [[ -f "$EXEMPT_PATH" ]]; then
+  say "      isento (artefato de runtime do instalador): $EXEMPT_FILE"
+fi
 
 awk '{ sub(/^[0-9a-f]+  /, ""); print }' "$SUMS_FILE" | LC_ALL=C sort > "$TMPDIR_V/listed.txt"
 comm -23 "$TMPDIR_V/actual.txt" "$TMPDIR_V/listed.txt" > "$TMPDIR_V/extra.txt"

@@ -13,6 +13,14 @@
     "self_excluded": "SHA256SUMS (não pode conter o próprio hash)",
     "tamper_test": "1 byte alterado em cópia → verify_bundle.sh exit 1; restaurado → exit 0",
     "extra_file_policy": "arquivo presente no bundle e ausente do SHA256SUMS reprova a verificação",
+    "runtime_artifact_exempt": {
+      "path": "VIVOS_INSTALL_STATE.json",
+      "scope": "somente na raiz da árvore (caminho exato ./VIVOS_INSTALL_STATE.json)",
+      "written_by": "installer/vivos_master.sh → $TARGET/VIVOS_INSTALL_STATE.json",
+      "why": "gerado na instalação, nunca fez parte do pacote; sem a isenção a árvore instalada reprovava a própria verificação (achado §4 do INSTALL_PROOF_2026-11-14.txt)",
+      "still_fails": "qualquer outro arquivo desconhecido, inclusive VIVOS_INSTALL_STATE.json em subdiretório, → exit 1",
+      "not_listed_in": "SHA256SUMS (o arquivo não existe no pacote)"
+    },
     "manifest_checks": [
       "counts.pantheon_files",
       "counts.pantheon_dossiers",
